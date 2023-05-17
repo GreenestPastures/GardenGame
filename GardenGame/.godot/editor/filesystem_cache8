@@ -1,22 +1,23 @@
 2a60927148abd1d33b818b535e306557
-::res://::1684288967
-default_env.tres::Environment::3990851628836566285::1684288688::0::1::::<><>::
-icon.png::CompressedTexture2D::5188775790796098673::1684285328::1684287599::1::::<><>::
-::res://Assets/::1684287203
-::res://Assets/Art/::1684287717
-GitUpdate.txt::TextFile::-1::1684285376::0::1::::<><>::
-::res://Assets/Art/Plants/::1684288967
-apple tree.png::CompressedTexture2D::4597752432581856669::1684287791::1684287791::1::::<><>::
-orange tree.png::CompressedTexture2D::2918802774978511076::1684287800::1684287801::1::::<><>::
-plants1.png::CompressedTexture2D::5566532145900686139::1684287723::1684287723::1::::<><>::
-plants that continue to yield.png::CompressedTexture2D::5581328158233451868::1684287726::1684287726::1::::<><>::
-::res://Assets/Art/Plants/SpriteFrames/::1684287743
-tomato.tres::SpriteFrames::2419450148729627801::1684288994::0::1::::<><>::
-::res://Assets/Audio/::1684285386
-GitUpdate.txt::TextFile::-1::1684285376::0::1::::<><>::
-::res://Assets/Scenes/::1684288688
-main.tscn::PackedScene::8063257007955609848::1684287884::0::1::::<><>::uid://b6rgktkwc38gn
-Plant.tscn::PackedScene::7915726026310328735::1684288688::0::1::::<><>::
-Shop.tscn::PackedScene::5812250351559907578::1684288675::0::1::::<><>::
-::res://Assets/Scripts/::1684285382
-GitUpdate.txt::TextFile::-1::1684285376::0::1::::<><>::
+::res://::1684291267
+default_env.tres::Environment::3990851628836566285::1684289612::0::1::::<><>::
+icon.png::CompressedTexture2D::5188775790796098673::1684289612::1684289612::1::::<><>::
+::res://Assets/::1684291183
+::res://Assets/Art/::1684289612
+GitUpdate.txt::TextFile::-1::1684289612::0::1::::<><>::
+::res://Assets/Art/Plants/::1684289883
+apple tree.png::CompressedTexture2D::4597752432581856669::1684289612::1684289612::1::::<><>::
+orange tree.png::CompressedTexture2D::2918802774978511076::1684289612::1684289612::1::::<><>::
+plants1.png::CompressedTexture2D::5566532145900686139::1684289612::1684289612::1::::<><>::
+plants that continue to yield.png::CompressedTexture2D::5581328158233451868::1684289612::1684289612::1::::<><>::
+::res://Assets/Art/Plants/SpriteFrames/::1684289883
+plantGrowthAnimations.tres::SpriteFrames::2419450148729627801::1684289883::0::1::::<><>::uid://clkp8awtmeg8b
+::res://Assets/Audio/::1684289612
+GitUpdate.txt::TextFile::-1::1684289612::0::1::::<><>::
+::res://Assets/Scenes/::1684289883
+main.tscn::PackedScene::8063257007955609848::1684289612::0::1::::<><>::uid://b6rgktkwc38gn
+Plant.tscn::PackedScene::7915726026310328735::1684289883::0::1::::<><>::uid://bap88w8gapu7r<>res://Assets/Scripts/Growth.gd
+Shop.tscn::PackedScene::5812250351559907578::1684289612::0::1::::<><>::
+::res://Assets/Scripts/::1684289883
+GitUpdate.txt::TextFile::-1::1684289612::0::1::::<><>::
+Growth.gd::GDScript::-1::1684289883::0::1::::<>AnimatedSprite2D<>::
