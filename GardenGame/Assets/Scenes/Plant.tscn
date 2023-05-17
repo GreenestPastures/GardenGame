@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://Assets/Scripts/Growth.gd" id="2_dc051"]
 
 [node name="Plant" type="AnimatedSprite2D"]
-position = Vector2(147.75, 157.6)
+position = Vector2(167, 167)
 scale = Vector2(20.7, 20.7)
 sprite_frames = ExtResource("1_5urc1")
 animation = &"cauliflower"
