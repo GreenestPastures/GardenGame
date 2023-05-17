@@ -4,7 +4,7 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="AppleTree" type="Sprite2D" parent="."]
+[node name="Temporary Floor" type="Sprite2D" parent="."]
 position = Vector2(6265, 673)
 scale = Vector2(-488.06, 3819.51)
 texture = ExtResource("1_llgpo")
