@@ -1,0 +1,58 @@
+[gd_resource type="SpriteFrames" load_steps=8 format=3 uid="uid://bap88w8gapu7r"]
+
+[ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_gab2a"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lboy1"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(16, 31, 15, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n0ajf"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(32, 31, 15, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4iltj"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(48, 31, 15, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_madrx"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(64, 31, 15, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1hslf"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(80, 31, 15, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2q8s1"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(128, 31, 15, 16)
+
+[resource]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lboy1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n0ajf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4iltj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_madrx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1hslf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2q8s1")
+}],
+"loop": true,
+"name": &"tomato",
+"speed": 5.0
+}]

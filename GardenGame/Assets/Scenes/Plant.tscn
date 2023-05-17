@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://dk1o366wdr21h"]
+[gd_scene load_steps=3 format=3 uid="uid://dk1o366wdr21h"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="SpriteFrames" uid="uid://bap88w8gapu7r" path="res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres" id="1_5urc1"]
+[ext_resource type="Script" path="res://Assets/Scripts/Growth.gd" id="2_dc051"]
+
+[node name="Plant" type="AnimatedSprite2D"]
+sprite_frames = ExtResource("1_5urc1")
+animation = &"tomato"
+script = ExtResource("2_dc051")
