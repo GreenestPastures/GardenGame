@@ -1,3 +1,10 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=3 uid="uid://dm45wut3jt1mq"]
+
+[ext_resource type="Texture2D" uid="uid://b6rgktkwc38gn" path="res://Assets/Art/Plants/apple tree.png" id="1_llgpo"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="AppleTree" type="Sprite2D" parent="."]
+position = Vector2(6265, 673)
+scale = Vector2(-488.06, 3819.51)
+texture = ExtResource("1_llgpo")
