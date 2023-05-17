@@ -8,7 +8,7 @@ size = Vector2(2000, 2000)
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Temporary Floor" type="Sprite2D" parent="."]
+[node name="Temporary Floor" type="Sprite2D" parent="." groups=["Floor"]]
 position = Vector2(6265, 673)
 scale = Vector2(-488.06, 3819.51)
 texture = ExtResource("1_llgpo")
@@ -16,7 +16,6 @@ texture = ExtResource("1_llgpo")
 [node name="StaticBody2D" type="StaticBody2D" parent="Temporary Floor"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Temporary Floor/StaticBody2D"]
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_731xc")
 
 [node name="Player" parent="." instance=ExtResource("2_nsb8m")]
