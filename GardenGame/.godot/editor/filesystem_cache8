@@ -1,4 +1,5 @@
 2a60927148abd1d33b818b535e306557
+<<<<<<< HEAD
 ::res://::1684300269
 default_env.tres::Environment::3990851628836566285::1684300209::0::1::::<><>::
 icon.png::CompressedTexture2D::5188775790796098673::1684285328::1684287599::1::::<><>::
@@ -488,3 +489,353 @@ Shop.tscn::PackedScene::5812250351559907578::1684300209::0::1::::<><>::
 GitUpdate.txt::TextFile::-1::1684285376::0::1::::<><>::
 Growth.gd::GDScript::-1::1684295319::0::1::::<>AnimatedSprite2D<>::
 PlayerControls.gd::GDScript::-1::1684300208::0::1::::<>Camera2D<>::
+=======
+::res://::1684290357
+default_env.tres::Environment::3990851628836566285::1684289612::0::1::::<><>::
+icon.png::CompressedTexture2D::5188775790796098673::1684289612::1684289612::1::::<><>::
+::res://Assets/::1684291002
+::res://Assets/Art/::1684289612
+GitUpdate.txt::TextFile::-1::1684289612::0::1::::<><>::
+::res://Assets/Art/Plants/::1684289883
+apple tree.png::CompressedTexture2D::4597752432581856669::1684289612::1684289612::1::::<><>::
+orange tree.png::CompressedTexture2D::2918802774978511076::1684289612::1684289612::1::::<><>::
+plants1.png::CompressedTexture2D::5566532145900686139::1684289612::1684289612::1::::<><>::
+plants that continue to yield.png::CompressedTexture2D::5581328158233451868::1684289612::1684289612::1::::<><>::
+::res://Assets/Art/Plants/SpriteFrames/::1684289883
+plantGrowthAnimations.tres::SpriteFrames::2419450148729627801::1684289883::0::1::::<><>::uid://clkp8awtmeg8b
+::res://Assets/Audio/::1684289612
+GitUpdate.txt::TextFile::-1::1684289612::0::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/::1684291009
+::res://Assets/Buttons Pixel Animation Pack/about/::1684291003
+::res://Assets/Buttons Pixel Animation Pack/about/72px/::1684291003
+about01.png::CompressedTexture2D::8348709285426669318::1684291003::1684291027::1::::<><>::
+about02.png::CompressedTexture2D::7972283211670231427::1684291003::1684291027::1::::<><>::
+about03.png::CompressedTexture2D::6643250414522002502::1684291003::1684291027::1::::<><>::
+about04.png::CompressedTexture2D::5691891063749821290::1684291003::1684291027::1::::<><>::
+about05.png::CompressedTexture2D::3266426502500315583::1684291003::1684291027::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/about/343px/::1684291003
+about01.png::CompressedTexture2D::686823631523863861::1684291002::1684291027::1::::<><>::
+about02.png::CompressedTexture2D::5367853589748316559::1684291003::1684291027::1::::<><>::
+about03.png::CompressedTexture2D::972837137103101497::1684291003::1684291027::1::::<><>::
+about04.png::CompressedTexture2D::5873322553895060912::1684291003::1684291027::1::::<><>::
+about05.png::CompressedTexture2D::7984067794924801669::1684291003::1684291027::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/announcement/::1684291003
+::res://Assets/Buttons Pixel Animation Pack/announcement/72px/::1684291003
+announcement01.png::CompressedTexture2D::3432323937692477798::1684291003::1684291027::1::::<><>::
+announcement02.png::CompressedTexture2D::6746514394774700517::1684291003::1684291027::1::::<><>::
+announcement03.png::CompressedTexture2D::5534439823849160175::1684291003::1684291027::1::::<><>::
+announcement04.png::CompressedTexture2D::447656648260639735::1684291003::1684291027::1::::<><>::
+announcement05.png::CompressedTexture2D::1710718722992394228::1684291003::1684291027::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/announcement/343px/::1684291003
+announcement01.png::CompressedTexture2D::4119190263103519991::1684291003::1684291027::1::::<><>::
+announcement02.png::CompressedTexture2D::8693326861529632691::1684291003::1684291027::1::::<><>::
+announcement03.png::CompressedTexture2D::2412887290936847117::1684291003::1684291027::1::::<><>::
+announcement04.png::CompressedTexture2D::4919566307809228009::1684291003::1684291027::1::::<><>::
+announcement05.png::CompressedTexture2D::6158583509387241586::1684291003::1684291027::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/back/::1684291003
+::res://Assets/Buttons Pixel Animation Pack/back/72px/::1684291003
+back01.png::CompressedTexture2D::8762445098362248394::1684291003::1684291027::1::::<><>::
+back02.png::CompressedTexture2D::7111737515298957542::1684291003::1684291027::1::::<><>::
+back03.png::CompressedTexture2D::3253486125972157464::1684291003::1684291027::1::::<><>::
+back04.png::CompressedTexture2D::6954975827480482387::1684291003::1684291027::1::::<><>::
+back05.png::CompressedTexture2D::7100889021635595571::1684291003::1684291027::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/back/343px/::1684291003
+back01.png::CompressedTexture2D::5637784426700025633::1684291003::1684291027::1::::<><>::
+back02.png::CompressedTexture2D::7785876594472261626::1684291003::1684291027::1::::<><>::
+back03.png::CompressedTexture2D::5184451922116693169::1684291003::1684291027::1::::<><>::
+back04.png::CompressedTexture2D::4646985625238804766::1684291003::1684291027::1::::<><>::
+back05.png::CompressedTexture2D::8429321185009193030::1684291003::1684291027::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/email/::1684291003
+::res://Assets/Buttons Pixel Animation Pack/email/72px/::1684291003
+email01.png::CompressedTexture2D::4050113862890994505::1684291003::1684291028::1::::<><>::
+email02.png::CompressedTexture2D::4982070073958746917::1684291003::1684291024::1::::<><>::
+email03.png::CompressedTexture2D::3346536788407063335::1684291003::1684291024::1::::<><>::
+email04.png::CompressedTexture2D::4222366054447164747::1684291003::1684291026::1::::<><>::
+email05.png::CompressedTexture2D::8363504857543667374::1684291003::1684291026::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/email/343px/::1684291003
+email01.png::CompressedTexture2D::7742755526446120383::1684291003::1684291026::1::::<><>::
+email02.png::CompressedTexture2D::5652174837974047600::1684291003::1684291026::1::::<><>::
+email03.png::CompressedTexture2D::3079425359568126461::1684291003::1684291026::1::::<><>::
+email04.png::CompressedTexture2D::4704685070056302099::1684291003::1684291026::1::::<><>::
+email05.png::CompressedTexture2D::1653215051960078142::1684291003::1684291026::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/game/::1684291003
+::res://Assets/Buttons Pixel Animation Pack/game/72px/::1684291003
+game01.png::CompressedTexture2D::1125951256521483864::1684291003::1684291026::1::::<><>::
+game02.png::CompressedTexture2D::7812611908388076330::1684291003::1684291026::1::::<><>::
+game03.png::CompressedTexture2D::2410768845535694393::1684291003::1684291026::1::::<><>::
+game04.png::CompressedTexture2D::3105628848962268040::1684291003::1684291026::1::::<><>::
+game05.png::CompressedTexture2D::7457589619142814081::1684291003::1684291026::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/game/343px/::1684291003
+game01.png::CompressedTexture2D::6485481267817755507::1684291003::1684291026::1::::<><>::
+game02.png::CompressedTexture2D::3126674370463728775::1684291003::1684291026::1::::<><>::
+game03.png::CompressedTexture2D::3107784831805182989::1684291003::1684291026::1::::<><>::
+game04.png::CompressedTexture2D::7330008594210373852::1684291003::1684291026::1::::<><>::
+game05.png::CompressedTexture2D::676194855772623982::1684291003::1684291026::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/home/::1684291004
+::res://Assets/Buttons Pixel Animation Pack/home/72px/::1684291004
+home01.png::CompressedTexture2D::3780867172167991001::1684291004::1684291026::1::::<><>::
+home02.png::CompressedTexture2D::7171728801478913105::1684291004::1684291026::1::::<><>::
+home03.png::CompressedTexture2D::7850112875489593969::1684291004::1684291026::1::::<><>::
+home04.png::CompressedTexture2D::4575664647539123496::1684291004::1684291026::1::::<><>::
+home05.png::CompressedTexture2D::4166711479115843440::1684291004::1684291026::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/home/343px/::1684291004
+home01.png::CompressedTexture2D::2545416612852584293::1684291004::1684291026::1::::<><>::
+home02.png::CompressedTexture2D::6029282026751760205::1684291004::1684291026::1::::<><>::
+home03.png::CompressedTexture2D::5053498411378006383::1684291004::1684291026::1::::<><>::
+home04.png::CompressedTexture2D::531896110432655407::1684291004::1684291026::1::::<><>::
+home05.png::CompressedTexture2D::3192880353595501137::1684291004::1684291027::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/information/::1684291004
+::res://Assets/Buttons Pixel Animation Pack/information/72px/::1684291004
+information01.png::CompressedTexture2D::7364294626067177442::1684291004::1684291027::1::::<><>::
+information02.png::CompressedTexture2D::329172416123326952::1684291004::1684291027::1::::<><>::
+information03.png::CompressedTexture2D::7818687974614498775::1684291004::1684291028::1::::<><>::
+information04.png::CompressedTexture2D::1452712967819027791::1684291004::1684291028::1::::<><>::
+information05.png::CompressedTexture2D::4902435561473441652::1684291004::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/information/343px/::1684291004
+information01.png::CompressedTexture2D::5796161464984951744::1684291004::1684291028::1::::<><>::
+information02.png::CompressedTexture2D::5860762055726215873::1684291004::1684291028::1::::<><>::
+information03.png::CompressedTexture2D::2457825883119687251::1684291004::1684291028::1::::<><>::
+information04.png::CompressedTexture2D::4274992627122402917::1684291004::1684291028::1::::<><>::
+information05.png::CompressedTexture2D::1131940678644965611::1684291004::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/leaderboard/::1684291004
+::res://Assets/Buttons Pixel Animation Pack/leaderboard/72px/::1684291004
+leaderboard01.png::CompressedTexture2D::2416160704041623724::1684291004::1684291028::1::::<><>::
+leaderboard02.png::CompressedTexture2D::5535282765107536536::1684291004::1684291028::1::::<><>::
+leaderboard03.png::CompressedTexture2D::4529187161312630007::1684291004::1684291028::1::::<><>::
+leaderboard04.png::CompressedTexture2D::8529094712106465063::1684291004::1684291028::1::::<><>::
+leaderboard05.png::CompressedTexture2D::4560334419451543641::1684291004::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/leaderboard/343px/::1684291004
+leaderboard01.png::CompressedTexture2D::140778096618903742::1684291004::1684291029::1::::<><>::
+leaderboard02.png::CompressedTexture2D::8033558900481637994::1684291004::1684291029::1::::<><>::
+leaderboard03.png::CompressedTexture2D::7125398498195915213::1684291004::1684291029::1::::<><>::
+leaderboard04.png::CompressedTexture2D::308923084168364394::1684291004::1684291029::1::::<><>::
+leaderboard05.png::CompressedTexture2D::513438766627994213::1684291004::1684291029::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/list/::1684291004
+::res://Assets/Buttons Pixel Animation Pack/list/72px/::1684291004
+list01.png::CompressedTexture2D::7579607565703514032::1684291004::1684291029::1::::<><>::
+list02.png::CompressedTexture2D::7835245932185055510::1684291004::1684291029::1::::<><>::
+list03.png::CompressedTexture2D::9169934855952260812::1684291004::1684291029::1::::<><>::
+list04.png::CompressedTexture2D::2189693037685387332::1684291004::1684291029::1::::<><>::
+list05.png::CompressedTexture2D::8871617990932462009::1684291004::1684291029::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/list/343px/::1684291004
+list01.png::CompressedTexture2D::2703191195730755317::1684291004::1684291029::1::::<><>::
+list02.png::CompressedTexture2D::5753991323302532316::1684291004::1684291029::1::::<><>::
+list03.png::CompressedTexture2D::5434043949057268942::1684291004::1684291029::1::::<><>::
+list04.png::CompressedTexture2D::3854960803905701484::1684291004::1684291029::1::::<><>::
+list05.png::CompressedTexture2D::6829656304411538572::1684291004::1684291029::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/music/::1684291004
+::res://Assets/Buttons Pixel Animation Pack/music/72px/::1684291005
+music01.png::CompressedTexture2D::7009401909640891587::1684291005::1684291029::1::::<><>::
+music02.png::CompressedTexture2D::1200040539876356793::1684291005::1684291029::1::::<><>::
+music03.png::CompressedTexture2D::7591236059453871452::1684291005::1684291029::1::::<><>::
+music04.png::CompressedTexture2D::272673325757283038::1684291005::1684291029::1::::<><>::
+music05.png::CompressedTexture2D::834602488927712833::1684291005::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/music/343px/::1684291004
+music01.png::CompressedTexture2D::3365866425972842491::1684291004::1684291028::1::::<><>::
+music02.png::CompressedTexture2D::7074361290366332393::1684291004::1684291028::1::::<><>::
+music03.png::CompressedTexture2D::4480837437361837072::1684291004::1684291028::1::::<><>::
+music04.png::CompressedTexture2D::7358632011897569108::1684291004::1684291028::1::::<><>::
+music05.png::CompressedTexture2D::362450221994195085::1684291004::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/next/::1684291005
+::res://Assets/Buttons Pixel Animation Pack/next/72px/::1684291005
+next01.png::CompressedTexture2D::7539200173997966051::1684291005::1684291028::1::::<><>::
+next02.png::CompressedTexture2D::4627429210463824882::1684291005::1684291028::1::::<><>::
+next03.png::CompressedTexture2D::813359856493766072::1684291005::1684291028::1::::<><>::
+next04.png::CompressedTexture2D::5035686652721987603::1684291005::1684291028::1::::<><>::
+next05.png::CompressedTexture2D::4674118927163747299::1684291005::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/next/343px/::1684291005
+next01.png::CompressedTexture2D::3212818671178020785::1684291005::1684291028::1::::<><>::
+next02.png::CompressedTexture2D::2840882826944018906::1684291005::1684291028::1::::<><>::
+next03.png::CompressedTexture2D::6023111906726536909::1684291005::1684291028::1::::<><>::
+next04.png::CompressedTexture2D::3257813625491123984::1684291005::1684291028::1::::<><>::
+next05.png::CompressedTexture2D::2417521891343861859::1684291005::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/no/::1684291005
+::res://Assets/Buttons Pixel Animation Pack/no/72px/::1684291005
+no01.png::CompressedTexture2D::347224882784467518::1684291005::1684291028::1::::<><>::
+no02.png::CompressedTexture2D::1352196401673868186::1684291005::1684291028::1::::<><>::
+no03.png::CompressedTexture2D::8221323465875955554::1684291005::1684291028::1::::<><>::
+no04.png::CompressedTexture2D::3694468567754764296::1684291005::1684291028::1::::<><>::
+no05.png::CompressedTexture2D::459908371696291272::1684291005::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/no/343px/::1684291005
+no01.png::CompressedTexture2D::5303856844672194895::1684291005::1684291028::1::::<><>::
+no02.png::CompressedTexture2D::2421877917555172122::1684291005::1684291028::1::::<><>::
+no03.png::CompressedTexture2D::398654316493743339::1684291005::1684291028::1::::<><>::
+no04.png::CompressedTexture2D::133675500408455865::1684291005::1684291028::1::::<><>::
+no05.png::CompressedTexture2D::2939833605860508397::1684291005::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/option/::1684291005
+::res://Assets/Buttons Pixel Animation Pack/option/72px/::1684291006
+option01.png::CompressedTexture2D::8274045646312379331::1684291005::1684291028::1::::<><>::
+option02.png::CompressedTexture2D::6121065849641854191::1684291006::1684291028::1::::<><>::
+option03.png::CompressedTexture2D::8351609216997656449::1684291006::1684291028::1::::<><>::
+option04.png::CompressedTexture2D::982024967090634488::1684291006::1684291028::1::::<><>::
+option05.png::CompressedTexture2D::7306200596955456088::1684291006::1684291028::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/option/343px/::1684291005
+option01.png::CompressedTexture2D::6667266260301146581::1684291005::1684291023::1::::<><>::
+option02.png::CompressedTexture2D::3078421489660871807::1684291005::1684291023::1::::<><>::
+option03.png::CompressedTexture2D::1362373333878510953::1684291005::1684291023::1::::<><>::
+option04.png::CompressedTexture2D::7336875984875691939::1684291005::1684291023::1::::<><>::
+option05.png::CompressedTexture2D::1204082999620291958::1684291005::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/pause/::1684291006
+::res://Assets/Buttons Pixel Animation Pack/pause/72px/::1684291006
+pause01.png::CompressedTexture2D::714211627089152428::1684291006::1684291023::1::::<><>::
+pause02.png::CompressedTexture2D::689006225975350778::1684291006::1684291023::1::::<><>::
+pause03.png::CompressedTexture2D::4229349115936170607::1684291006::1684291023::1::::<><>::
+pause04.png::CompressedTexture2D::6544236052393296037::1684291006::1684291023::1::::<><>::
+pause05.png::CompressedTexture2D::2583220915217110746::1684291006::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/pause/343px/::1684291006
+pause01.png::CompressedTexture2D::386009458386524350::1684291006::1684291023::1::::<><>::
+pause02.png::CompressedTexture2D::536713455446251887::1684291006::1684291023::1::::<><>::
+pause03.png::CompressedTexture2D::8036682451738685003::1684291006::1684291023::1::::<><>::
+pause04.png::CompressedTexture2D::3989811258014104377::1684291006::1684291023::1::::<><>::
+pause05.png::CompressedTexture2D::2490041020153731955::1684291006::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/play/::1684291006
+::res://Assets/Buttons Pixel Animation Pack/play/72px/::1684291007
+play01.png::CompressedTexture2D::1843354033099400239::1684291006::1684291023::1::::<><>::
+play02.png::CompressedTexture2D::7244028983860483230::1684291006::1684291023::1::::<><>::
+play03.png::CompressedTexture2D::863852682051470937::1684291006::1684291023::1::::<><>::
+play04.png::CompressedTexture2D::6006859259077334043::1684291007::1684291023::1::::<><>::
+play05.png::CompressedTexture2D::5115176328071403870::1684291007::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/play/343px/::1684291006
+play01.png::CompressedTexture2D::6051241385473800686::1684291006::1684291023::1::::<><>::
+play02.png::CompressedTexture2D::1515563448848549767::1684291006::1684291023::1::::<><>::
+play03.png::CompressedTexture2D::3251814882514322313::1684291006::1684291023::1::::<><>::
+play04.png::CompressedTexture2D::6926923448520375987::1684291006::1684291023::1::::<><>::
+play05.png::CompressedTexture2D::3165659708811214340::1684291006::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/replay/::1684291007
+::res://Assets/Buttons Pixel Animation Pack/replay/72px/::1684291007
+replay01.png::CompressedTexture2D::2791882306341439253::1684291007::1684291023::1::::<><>::
+replay02.png::CompressedTexture2D::5818507400791385067::1684291007::1684291023::1::::<><>::
+replay03.png::CompressedTexture2D::4607162855523867291::1684291007::1684291023::1::::<><>::
+replay04.png::CompressedTexture2D::3868938615548187437::1684291007::1684291023::1::::<><>::
+replay05.png::CompressedTexture2D::1532142826974042791::1684291007::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/replay/343px/::1684291007
+replay01.png::CompressedTexture2D::8638963626183080171::1684291007::1684291023::1::::<><>::
+replay02.png::CompressedTexture2D::742254792809623096::1684291007::1684291022::1::::<><>::
+replay03.png::CompressedTexture2D::8576534466998640658::1684291007::1684291022::1::::<><>::
+replay04.png::CompressedTexture2D::6513576184448850271::1684291007::1684291022::1::::<><>::
+replay05.png::CompressedTexture2D::4761481531197692669::1684291007::1684291022::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/restart/::1684291007
+::res://Assets/Buttons Pixel Animation Pack/restart/72px/::1684291007
+restart01.png::CompressedTexture2D::6448289841223626093::1684291007::1684291022::1::::<><>::
+restart02.png::CompressedTexture2D::4404513763863220337::1684291007::1684291022::1::::<><>::
+restart03.png::CompressedTexture2D::3831874363945057476::1684291007::1684291022::1::::<><>::
+restart04.png::CompressedTexture2D::8820371766137622197::1684291007::1684291022::1::::<><>::
+restart05.png::CompressedTexture2D::298266174850965884::1684291007::1684291022::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/restart/343px/::1684291007
+restart01.png::CompressedTexture2D::4513003825603693572::1684291007::1684291022::1::::<><>::
+restart02.png::CompressedTexture2D::6691820533397159220::1684291007::1684291022::1::::<><>::
+restart03.png::CompressedTexture2D::2719165283558680906::1684291007::1684291022::1::::<><>::
+restart04.png::CompressedTexture2D::2295723300245030765::1684291007::1684291022::1::::<><>::
+restart05.png::CompressedTexture2D::5425924294572815309::1684291007::1684291022::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/screenshot/::1684291007
+::res://Assets/Buttons Pixel Animation Pack/screenshot/72px/::1684291007
+screenshot01.png::CompressedTexture2D::1259036161922969974::1684291007::1684291022::1::::<><>::
+screenshot02.png::CompressedTexture2D::2881471784369012376::1684291007::1684291022::1::::<><>::
+screenshot03.png::CompressedTexture2D::8325499162314810067::1684291007::1684291022::1::::<><>::
+screenshot04.png::CompressedTexture2D::5388042853061526181::1684291007::1684291022::1::::<><>::
+screenshot05.png::CompressedTexture2D::6776652808686825412::1684291007::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/screenshot/343px/::1684291007
+screenshot01.png::CompressedTexture2D::6898008366625058418::1684291007::1684291023::1::::<><>::
+screenshot02.png::CompressedTexture2D::5083278574842816715::1684291007::1684291023::1::::<><>::
+screenshot03.png::CompressedTexture2D::8437358097220147185::1684291007::1684291023::1::::<><>::
+screenshot04.png::CompressedTexture2D::8549597119070793668::1684291007::1684291023::1::::<><>::
+screenshot05.png::CompressedTexture2D::6954295797384340993::1684291007::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/signal/::1684291007
+::res://Assets/Buttons Pixel Animation Pack/signal/72px/::1684291008
+signal01.png::CompressedTexture2D::8006116318777061436::1684291007::1684291023::1::::<><>::
+signal02.png::CompressedTexture2D::9015143087300989360::1684291007::1684291023::1::::<><>::
+signal03.png::CompressedTexture2D::1865093535066698095::1684291008::1684291023::1::::<><>::
+signal04.png::CompressedTexture2D::8154827454894317772::1684291008::1684291023::1::::<><>::
+signal05.png::CompressedTexture2D::1869049225224906234::1684291008::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/signal/343px/::1684291007
+signal01.png::CompressedTexture2D::7996937143488390112::1684291007::1684291023::1::::<><>::
+signal02.png::CompressedTexture2D::8886908739302805389::1684291007::1684291023::1::::<><>::
+signal03.png::CompressedTexture2D::7291524602871588486::1684291007::1684291024::1::::<><>::
+signal04.png::CompressedTexture2D::4404829991056591222::1684291007::1684291024::1::::<><>::
+signal05.png::CompressedTexture2D::1112212899208397758::1684291007::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/silent/::1684291008
+::res://Assets/Buttons Pixel Animation Pack/silent/72px/::1684291008
+silent01.png::CompressedTexture2D::1677702095173471174::1684291008::1684291024::1::::<><>::
+silent02.png::CompressedTexture2D::5776821895288328679::1684291008::1684291024::1::::<><>::
+silent03.png::CompressedTexture2D::2733302617980234497::1684291008::1684291024::1::::<><>::
+silent04.png::CompressedTexture2D::6487308362712254330::1684291008::1684291024::1::::<><>::
+silent05.png::CompressedTexture2D::8797507944082600642::1684291008::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/silent/343px/::1684291008
+silent01.png::CompressedTexture2D::506551248123570003::1684291008::1684291024::1::::<><>::
+silent02.png::CompressedTexture2D::2574247520344354453::1684291008::1684291024::1::::<><>::
+silent03.png::CompressedTexture2D::5695612511511734039::1684291008::1684291024::1::::<><>::
+silent04.png::CompressedTexture2D::4080169747049125953::1684291008::1684291024::1::::<><>::
+silent05.png::CompressedTexture2D::663626361084541174::1684291008::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/sound/::1684291008
+::res://Assets/Buttons Pixel Animation Pack/sound/72px/::1684291008
+sound01.png::CompressedTexture2D::2407300164360117169::1684291008::1684291024::1::::<><>::
+sound02.png::CompressedTexture2D::479152959649513543::1684291008::1684291024::1::::<><>::
+sound03.png::CompressedTexture2D::8548861061482760932::1684291008::1684291024::1::::<><>::
+sound04.png::CompressedTexture2D::3882747340859856395::1684291008::1684291024::1::::<><>::
+sound05.png::CompressedTexture2D::4179207123123939257::1684291008::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/sound/343px/::1684291008
+sound01.png::CompressedTexture2D::6020329941662625908::1684291008::1684291024::1::::<><>::
+sound02.png::CompressedTexture2D::2158049870785778999::1684291008::1684291024::1::::<><>::
+sound03.png::CompressedTexture2D::3593222536577314233::1684291008::1684291024::1::::<><>::
+sound04.png::CompressedTexture2D::9142394870329372712::1684291008::1684291024::1::::<><>::
+sound05.png::CompressedTexture2D::8928168950051661026::1684291008::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/star/::1684291008
+::res://Assets/Buttons Pixel Animation Pack/star/72px/::1684291008
+star01.png::CompressedTexture2D::7484348995456528806::1684291008::1684291024::1::::<><>::
+star02.png::CompressedTexture2D::2312012317378052953::1684291008::1684291024::1::::<><>::
+star03.png::CompressedTexture2D::8625175390602594239::1684291008::1684291024::1::::<><>::
+star04.png::CompressedTexture2D::6942172638265107573::1684291008::1684291024::1::::<><>::
+star05.png::CompressedTexture2D::5735873369937322537::1684291008::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/star/343px/::1684291008
+star01.png::CompressedTexture2D::7487363224378190872::1684291008::1684291024::1::::<><>::
+star02.png::CompressedTexture2D::8774062006716567832::1684291008::1684291024::1::::<><>::
+star03.png::CompressedTexture2D::870153629000064522::1684291008::1684291025::1::::<><>::
+star04.png::CompressedTexture2D::5469455180465080163::1684291008::1684291024::1::::<><>::
+star05.png::CompressedTexture2D::2530123118792334126::1684291008::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/store/::1684291008
+::res://Assets/Buttons Pixel Animation Pack/store/72px/::1684291008
+store01.png::CompressedTexture2D::7325056626616603273::1684291008::1684291023::1::::<><>::
+store02.png::CompressedTexture2D::2764286356378242177::1684291008::1684291023::1::::<><>::
+store03.png::CompressedTexture2D::486526733463441020::1684291008::1684291023::1::::<><>::
+store04.png::CompressedTexture2D::6092484743136721117::1684291008::1684291023::1::::<><>::
+store05.png::CompressedTexture2D::7212235104361049056::1684291008::1684291023::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/store/343px/::1684291008
+star01.png::CompressedTexture2D::7168871645128585229::1684291008::1684291023::1::::<><>::
+star02.png::CompressedTexture2D::1909714541361766106::1684291008::1684291023::1::::<><>::
+star03.png::CompressedTexture2D::7810604149280841312::1684291008::1684291023::1::::<><>::
+star04.png::CompressedTexture2D::8270092560879579141::1684291008::1684291023::1::::<><>::
+star05.png::CompressedTexture2D::3572941925014894862::1684291008::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/video/::1684291008
+::res://Assets/Buttons Pixel Animation Pack/video/72px/::1684291009
+video01.png::CompressedTexture2D::7595408456494789234::1684291008::1684291024::1::::<><>::
+video02.png::CompressedTexture2D::4145976041459495788::1684291009::1684291024::1::::<><>::
+video03.png::CompressedTexture2D::4267142655451079267::1684291009::1684291024::1::::<><>::
+video04.png::CompressedTexture2D::8194623355336574246::1684291009::1684291024::1::::<><>::
+video05.png::CompressedTexture2D::7842326025691064066::1684291009::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/video/343px/::1684291008
+video01.png::CompressedTexture2D::7624487850212388988::1684291008::1684291024::1::::<><>::
+video02.png::CompressedTexture2D::5588187270717703318::1684291008::1684291024::1::::<><>::
+video03.png::CompressedTexture2D::6109285841242582395::1684291008::1684291024::1::::<><>::
+video04.png::CompressedTexture2D::5536176069276505678::1684291008::1684291024::1::::<><>::
+video05.png::CompressedTexture2D::964943697028279319::1684291008::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/yes/::1684291009
+::res://Assets/Buttons Pixel Animation Pack/yes/72px/::1684291009
+yes01.png::CompressedTexture2D::1051808299058326325::1684291009::1684291024::1::::<><>::
+yes02.png::CompressedTexture2D::726813958043361169::1684291009::1684291024::1::::<><>::
+yes03.png::CompressedTexture2D::7618636586669002066::1684291009::1684291024::1::::<><>::
+yes04.png::CompressedTexture2D::3593036866824687125::1684291009::1684291024::1::::<><>::
+yes05.png::CompressedTexture2D::4218892218199271673::1684291009::1684291024::1::::<><>::
+::res://Assets/Buttons Pixel Animation Pack/yes/343px/::1684291009
+yes01.png::CompressedTexture2D::3675932723990696000::1684291009::1684291024::1::::<><>::
+yes02.png::CompressedTexture2D::8552592667888174785::1684291009::1684291024::1::::<><>::
+yes03.png::CompressedTexture2D::3795339887576785997::1684291009::1684291024::1::::<><>::
+yes04.png::CompressedTexture2D::2951111182781834575::1684291009::1684291024::1::::<><>::
+yes05.png::CompressedTexture2D::9005111286577432605::1684291009::1684291024::1::::<><>::
+::res://Assets/Scenes/::1684289883
+main.tscn::PackedScene::8063257007955609848::1684289612::0::1::::<><>::uid://b6rgktkwc38gn
+Plant.tscn::PackedScene::7915726026310328735::1684289883::0::1::::<><>::uid://bap88w8gapu7r<>res://Assets/Scripts/Growth.gd
+Shop.tscn::PackedScene::5812250351559907578::1684289612::0::1::::<><>::
+::res://Assets/Scripts/::1684289883
+GitUpdate.txt::TextFile::-1::1684289612::0::1::::<><>::
+Growth.gd::GDScript::-1::1684289883::0::1::::<>AnimatedSprite2D<>::
+>>>>>>> main
