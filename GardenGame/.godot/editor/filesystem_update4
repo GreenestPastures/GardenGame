@@ -4,3 +4,5 @@ res://Assets/Scenes/Shop.tscn
 res://Assets/Scenes/Plant.tscn
 res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres
 res://Assets/Scripts/Growth.gd
+res://Assets/Scenes/Player.tscn
+res://Assets/Scripts/PlayerControls.gd

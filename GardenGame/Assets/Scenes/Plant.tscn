@@ -7,6 +7,6 @@
 position = Vector2(147.75, 157.6)
 scale = Vector2(20.7, 20.7)
 sprite_frames = ExtResource("1_5urc1")
-animation = &"milkroot"
+animation = &"beetroot"
 script = ExtResource("2_dc051")
-growthTime = 6
+growthTime = 12
