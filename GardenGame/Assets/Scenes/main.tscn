@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://dm45wut3jt1mq"]
+[gd_scene load_steps=6 format=3 uid="uid://dm45wut3jt1mq"]
 
 [ext_resource type="Texture2D" uid="uid://b6rgktkwc38gn" path="res://Assets/Art/Plants/apple tree.png" id="1_llgpo"]
 [ext_resource type="PackedScene" uid="uid://3644yddd4546" path="res://Assets/Scenes/Player.tscn" id="2_nsb8m"]
+[ext_resource type="Script" path="res://Assets/Scenes/PlantList.gd" id="3_lje5i"]
+[ext_resource type="PackedScene" uid="uid://dk1o366wdr21h" path="res://Assets/Scenes/Plant.tscn" id="4_34e27"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_731xc"]
 size = Vector2(2000, 2000)
@@ -19,3 +21,9 @@ texture = ExtResource("1_llgpo")
 shape = SubResource("RectangleShape2D_731xc")
 
 [node name="Player" parent="." instance=ExtResource("2_nsb8m")]
+
+[node name="plampts" type="Node" parent="."]
+script = ExtResource("3_lje5i")
+plantType = ExtResource("4_34e27")
+
+[connection signal="planting_plant" from="Player" to="plampts" method="_on_player_planting_plant"]
