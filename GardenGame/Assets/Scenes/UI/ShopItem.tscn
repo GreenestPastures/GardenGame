@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://bsxpdwg3afkd6"]
+
+[ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="1_xf267"]
+[ext_resource type="Script" path="res://Assets/Scripts/ShopItemSeed.gd" id="2_cmgyb"]
+[ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="2_vk7c7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6uf4j"]
+atlas = ExtResource("2_vk7c7")
+region = Rect2(-1, 200, 16, 16)
+
+[node name="ItemFrame" type="Sprite2D"]
+position = Vector2(415, 310)
+texture = ExtResource("1_xf267")
+script = ExtResource("2_cmgyb")
+seedPic = [null, null, null, null, null, null, null, null, null]
+
+[node name="Fruit" type="Sprite2D" parent="."]
+scale = Vector2(1.5, 1.5)
+texture = SubResource("AtlasTexture_6uf4j")
