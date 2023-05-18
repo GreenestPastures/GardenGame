@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 res://Assets/Scenes
+=======
+res://Assets/Scripts
+>>>>>>> WoodysWork
 res://Assets/Scenes/UI
 res://Assets/Art/UI
-res://Assets/Scripts
 res://
 res://Assets/Art/Plants
 res://Assets/Art/Plants/SpriteFrames

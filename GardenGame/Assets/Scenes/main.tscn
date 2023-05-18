@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://dacan7misvg6h"]
 
 [ext_resource type="Texture2D" uid="uid://b6rgktkwc38gn" path="res://Assets/Art/Plants/apple tree.png" id="1_llgpo"]
-[ext_resource type="PackedScene" uid="uid://3644yddd4546" path="res://Assets/Scenes/Player.tscn" id="2_nsb8m"]
+[ext_resource type="PackedScene" uid="uid://bheo8xkmhmmpj" path="res://Assets/Scenes/Player.tscn" id="2_nsb8m"]
 [ext_resource type="Script" path="res://Assets/Scripts/PlantList.gd" id="3_nyy2w"]
 [ext_resource type="PackedScene" uid="uid://dk1o366wdr21h" path="res://Assets/Scenes/Plant.tscn" id="4_34e27"]
 [ext_resource type="PackedScene" uid="uid://b0m2ieipw46k8" path="res://Assets/Scenes/UI/Hotbar.tscn" id="5_aha8k"]
@@ -30,4 +30,4 @@ plantType = ExtResource("4_34e27")
 
 [node name="Hotbar" parent="." instance=ExtResource("5_aha8k")]
 
-[connection signal="planting_plant" from="Player" to="plampts" method="_on_player_planting_plant"]
+[connection signal="plantingPos" from="Player" to="plampts" method="_on_player_planting_plant"]
