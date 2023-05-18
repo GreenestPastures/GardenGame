@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 [gd_scene load_steps=11 format=3 uid="uid://66eojhoea8md"]
 
 [ext_resource type="Texture2D" uid="uid://y78b44afr4pd" path="res://Assets/Art/UI/SeedAtlasBeetroot.tres" id="1_da8br"]
+=======
+[gd_scene load_steps=13 format=3 uid="uid://b0m2ieipw46k8"]
+
+[ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_n1obl"]
+[ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="1_t4a5d"]
+>>>>>>> Dylan'swork
 [ext_resource type="Script" path="res://Assets/Scripts/SeedSelector.gd" id="2_6j4vt"]
 [ext_resource type="Texture2D" uid="uid://vk8vxcoibjnh" path="res://Assets/Art/UI/SeedAtlasCauli.tres" id="3_xk0pr"]
 [ext_resource type="Texture2D" uid="uid://cento14anqgdj" path="res://Assets/Art/UI/SeedAtlasGarlic.tres" id="4_5bok6"]
@@ -13,77 +20,145 @@
 
 [node name="Hotbar" type="CanvasLayer"]
 
-[node name="SelectableSeeds" type="HBoxContainer" parent="."]
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -97.0
-grow_horizontal = 2
-grow_vertical = 0
-size_flags_horizontal = 6
-size_flags_vertical = 8
+[node name="frame" type="Sprite2D" parent="."]
+position = Vector2(18, 630)
+texture = ExtResource("1_t4a5d")
 
-[node name="beetroot" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="frame2" type="Sprite2D" parent="."]
+position = Vector2(54, 630)
+texture = ExtResource("1_t4a5d")
+
+[node name="frame3" type="Sprite2D" parent="."]
+position = Vector2(90, 630)
+texture = ExtResource("1_t4a5d")
+
+[node name="frame4" type="Sprite2D" parent="."]
+position = Vector2(126, 630)
+texture = ExtResource("1_t4a5d")
+
+[node name="frame5" type="Sprite2D" parent="."]
+position = Vector2(162, 630)
+texture = ExtResource("1_t4a5d")
+
+[node name="frame6" type="Sprite2D" parent="."]
+position = Vector2(198, 630)
+texture = ExtResource("1_t4a5d")
+
+[node name="frame7" type="Sprite2D" parent="."]
+position = Vector2(234, 630)
+texture = ExtResource("1_t4a5d")
+
+[node name="frame8" type="Sprite2D" parent="."]
+position = Vector2(270, 630)
+texture = ExtResource("1_t4a5d")
+
+[node name="frame9" type="Sprite2D" parent="."]
+position = Vector2(306, 630)
+texture = ExtResource("1_t4a5d")
+
+[node name="beetroot" type="TextureRect" parent="."]
+offset_left = 1.0
+offset_top = 609.0
+offset_right = 44.0
+offset_bottom = 645.0
 size_flags_horizontal = 3
 texture = ExtResource("1_da8br")
 expand_mode = 3
 stretch_mode = 4
 script = ExtResource("2_6j4vt")
 
-[node name="cauliflower" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="cauliflower" type="TextureRect" parent="."]
+offset_left = 37.0
+offset_top = 613.0
+offset_right = 81.0
+offset_bottom = 649.0
 size_flags_horizontal = 3
 texture = ExtResource("3_xk0pr")
 expand_mode = 3
 stretch_mode = 4
 
-[node name="garlic" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="garlic" type="TextureRect" parent="."]
+offset_left = 73.0
+offset_top = 611.0
+offset_right = 117.0
+offset_bottom = 647.0
 size_flags_horizontal = 3
 texture = ExtResource("4_5bok6")
 expand_mode = 3
 stretch_mode = 4
 
-[node name="lettuce" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="lettuce" type="TextureRect" parent="."]
+offset_left = 108.0
+offset_top = 611.0
+offset_right = 152.0
+offset_bottom = 647.0
 size_flags_horizontal = 3
 texture = ExtResource("5_4tc2g")
 expand_mode = 3
 stretch_mode = 4
 
-[node name="mangocarrot" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="mangocarrot" type="TextureRect" parent="."]
+offset_left = 146.0
+offset_top = 611.0
+offset_right = 190.0
+offset_bottom = 647.0
 size_flags_horizontal = 3
 texture = ExtResource("6_rt571")
 expand_mode = 3
 stretch_mode = 4
 
-[node name="milkroot" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="milkroot" type="TextureRect" parent="."]
+offset_left = 180.0
+offset_top = 611.0
+offset_right = 224.0
+offset_bottom = 647.0
 size_flags_horizontal = 3
 texture = ExtResource("7_7gkxi")
 expand_mode = 3
 stretch_mode = 4
+flip_h = true
 
-[node name="potato" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="potato" type="TextureRect" parent="."]
+offset_left = 215.0
+offset_top = 607.0
+offset_right = 259.0
+offset_bottom = 643.0
 size_flags_horizontal = 3
 texture = ExtResource("8_xos7g")
 expand_mode = 3
 stretch_mode = 4
 
-[node name="radish" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="radish" type="TextureRect" parent="."]
+offset_left = 253.0
+offset_top = 613.0
+offset_right = 297.0
+offset_bottom = 649.0
 size_flags_horizontal = 3
 texture = ExtResource("9_u2x7w")
 expand_mode = 3
 stretch_mode = 4
 
-[node name="tomato" type="TextureRect" parent="SelectableSeeds"]
-layout_mode = 2
+[node name="tomato" type="TextureRect" parent="."]
+offset_left = 289.0
+offset_top = 611.0
+offset_right = 333.0
+offset_bottom = 647.0
 size_flags_horizontal = 3
 texture = ExtResource("10_k6yp0")
 expand_mode = 3
 stretch_mode = 4
+
+[node name="SelectableSeeds" type="HBoxContainer" parent="."]
+visible = false
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1.0
+offset_top = -34.0
+offset_right = -724.0
+offset_bottom = 2.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 6
+size_flags_vertical = 8

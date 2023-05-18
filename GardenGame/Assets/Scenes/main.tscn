@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://b5stc738k5dws"]
+[gd_scene load_steps=7 format=3 uid="uid://dacan7misvg6h"]
 
 [ext_resource type="Texture2D" uid="uid://b6rgktkwc38gn" path="res://Assets/Art/Plants/apple tree.png" id="1_llgpo"]
 [ext_resource type="PackedScene" uid="uid://3644yddd4546" path="res://Assets/Scenes/Player.tscn" id="2_nsb8m"]
