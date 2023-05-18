@@ -1,0 +1,5 @@
+[folding]
+
+node_unfolds=[NodePath("BookBG"), PackedStringArray("texture", "Region", "Transform"), NodePath("Character Window"), PackedStringArray("Region"), NodePath("Character"), PackedStringArray("Region", "Animation"), NodePath("Ribbon"), PackedStringArray("Region"), NodePath("1"), PackedStringArray("Region", "Transform")]
+resource_unfolds=[]
+nodes_folded=[]
