@@ -4,11 +4,14 @@
 [ext_resource type="Script" path="res://Assets/Scripts/Growth.gd" id="2_dc051"]
 
 [node name="Plant" type="AnimatedSprite2D"]
-position = Vector2(147.75, 157.6)
-scale = Vector2(20.7, 20.7)
+scale = Vector2(5, 5)
 sprite_frames = ExtResource("1_5urc1")
+<<<<<<< HEAD
 animation = &"Sunknob"
 frame = 1
 frame_progress = 0.484397
+=======
+animation = &"lettuce"
+>>>>>>> WoodysWork
 script = ExtResource("2_dc051")
-growthTime = 6
+growthTime = 12

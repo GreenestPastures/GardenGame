@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=45 format=3 uid="uid://bap88w8gapu7r"]
+[gd_resource type="SpriteFrames" load_steps=55 format=3 uid="uid://bap88w8gapu7r"]
 
 [ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_gab2a"]
 
@@ -54,7 +54,35 @@ region = Rect2(81, 202, 15, 15)
 atlas = ExtResource("1_gab2a")
 region = Rect2(129, 202, 15, 15)
 
+<<<<<<< HEAD
 [sub_resource type="AtlasTexture" id="AtlasTexture_hjfho"]
+=======
+[sub_resource type="AtlasTexture" id="AtlasTexture_ipb1h"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(17, 68, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lr54d"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(33, 68, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1msi"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(49, 68, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ww7xx"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(129, 68, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ataue"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(81, 68, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kfcvt"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(65, 68, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jirds"]
+>>>>>>> WoodysWork
 atlas = ExtResource("1_gab2a")
 region = Rect2(18, 134, 15, 15)
 
@@ -78,7 +106,27 @@ region = Rect2(82, 134, 15, 15)
 atlas = ExtResource("1_gab2a")
 region = Rect2(130, 134, 15, 15)
 
+<<<<<<< HEAD
 [sub_resource type="AtlasTexture" id="AtlasTexture_h6t7d"]
+=======
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmwi7"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(18, 177, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_11b1l"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(33, 177, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_srjax"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(48, 177, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rmcuq"]
+atlas = ExtResource("1_gab2a")
+region = Rect2(63, 177, 15, 15)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uqycm"]
+>>>>>>> WoodysWork
 atlas = ExtResource("1_gab2a")
 region = Rect2(19, 51, 15, 15)
 
@@ -201,7 +249,34 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+<<<<<<< HEAD
 "texture": SubResource("AtlasTexture_1ya8v")
+=======
+"texture": SubResource("AtlasTexture_ipb1h")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lr54d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1msi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ww7xx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ataue")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kfcvt")
+}],
+"loop": true,
+"name": &"cauliflower",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jirds")
+>>>>>>> WoodysWork
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_a7g8v")
@@ -227,7 +302,28 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+<<<<<<< HEAD
 "texture": SubResource("AtlasTexture_hjfho")
+=======
+"texture": SubResource("AtlasTexture_rmwi7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_11b1l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_srjax")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rmcuq")
+}],
+"loop": true,
+"name": &"lettuce",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uqycm")
+>>>>>>> WoodysWork
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_pi1ch")
