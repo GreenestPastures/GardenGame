@@ -1,13 +1,7 @@
 res://default_env.tres
-res://Assets/Scenes/Shop.tscn
-<<<<<<< HEAD
-res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres
-res://Assets/Scenes/main.tscn
-res://Assets/Scenes/Plant.tscn
 res://Assets/Scenes/UI/Hotbar.tscn
-res://Assets/Scenes/UI/SeedSelector.gd
-res://Assets/Scripts/PlayerControls.gd
-res://Assets/Scripts/PlantList.gd
-=======
+res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres
+res://Assets/Scenes/Plant.tscn
+res://Assets/Scenes/Shop.tscn
+res://Assets/Scenes/Player.tscn
 res://Assets/Scenes/main.tscn
->>>>>>> Dylan'swork
