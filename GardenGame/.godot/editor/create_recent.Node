@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 TextureRect
 HBoxContainer
 HSplitContainer
 Container
+=======
+>>>>>>> Dylan'swork
 Label
 Sprite2D
 GridContainer

@@ -1,0 +1,5 @@
+[folding]
+
+node_unfolds=[NodePath("DeskBG"), PackedStringArray("Region", "Transform"), NodePath("PaperBG"), PackedStringArray("Transform"), NodePath("CharacterWindow"), PackedStringArray("Transform"), NodePath("CharacterWindow/Character"), PackedStringArray("Region", "Animation", "Transform"), NodePath("BUYbutton/Label"), PackedStringArray("Visibility"), NodePath("ItemFrame"), PackedStringArray("Transform"), NodePath("ItemFrame/ItemFrame2"), PackedStringArray("Transform"), NodePath("ItemFrame/ItemFrame3"), PackedStringArray("Transform"), NodePath("ItemFrame4"), PackedStringArray("Transform"), NodePath("ItemFrame5"), PackedStringArray("Transform")]
+resource_unfolds=[]
+nodes_folded=[NodePath("BUYbutton"), NodePath("ItemFrame"), NodePath("ItemFrame4"), NodePath("ItemFrame5")]
