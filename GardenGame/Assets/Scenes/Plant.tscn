@@ -6,6 +6,12 @@
 [node name="Plant" type="AnimatedSprite2D"]
 scale = Vector2(5, 5)
 sprite_frames = ExtResource("1_5urc1")
+<<<<<<< HEAD
+animation = &"Sunknob"
+frame = 1
+frame_progress = 0.484397
+=======
 animation = &"lettuce"
+>>>>>>> WoodysWork
 script = ExtResource("2_dc051")
 growthTime = 12

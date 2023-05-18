@@ -1,3 +1,34 @@
-[gd_scene format=3 uid="uid://co2q6cyf216vu"]
+[gd_scene load_steps=4 format=3 uid="uid://co2q6cyf216vu"]
+
+[ext_resource type="Texture2D" uid="uid://c6vfgxc1d3s3n" path="res://Assets/UI Assets pack_v.1_st/Book.png" id="1_d21hq"]
+[ext_resource type="Texture2D" uid="uid://cdo2hvolbax0i" path="res://Assets/UI Assets pack_v.1_st/ribbon.png" id="2_vxknt"]
+[ext_resource type="Texture2D" uid="uid://cw7byrhuthbd8" path="res://Assets/Blue_witch/B_witch_idle.png" id="3_ayru0"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="BookBG" type="Sprite2D" parent="."]
+position = Vector2(47, 21)
+texture = ExtResource("1_d21hq")
+region_enabled = true
+region_rect = Rect2(16, 32, 160, 96)
+
+[node name="Character Window" type="Sprite2D" parent="."]
+position = Vector2(6.75, 5.75)
+scale = Vector2(1.31395, 1.26744)
+texture = ExtResource("1_d21hq")
+region_enabled = true
+region_rect = Rect2(83, 227, 43, 43)
+
+[node name="Ribbon" type="Sprite2D" parent="."]
+position = Vector2(6, 44)
+scale = Vector2(1.73333, 1.3125)
+texture = ExtResource("2_vxknt")
+region_enabled = true
+region_rect = Rect2(289, 144, 30, 16)
+
+[node name="Character" type="Sprite2D" parent="."]
+position = Vector2(6, 8)
+scale = Vector2(1.31395, 1.26744)
+texture = ExtResource("3_ayru0")
+region_enabled = true
+region_rect = Rect2(0, 0, 30, 50)
