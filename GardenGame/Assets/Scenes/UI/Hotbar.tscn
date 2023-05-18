@@ -1,3 +1,16 @@
 [gd_scene format=3 uid="uid://dj2tfxothyj7o"]
 
 [node name="Hotbar" type="CanvasLayer"]
+
+[node name="SelectableFruit" type="GridContainer" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -73.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+
+[node name="Tomato" type="TextureRect" parent="SelectableFruit"]
+layout_mode = 2
