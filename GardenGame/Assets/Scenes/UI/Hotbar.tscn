@@ -42,145 +42,153 @@ region = Rect2(0, 33, 16, 16)
 
 [node name="Hotbar" type="CanvasLayer"]
 
-[node name="frame" type="Sprite2D" parent="."]
-position = Vector2(18, 630)
+[node name="SelectableSeeds" type="HBoxContainer" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -161.0
+offset_top = -35.0
+offset_right = 162.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 6
+size_flags_vertical = 8
+alignment = 1
+
+[node name="frame" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(17, 17)
 texture = ExtResource("1_t4a5d")
 
-[node name="frame2" type="Sprite2D" parent="."]
-position = Vector2(54, 630)
-texture = ExtResource("1_t4a5d")
-
-[node name="frame3" type="Sprite2D" parent="."]
-position = Vector2(90, 630)
-texture = ExtResource("1_t4a5d")
-
-[node name="frame4" type="Sprite2D" parent="."]
-position = Vector2(126, 630)
-texture = ExtResource("1_t4a5d")
-
-[node name="frame5" type="Sprite2D" parent="."]
-position = Vector2(162, 630)
-texture = ExtResource("1_t4a5d")
-
-[node name="frame6" type="Sprite2D" parent="."]
-position = Vector2(198, 630)
-texture = ExtResource("1_t4a5d")
-
-[node name="frame7" type="Sprite2D" parent="."]
-position = Vector2(234, 630)
-texture = ExtResource("1_t4a5d")
-
-[node name="frame8" type="Sprite2D" parent="."]
-position = Vector2(270, 630)
-texture = ExtResource("1_t4a5d")
-
-[node name="frame9" type="Sprite2D" parent="."]
-position = Vector2(306, 630)
-texture = ExtResource("1_t4a5d")
-
-[node name="beetroot" type="TextureRect" parent="."]
-offset_left = 1.0
-offset_top = 609.0
-offset_right = 44.0
-offset_bottom = 645.0
+[node name="beetroot" type="TextureRect" parent="SelectableSeeds/frame"]
+offset_left = -17.0
+offset_top = -21.0
+offset_right = 305.0
+offset_bottom = 13.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_1guva")
 expand_mode = 3
 stretch_mode = 4
 script = ExtResource("2_6j4vt")
+metadata/_edit_use_anchors_ = true
 
-[node name="cauliflower" type="TextureRect" parent="."]
-offset_left = 37.0
-offset_top = 613.0
-offset_right = 81.0
-offset_bottom = 649.0
+[node name="frame2" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(53, 17)
+texture = ExtResource("1_t4a5d")
+
+[node name="cauliflower" type="TextureRect" parent="SelectableSeeds/frame2"]
+offset_left = -17.0
+offset_top = -17.0
+offset_right = 27.0
+offset_bottom = 19.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_ihufa")
 expand_mode = 3
 stretch_mode = 4
+metadata/_edit_use_anchors_ = true
 
-[node name="garlic" type="TextureRect" parent="."]
-offset_left = 73.0
-offset_top = 611.0
-offset_right = 117.0
-offset_bottom = 647.0
+[node name="frame3" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(89, 17)
+texture = ExtResource("1_t4a5d")
+
+[node name="garlic" type="TextureRect" parent="SelectableSeeds/frame3"]
+offset_left = -17.0
+offset_top = -19.0
+offset_right = 27.0
+offset_bottom = 17.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_nylts")
 expand_mode = 3
 stretch_mode = 4
+metadata/_edit_use_anchors_ = true
 
-[node name="lettuce" type="TextureRect" parent="."]
-offset_left = 108.0
-offset_top = 611.0
-offset_right = 152.0
-offset_bottom = 647.0
+[node name="frame4" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(125, 17)
+texture = ExtResource("1_t4a5d")
+
+[node name="lettuce" type="TextureRect" parent="SelectableSeeds/frame4"]
+offset_left = -18.0
+offset_top = -19.0
+offset_right = 26.0
+offset_bottom = 17.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_wxbjo")
 expand_mode = 3
 stretch_mode = 4
+metadata/_edit_use_anchors_ = true
 
-[node name="mangocarrot" type="TextureRect" parent="."]
-offset_left = 146.0
-offset_top = 611.0
-offset_right = 190.0
-offset_bottom = 647.0
+[node name="frame5" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(161, 17)
+texture = ExtResource("1_t4a5d")
+
+[node name="mangocarrot" type="TextureRect" parent="SelectableSeeds/frame5"]
+offset_left = -16.0
+offset_top = -19.0
+offset_right = 28.0
+offset_bottom = 17.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_tg82p")
 expand_mode = 3
 stretch_mode = 4
+metadata/_edit_use_anchors_ = true
 
-[node name="milkroot" type="TextureRect" parent="."]
-offset_left = 180.0
-offset_top = 611.0
-offset_right = 224.0
-offset_bottom = 647.0
+[node name="frame6" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(197, 17)
+texture = ExtResource("1_t4a5d")
+
+[node name="milkroot" type="TextureRect" parent="SelectableSeeds/frame6"]
+offset_left = -18.0
+offset_top = -19.0
+offset_right = 26.0
+offset_bottom = 17.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_4642e")
 expand_mode = 3
 stretch_mode = 4
 flip_h = true
+metadata/_edit_use_anchors_ = true
 
-[node name="potato" type="TextureRect" parent="."]
-offset_left = 215.0
-offset_top = 607.0
-offset_right = 259.0
-offset_bottom = 643.0
+[node name="frame7" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(233, 17)
+texture = ExtResource("1_t4a5d")
+
+[node name="potato" type="TextureRect" parent="SelectableSeeds/frame7"]
+offset_left = -18.0
+offset_top = -23.0
+offset_right = 26.0
+offset_bottom = 13.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_mc1jf")
 expand_mode = 3
 stretch_mode = 4
+metadata/_edit_use_anchors_ = true
 
-[node name="radish" type="TextureRect" parent="."]
-offset_left = 253.0
-offset_top = 613.0
-offset_right = 297.0
-offset_bottom = 649.0
+[node name="frame8" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(269, 17)
+texture = ExtResource("1_t4a5d")
+
+[node name="radish" type="TextureRect" parent="SelectableSeeds/frame8"]
+offset_left = -14.0
+offset_top = -15.0
+offset_right = 20.0
+offset_bottom = 16.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_wfvqa")
 expand_mode = 3
 stretch_mode = 4
+metadata/_edit_use_anchors_ = true
 
-[node name="tomato" type="TextureRect" parent="."]
-offset_left = 289.0
-offset_top = 611.0
-offset_right = 333.0
-offset_bottom = 647.0
+[node name="frame9" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(305, 17)
+texture = ExtResource("1_t4a5d")
+
+[node name="tomato" type="TextureRect" parent="SelectableSeeds/frame9"]
+offset_left = -17.0
+offset_top = -19.0
+offset_right = 27.0
+offset_bottom = 17.0
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_if6jp")
 expand_mode = 3
 stretch_mode = 4
-
-[node name="SelectableSeeds" type="HBoxContainer" parent="."]
-visible = false
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 1.0
-offset_top = -34.0
-offset_right = -724.0
-offset_bottom = 2.0
-grow_horizontal = 2
-grow_vertical = 0
-size_flags_horizontal = 6
-size_flags_vertical = 8
