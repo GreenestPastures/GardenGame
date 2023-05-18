@@ -59,40 +59,6 @@ text = "BUY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ItemFrame" parent="." instance=ExtResource("9_u4x2c")]
-
-[node name="ItemFrame2" parent="." instance=ExtResource("9_u4x2c")]
-position = Vector2(500, 310)
-seed4Sale = 2
-
-[node name="ItemFrame3" parent="." instance=ExtResource("9_u4x2c")]
-position = Vector2(585, 310)
-seed4Sale = 3
-
-[node name="ItemFrame4" parent="." instance=ExtResource("9_u4x2c")]
-position = Vector2(415, 370)
-seed4Sale = 4
-
-[node name="ItemFrame5" parent="." instance=ExtResource("9_u4x2c")]
-position = Vector2(500, 370)
-seed4Sale = 5
-
-[node name="ItemFrame6" parent="." instance=ExtResource("9_u4x2c")]
-position = Vector2(585, 370)
-seed4Sale = 6
-
-[node name="ItemFrame7" parent="." instance=ExtResource("9_u4x2c")]
-position = Vector2(415, 430)
-seed4Sale = 7
-
-[node name="ItemFrame8" parent="." instance=ExtResource("9_u4x2c")]
-position = Vector2(500, 430)
-seed4Sale = 8
-
-[node name="ItemFrame9" parent="." instance=ExtResource("9_u4x2c")]
-position = Vector2(585, 430)
-seed4Sale = 9
-
 [node name="9" type="Sprite2D" parent="DeskBG"]
 position = Vector2(0, -115)
 texture = ExtResource("10_ejht8")
@@ -127,3 +93,40 @@ offset_bottom = 18.0
 theme_override_fonts/font = ExtResource("10_d1lvs")
 theme_override_font_sizes/font_size = 24
 text = "Store"
+
+[node name="ItemButtons" type="Node2D" parent="."]
+position = Vector2(86, 13)
+
+[node name="ItemFrame" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+
+[node name="ItemFrame2" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(500, 310)
+seed4Sale = 2
+
+[node name="ItemFrame3" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(585, 310)
+seed4Sale = 3
+
+[node name="ItemFrame4" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(415, 370)
+seed4Sale = 4
+
+[node name="ItemFrame5" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(500, 370)
+seed4Sale = 5
+
+[node name="ItemFrame6" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(585, 370)
+seed4Sale = 6
+
+[node name="ItemFrame7" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(415, 430)
+seed4Sale = 7
+
+[node name="ItemFrame8" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(500, 430)
+seed4Sale = 8
+
+[node name="ItemFrame9" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(585, 430)
+seed4Sale = 9
