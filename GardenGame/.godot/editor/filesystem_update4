@@ -4,3 +4,6 @@ res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres
 res://Assets/Scenes/main.tscn
 res://Assets/Scenes/Plant.tscn
 res://Assets/Scenes/UI/Hotbar.tscn
+res://Assets/Scenes/UI/SeedSelector.gd
+res://Assets/Scripts/PlayerControls.gd
+res://Assets/Scripts/PlantList.gd

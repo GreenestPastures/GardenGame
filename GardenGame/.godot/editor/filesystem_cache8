@@ -1,6 +1,6 @@
 2a60927148abd1d33b818b535e306557
-::res://::1684382937
-default_env.tres::Environment::3990851628836566285::1684382800::0::1::::<><>::
+::res://::1684386292
+default_env.tres::Environment::3990851628836566285::1684386297::0::1::::<><>::
 icon.png::CompressedTexture2D::5188775790796098673::1684285328::1684287599::1::::<><>::
 ::res://Assets/::1684382874
 Sta.Toasty_font (1).ttf::FontFile::5014670724034592328::1684382874::1684382874::1::::<><>::
@@ -11,8 +11,8 @@ apple tree.png::CompressedTexture2D::4597752432581856669::1684287791::1684287791
 orange tree.png::CompressedTexture2D::2918802774978511076::1684287800::1684287801::1::::<><>::
 plants1.png::CompressedTexture2D::5566532145900686139::1684287723::1684287723::1::::<><>::
 plants that continue to yield.png::CompressedTexture2D::5581328158233451868::1684287726::1684287726::1::::<><>::
-::res://Assets/Art/Plants/SpriteFrames/::1684382874
-plantGrowthAnimations.tres::SpriteFrames::2419450148729627801::1684382845::0::1::::<><>::uid://clkp8awtmeg8b
+::res://Assets/Art/Plants/SpriteFrames/::1684382947
+plantGrowthAnimations.tres::SpriteFrames::2419450148729627801::1684382947::0::1::::<><>::uid://clkp8awtmeg8b
 ::res://Assets/Audio/::1684285386
 GitUpdate.txt::TextFile::-1::1684285376::0::1::::<><>::
 ::res://Assets/Blue_witch/::1684382874
@@ -22,18 +22,19 @@ B_witch_death.png::CompressedTexture2D::6865433070989212382::1684382874::1684382
 B_witch_idle.png::CompressedTexture2D::6383160496244270003::1684382874::1684382874::1::::<><>::
 B_witch_run.png::CompressedTexture2D::4958994646882788956::1684382874::1684382874::1::::<><>::
 B_witch_take_damage.png::CompressedTexture2D::3444205272576939665::1684382874::1684382874::1::::<><>::
-::res://Assets/Scenes/::1684382874
-main.tscn::PackedScene::8063257007955609848::1684382636::0::1::::<><>::uid://b6rgktkwc38gn<>uid://3644yddd4546<>res://Assets/Scenes/PlantList.gd<>uid://dk1o366wdr21h
-Plant.tscn::PackedScene::7915726026310328735::1684382636::0::1::::<><>::uid://bap88w8gapu7r<>res://Assets/Scripts/Growth.gd
-PlantList.gd::GDScript::-1::1684377663::0::1::::<>Node<>::
+::res://Assets/Scenes/::1684386292
+main.tscn::PackedScene::4530403712373165114::1684386292::0::1::::<><>::uid://b6rgktkwc38gn<>uid://3644yddd4546<>res://Assets/Scripts/PlantList.gd<>uid://dk1o366wdr21h<>uid://dj2tfxothyj7o
+Plant.tscn::PackedScene::7915726026310328735::1684385325::0::1::::<><>::uid://bap88w8gapu7r<>res://Assets/Scripts/Growth.gd
 Player.tscn::PackedScene::2031097178390536745::1684377664::0::1::::<><>::res://Assets/Scripts/PlayerControls.gd
-Shop.tscn::PackedScene::5812250351559907578::1684382874::0::1::::<><>::uid://c6vfgxc1d3s3n<>uid://cdo2hvolbax0i<>uid://cw7byrhuthbd8
-::res://Assets/Scenes/UI/::1684382299
-Hotbar.tscn::PackedScene::7847863625551193218::1684382299::0::1::::<><>::
+Shop.tscn::PackedScene::5812250351559907578::1684382947::0::1::::<><>::uid://c6vfgxc1d3s3n<>uid://cdo2hvolbax0i<>uid://cw7byrhuthbd8
+::res://Assets/Scenes/UI/::1684386251
+Hotbar.tscn::PackedScene::7847863625551193218::1684386297::0::1::::<><>::uid://clkp8awtmeg8b<>res://Assets/Scenes/UI/SeedSelector.gd
+SeedSelector.gd::GDScript::-1::1684386251::0::1::::<>TextureRect<>::
 ShopScreen.tscn::PackedScene::3954672193722691475::1684379019::0::1::::<><>::
-::res://Assets/Scripts/::1684382299
+::res://Assets/Scripts/::1684386292
 GitUpdate.txt::TextFile::-1::1684285376::0::1::::<><>::
 Growth.gd::GDScript::-1::1684382299::0::1::::<>AnimatedSprite2D<>::
+PlantList.gd::GDScript::-1::1684377663::0::1::::<>Node<>::
 PlayerControls.gd::GDScript::-1::1684377401::0::1::::<>Camera2D<>::
 ::res://Assets/UI Assets pack_v.1_st/::1684382874
 Book.png::CompressedTexture2D::6992362965040837469::1684382874::1684382874::1::::<><>::

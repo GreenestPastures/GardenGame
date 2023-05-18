@@ -1,6 +1,7 @@
-[gd_scene load_steps=11 format=3 uid="uid://dj2tfxothyj7o"]
+[gd_scene load_steps=12 format=3 uid="uid://b0m2ieipw46k8"]
 
 [ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_n1obl"]
+[ext_resource type="Script" path="res://Assets/Scripts/SeedSelector.gd" id="2_6j4vt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1guva"]
 atlas = ExtResource("1_n1obl")
@@ -57,6 +58,7 @@ size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_1guva")
 expand_mode = 3
 stretch_mode = 4
+script = ExtResource("2_6j4vt")
 
 [node name="cauliflower" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
