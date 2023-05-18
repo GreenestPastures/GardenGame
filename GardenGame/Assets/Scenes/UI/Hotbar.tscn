@@ -44,53 +44,49 @@ region = Rect2(0, 33, 16, 16)
 [node name="Hotbar" type="CanvasLayer"]
 
 [node name="SelectableSeeds" type="HBoxContainer" parent="."]
-anchors_preset = 7
+anchors_preset = -1
 anchor_left = 0.5
-anchor_top = 1.0
+anchor_top = 0.772
 anchor_right = 0.5
-anchor_bottom = 1.0
-<<<<<<< HEAD
-offset_left = -157.0
-offset_top = -85.0
-offset_right = 159.0
-=======
-offset_left = -371.0
-offset_top = -80.0
-offset_right = 372.0
->>>>>>> WoodysWork
+anchor_bottom = 0.934
+offset_left = -397.5
+offset_top = 62.744
+offset_right = 399.5
+offset_bottom = 42.768
 grow_horizontal = 2
 grow_vertical = 0
-size_flags_horizontal = 4
+size_flags_horizontal = 6
 size_flags_vertical = 8
 alignment = 1
 
-<<<<<<< HEAD
 [node name="BG" type="Sprite2D" parent="SelectableSeeds"]
-position = Vector2(161, 17)
-scale = Vector2(0.659722, 0.659722)
+position = Vector2(398.444, 42.5)
+scale = Vector2(1.57639, 1.57639)
 texture = ExtResource("1_513ik")
 
-[node name="frame" type="Sprite2D" parent="SelectableSeeds"]
-position = Vector2(17, 17)
-=======
 [node name="frame" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
->>>>>>> WoodysWork
 texture = ExtResource("1_t4a5d")
 expand_mode = 3
 stretch_mode = 4
 
 [node name="beetroot" type="TextureRect" parent="SelectableSeeds/frame"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -38.5
+offset_top = -42.5
+offset_right = 40.5
+offset_bottom = 39.5
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_1guva")
-expand_mode = 2
-stretch_mode = 5
+expand_mode = 5
+stretch_mode = 4
 script = ExtResource("2_6j4vt")
 
 [node name="frame2" type="TextureRect" parent="SelectableSeeds"]
@@ -101,14 +97,20 @@ stretch_mode = 4
 
 [node name="cauliflower" type="TextureRect" parent="SelectableSeeds/frame2"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -39.5
+offset_top = -41.5
+offset_right = 41.5
+offset_bottom = 39.5
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_ihufa")
-expand_mode = 4
+expand_mode = 5
 stretch_mode = 4
 
 [node name="frame3" type="TextureRect" parent="SelectableSeeds"]
@@ -119,14 +121,20 @@ stretch_mode = 4
 
 [node name="garlic" type="TextureRect" parent="SelectableSeeds/frame3"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -39.5
+offset_top = -44.5
+offset_right = 41.5
+offset_bottom = 39.5
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_nylts")
-expand_mode = 4
+expand_mode = 5
 stretch_mode = 4
 
 [node name="frame4" type="TextureRect" parent="SelectableSeeds"]
@@ -137,52 +145,73 @@ stretch_mode = 4
 
 [node name="lettuce" type="TextureRect" parent="SelectableSeeds/frame4"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -39.25
+offset_top = -18.0
+offset_right = 39.25
+offset_bottom = 18.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_wxbjo")
-expand_mode = 4
+expand_mode = 5
 stretch_mode = 4
 
 [node name="frame5" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
+size_flags_horizontal = 4
 texture = ExtResource("1_t4a5d")
 expand_mode = 3
 stretch_mode = 4
 
 [node name="mangocarrot" type="TextureRect" parent="SelectableSeeds/frame5"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -31.5
+offset_top = -37.5
+offset_right = 42.5
+offset_bottom = 39.5
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_tg82p")
-expand_mode = 4
+expand_mode = 5
 stretch_mode = 4
 
 [node name="frame6" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
+size_flags_horizontal = 4
 texture = ExtResource("1_t4a5d")
 expand_mode = 3
 stretch_mode = 4
 
 [node name="milkroot" type="TextureRect" parent="SelectableSeeds/frame6"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = -1
+anchor_left = 0.294118
+anchor_top = 0.247059
+anchor_right = 0.717647
+anchor_bottom = 0.764706
+offset_left = -22.0
+offset_top = -18.0
+offset_right = 22.0
+offset_bottom = 18.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_4642e")
-expand_mode = 4
+expand_mode = 5
 stretch_mode = 4
 flip_h = true
+metadata/_edit_use_anchors_ = true
 
 [node name="frame7" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
@@ -192,15 +221,22 @@ stretch_mode = 4
 
 [node name="potato" type="TextureRect" parent="SelectableSeeds/frame7"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = -1
+anchor_left = 0.305882
+anchor_top = 0.141176
+anchor_right = 0.694118
+anchor_bottom = 0.752941
+offset_left = -22.0
+offset_top = -18.0
+offset_right = 22.0
+offset_bottom = 18.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_mc1jf")
-expand_mode = 4
+expand_mode = 5
 stretch_mode = 4
+metadata/_edit_use_anchors_ = true
 
 [node name="frame8" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
@@ -210,15 +246,22 @@ stretch_mode = 4
 
 [node name="radish" type="TextureRect" parent="SelectableSeeds/frame8"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = -1
+anchor_left = 0.270588
+anchor_top = 0.252941
+anchor_right = 0.752941
+anchor_bottom = 0.782353
+offset_left = -17.0
+offset_top = -15.5
+offset_right = 17.0
+offset_bottom = 15.5
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_wfvqa")
-expand_mode = 4
+expand_mode = 5
 stretch_mode = 4
+metadata/_edit_use_anchors_ = true
 
 [node name="frame9" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
@@ -228,12 +271,18 @@ stretch_mode = 4
 
 [node name="tomato" type="TextureRect" parent="SelectableSeeds/frame9"]
 layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -36.5
+offset_top = -39.5
+offset_right = 41.5
+offset_bottom = 40.5
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_if6jp")
-expand_mode = 4
+expand_mode = 5
 stretch_mode = 4
