@@ -1,5 +1,6 @@
-[gd_scene load_steps=13 format=3 uid="uid://b0m2ieipw46k8"]
+[gd_scene load_steps=14 format=3 uid="uid://b0m2ieipw46k8"]
 
+[ext_resource type="Texture2D" uid="uid://b1dokvvtaqmvn" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/3 Item Holder/1.png" id="1_513ik"]
 [ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_n1obl"]
 [ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="1_t4a5d"]
 [ext_resource type="Script" path="res://Assets/Scripts/SeedSelector.gd" id="2_6j4vt"]
@@ -42,15 +43,20 @@ region = Rect2(0, 33, 16, 16)
 
 [node name="Hotbar" type="CanvasLayer"]
 
+[node name="1" type="Sprite2D" parent="."]
+position = Vector2(580, 580)
+scale = Vector2(0.659722, 0.659722)
+texture = ExtResource("1_513ik")
+
 [node name="SelectableSeeds" type="HBoxContainer" parent="."]
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -161.0
-offset_top = -35.0
-offset_right = 162.0
+offset_left = -157.0
+offset_top = -85.0
+offset_right = 159.0
 grow_horizontal = 2
 grow_vertical = 0
 size_flags_horizontal = 6
