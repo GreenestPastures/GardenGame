@@ -1,6 +1,21 @@
-[gd_scene load_steps=2 format=3 uid="uid://3644yddd4546"]
+[gd_scene load_steps=4 format=3 uid="uid://bheo8xkmhmmpj"]
 
-[ext_resource type="Script" path="res://Assets/Scripts/PlayerControls.gd" id="1_requt"]
+[ext_resource type="Script" path="res://Assets/Scripts/PlayerMove.gd" id="1_16ra7"]
+[ext_resource type="Script" path="res://Assets/Scripts/CameraScript.gd" id="1_u72is"]
 
-[node name="Player" type="Camera2D"]
-script = ExtResource("1_requt")
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xy0hg"]
+
+[node name="Player" type="CharacterBody2D"]
+motion_mode = 1
+floor_stop_on_slope = false
+floor_block_on_wall = false
+script = ExtResource("1_16ra7")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("1_u72is")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xy0hg")
+disabled = true
+
+[connection signal="planting_plant" from="Camera2D" to="." method="_on_camera_2d_planting_plant"]

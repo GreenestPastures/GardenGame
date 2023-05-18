@@ -4,7 +4,6 @@ extends Node
 @export var curPlant = "tomato"
 
 
-
 func _on_player_planting_plant(pos):
 	var thePlant = plantType.instantiate()
 	thePlant.position = pos
