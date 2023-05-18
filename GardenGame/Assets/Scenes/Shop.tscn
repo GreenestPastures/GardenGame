@@ -16,38 +16,37 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="DeskBG" type="Sprite2D" parent="."]
-position = Vector2(500, 300)
+position = Vector2(590, 320)
 texture = ExtResource("4_cuc34")
 region_enabled = true
 region_rect = Rect2(1808, 1904, 768, 560)
 
-[node name="PaperBG" type="Sprite2D" parent="."]
-position = Vector2(500, 300)
+[node name="PaperBG" type="Sprite2D" parent="DeskBG"]
 texture = ExtResource("4_6yqa5")
 
-[node name="CharacterWindow" type="Sprite2D" parent="."]
-position = Vector2(415, 200)
+[node name="CharacterWindow" type="Sprite2D" parent="DeskBG"]
+position = Vector2(-85, -100)
 texture = ExtResource("5_7hg87")
 
-[node name="Character" type="Sprite2D" parent="CharacterWindow"]
+[node name="Character" type="Sprite2D" parent="DeskBG/CharacterWindow"]
 scale = Vector2(1.31395, 1.26744)
 texture = ExtResource("3_ayru0")
 region_enabled = true
 region_rect = Rect2(0, 0, 30, 50)
 
-[node name="BUYbutton" type="Sprite2D" parent="."]
-position = Vector2(417, 259)
+[node name="BUYbutton" type="Sprite2D" parent="DeskBG"]
+position = Vector2(-83, -41)
 texture = ExtResource("7_wjeil")
 
-[node name="10" type="Sprite2D" parent="BUYbutton"]
+[node name="10" type="Sprite2D" parent="DeskBG/BUYbutton"]
 position = Vector2(-16, 0)
 texture = ExtResource("8_2742t")
 
-[node name="12" type="Sprite2D" parent="BUYbutton"]
+[node name="12" type="Sprite2D" parent="DeskBG/BUYbutton"]
 position = Vector2(16, 0)
 texture = ExtResource("9_8egyg")
 
-[node name="Label" type="Label" parent="BUYbutton"]
+[node name="Label" type="Label" parent="DeskBG/BUYbutton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 offset_left = -15.0
@@ -60,67 +59,67 @@ text = "BUY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ItemFrame1" type="Sprite2D" parent="."]
-position = Vector2(415, 310)
+[node name="ItemFrame1" type="Sprite2D" parent="DeskBG"]
+position = Vector2(-85, 10)
 texture = ExtResource("9_foai3")
 
-[node name="ItemFrame2" type="Sprite2D" parent="."]
-position = Vector2(500, 310)
+[node name="ItemFrame2" type="Sprite2D" parent="DeskBG"]
+position = Vector2(0, 10)
 texture = ExtResource("9_foai3")
 
-[node name="ItemFrame3" type="Sprite2D" parent="."]
-position = Vector2(585, 310)
+[node name="ItemFrame3" type="Sprite2D" parent="DeskBG"]
+position = Vector2(85, 10)
 texture = ExtResource("9_foai3")
 
-[node name="ItemFrame4" type="Sprite2D" parent="."]
-position = Vector2(415, 370)
+[node name="ItemFrame4" type="Sprite2D" parent="DeskBG"]
+position = Vector2(-85, 70)
 texture = ExtResource("9_foai3")
 
-[node name="ItemFrame5" type="Sprite2D" parent="."]
-position = Vector2(500, 370)
+[node name="ItemFrame5" type="Sprite2D" parent="DeskBG"]
+position = Vector2(0, 70)
 texture = ExtResource("9_foai3")
 
-[node name="ItemFrame6" type="Sprite2D" parent="."]
-position = Vector2(585, 370)
+[node name="ItemFrame6" type="Sprite2D" parent="DeskBG"]
+position = Vector2(85, 70)
 texture = ExtResource("9_foai3")
 
-[node name="ItemFrame7" type="Sprite2D" parent="."]
-position = Vector2(415, 430)
+[node name="ItemFrame7" type="Sprite2D" parent="DeskBG"]
+position = Vector2(-85, 130)
 texture = ExtResource("9_foai3")
 
-[node name="ItemFrame8" type="Sprite2D" parent="."]
-position = Vector2(500, 430)
+[node name="ItemFrame8" type="Sprite2D" parent="DeskBG"]
+position = Vector2(0, 130)
 texture = ExtResource("9_foai3")
 
-[node name="ItemFrame9" type="Sprite2D" parent="."]
-position = Vector2(585, 430)
+[node name="ItemFrame9" type="Sprite2D" parent="DeskBG"]
+position = Vector2(85, 130)
 texture = ExtResource("9_foai3")
 
-[node name="9" type="Sprite2D" parent="."]
-position = Vector2(500, 185)
+[node name="9" type="Sprite2D" parent="DeskBG"]
+position = Vector2(0, -115)
 texture = ExtResource("10_ejht8")
 
-[node name="10" type="Sprite2D" parent="9"]
+[node name="10" type="Sprite2D" parent="DeskBG/9"]
 position = Vector2(16, 0)
 texture = ExtResource("11_ijkcq")
 
-[node name="11" type="Sprite2D" parent="9"]
+[node name="11" type="Sprite2D" parent="DeskBG/9"]
 position = Vector2(32, 0)
 texture = ExtResource("11_ijkcq")
 
-[node name="12" type="Sprite2D" parent="9"]
+[node name="12" type="Sprite2D" parent="DeskBG/9"]
 position = Vector2(48, 0)
 texture = ExtResource("11_ijkcq")
 
-[node name="13" type="Sprite2D" parent="9"]
+[node name="13" type="Sprite2D" parent="DeskBG/9"]
 position = Vector2(64, 0)
 texture = ExtResource("11_ijkcq")
 
-[node name="14" type="Sprite2D" parent="9"]
+[node name="14" type="Sprite2D" parent="DeskBG/9"]
 position = Vector2(80, 0)
 texture = ExtResource("12_xvbmm")
 
-[node name="Label" type="Label" parent="9"]
+[node name="Label" type="Label" parent="DeskBG/9"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 offset_left = 7.0
