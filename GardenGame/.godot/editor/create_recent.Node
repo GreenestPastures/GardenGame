@@ -1,9 +1,9 @@
+Label
 TextureRect
 Sprite2D
 HBoxContainer
 HSplitContainer
 Container
-Label
 GridContainer
 Node2D
 CanvasLayer
