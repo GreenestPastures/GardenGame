@@ -7,3 +7,5 @@ res://Assets/Scripts/PlayerControls.gd
 res://Assets/Scripts/Growth.gd
 res://Assets/Scenes/Shop.tscn
 res://Assets/Scenes/Player.tscn
+res://Assets/Scenes/UI/Hotbar.tscn
+res://Assets/Scenes/UI/ShopScreen.tscn

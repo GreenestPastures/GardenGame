@@ -1,6 +1,6 @@
 2a60927148abd1d33b818b535e306557
-::res://::1684302096
-default_env.tres::Environment::3990851628836566285::1684302090::0::1::::<><>::
+::res://::1684377664
+default_env.tres::Environment::3990851628836566285::1684378533::0::1::::<><>::
 icon.png::CompressedTexture2D::5188775790796098673::1684285328::1684287599::1::::<><>::
 ::res://Assets/::1684302047
 ::res://Assets/Art/::1684287717
@@ -10,8 +10,8 @@ apple tree.png::CompressedTexture2D::4597752432581856669::1684287791::1684287791
 orange tree.png::CompressedTexture2D::2918802774978511076::1684287800::1684287801::1::::<><>::
 plants1.png::CompressedTexture2D::5566532145900686139::1684287723::1684287723::1::::<><>::
 plants that continue to yield.png::CompressedTexture2D::5581328158233451868::1684287726::1684287726::1::::<><>::
-::res://Assets/Art/Plants/SpriteFrames/::1684301508
-plantGrowthAnimations.tres::SpriteFrames::2419450148729627801::1684301508::0::1::::<><>::uid://clkp8awtmeg8b
+::res://Assets/Art/Plants/SpriteFrames/::1684302162
+plantGrowthAnimations.tres::SpriteFrames::2419450148729627801::1684302162::0::1::::<><>::uid://clkp8awtmeg8b
 ::res://Assets/Audio/::1684285386
 GitUpdate.txt::TextFile::-1::1684285376::0::1::::<><>::
 ::res://Assets/Buttons Pixel Animation Pack/::1684302048
@@ -805,12 +805,15 @@ Spritesheet_UI_Flat_Button_01.png::CompressedTexture2D::273281137207132903::1684
 Spritesheet_UI_Flat_Button_02.png::CompressedTexture2D::1791252322472663988::1684296259::1684296259::1::::<><>::
 Spritesheet_UI_Flat_Select_01.png::CompressedTexture2D::8528319189610744333::1684296259::1684296259::1::::<><>::
 Spritesheet_UI_Flat_Select_02.png::CompressedTexture2D::3671688919348020408::1684296259::1684296259::1::::<><>::
-::res://Assets/Scenes/::1684302090
-main.tscn::PackedScene::8063257007955609848::1684302090::0::1::::<><>::uid://b6rgktkwc38gn<>uid://3644yddd4546
-Plant.tscn::PackedScene::7915726026310328735::1684301999::0::1::::<><>::uid://bap88w8gapu7r<>res://Assets/Scripts/Growth.gd
-Player.tscn::PackedScene::2031097178390536745::1684301012::0::1::::<><>::res://Assets/Scripts/PlayerControls.gd
-Shop.tscn::PackedScene::5812250351559907578::1684301012::0::1::::<><>::
-::res://Assets/Scripts/::1684300748
+::res://Assets/Scenes/::1684378530
+main.tscn::PackedScene::8063257007955609848::1684377664::0::1::::<><>::uid://b6rgktkwc38gn<>uid://3644yddd4546<>res://Assets/Scenes/PlantList.gd<>uid://dk1o366wdr21h
+Plant.tscn::PackedScene::7915726026310328735::1684377664::0::1::::<><>::uid://bap88w8gapu7r<>res://Assets/Scripts/Growth.gd
+Player.tscn::PackedScene::2031097178390536745::1684377664::0::1::::<><>::res://Assets/Scripts/PlayerControls.gd
+PlantList.gd::GDScript::-1::1684377663::0::1::::<>Node<>::
+Shop.tscn::PackedScene::5812250351559907578::1684377664::0::1::::<><>::
+::res://Assets/Scenes/UI/::1684378530
+hotbar.tscn::PackedScene::7847863625551193218::1684378533::0::1::::<><>::
+::res://Assets/Scripts/::1684377401
 GitUpdate.txt::TextFile::-1::1684285376::0::1::::<><>::
-Growth.gd::GDScript::-1::1684295319::0::1::::<>AnimatedSprite2D<>::
-PlayerControls.gd::GDScript::-1::1684300748::0::1::::<>Camera2D<>::
+Growth.gd::GDScript::-1::1684304482::0::1::::<>AnimatedSprite2D<>::
+PlayerControls.gd::GDScript::-1::1684377401::0::1::::<>Camera2D<>::

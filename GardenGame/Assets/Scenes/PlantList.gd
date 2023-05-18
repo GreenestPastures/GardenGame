@@ -6,5 +6,5 @@ extends Node
 func _on_player_planting_plant(pos, plant):
 	var thePlant = plantType.instantiate()
 	thePlant.position = pos
-	thePlant.animation = "potato"
+	thePlant.animation = plant
 	add_child(thePlant)
