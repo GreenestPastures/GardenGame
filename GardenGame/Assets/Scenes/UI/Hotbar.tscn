@@ -43,11 +43,6 @@ region = Rect2(0, 33, 16, 16)
 
 [node name="Hotbar" type="CanvasLayer"]
 
-[node name="1" type="Sprite2D" parent="."]
-position = Vector2(580, 580)
-scale = Vector2(0.659722, 0.659722)
-texture = ExtResource("1_513ik")
-
 [node name="SelectableSeeds" type="HBoxContainer" parent="."]
 anchors_preset = 7
 anchor_left = 0.5
@@ -62,6 +57,11 @@ grow_vertical = 0
 size_flags_horizontal = 6
 size_flags_vertical = 8
 alignment = 1
+
+[node name="BG" type="Sprite2D" parent="SelectableSeeds"]
+position = Vector2(161, 17)
+scale = Vector2(0.659722, 0.659722)
+texture = ExtResource("1_513ik")
 
 [node name="frame" type="Sprite2D" parent="SelectableSeeds"]
 position = Vector2(17, 17)
