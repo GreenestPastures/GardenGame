@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://drwwl65cs2ygb" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/11.png" id="7_wjeil"]
 [ext_resource type="Texture2D" uid="uid://boox573jgsic0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/10.png" id="8_2742t"]
 [ext_resource type="Texture2D" uid="uid://bwe8iws5wnsn1" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/12.png" id="9_8egyg"]
-[ext_resource type="PackedScene" path="res://Assets/Scenes/UI/ShopItem.tscn" id="9_u4x2c"]
+[ext_resource type="PackedScene" uid="uid://bsxpdwg3afkd6" path="res://Assets/Scenes/UI/ShopItem.tscn" id="9_u4x2c"]
 [ext_resource type="FontFile" uid="uid://cdpe5nwsva4nk" path="res://Assets/Sta.Toasty_font (1).ttf" id="10_d1lvs"]
 [ext_resource type="Texture2D" uid="uid://w3mk2uwlqheg" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/9.png" id="10_ejht8"]
 [ext_resource type="Texture2D" uid="uid://1ki33xclo33r" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/10.png" id="11_ijkcq"]
