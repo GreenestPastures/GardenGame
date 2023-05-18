@@ -1,16 +1,115 @@
-[gd_scene format=3 uid="uid://dj2tfxothyj7o"]
+[gd_scene load_steps=11 format=3 uid="uid://dj2tfxothyj7o"]
+
+[ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_n1obl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1guva"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(-1, 200, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ihufa"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(0, 71, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nylts"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(0, 157, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wxbjo"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(-2, 179, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tg82p"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(0, 83, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4642e"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(0, 136, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mc1jf"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(0, 116, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wfvqa"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(3, 51, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_if6jp"]
+atlas = ExtResource("1_n1obl")
+region = Rect2(0, 33, 16, 16)
 
 [node name="Hotbar" type="CanvasLayer"]
 
-[node name="SelectableFruit" type="GridContainer" parent="."]
+[node name="SelectableSeeds" type="HBoxContainer" parent="."]
 anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -73.0
+offset_top = -97.0
 grow_horizontal = 2
 grow_vertical = 0
-size_flags_horizontal = 4
+size_flags_horizontal = 6
+size_flags_vertical = 8
 
-[node name="Tomato" type="TextureRect" parent="SelectableFruit"]
+[node name="beetroot" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_1guva")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="cauliflower" type="TextureRect" parent="SelectableSeeds"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_ihufa")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="garlic" type="TextureRect" parent="SelectableSeeds"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_nylts")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="lettuce" type="TextureRect" parent="SelectableSeeds"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_wxbjo")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="mangocarrot" type="TextureRect" parent="SelectableSeeds"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_tg82p")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="milkroot" type="TextureRect" parent="SelectableSeeds"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_4642e")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="potato" type="TextureRect" parent="SelectableSeeds"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_mc1jf")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="radish" type="TextureRect" parent="SelectableSeeds"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_wfvqa")
+expand_mode = 3
+stretch_mode = 4
+
+[node name="tomato" type="TextureRect" parent="SelectableSeeds"]
+layout_mode = 2
+size_flags_horizontal = 3
+texture = SubResource("AtlasTexture_if6jp")
+expand_mode = 3
+stretch_mode = 4
