@@ -1,12 +1,9 @@
-<<<<<<< HEAD
+Sprite2D
 TextureRect
 HBoxContainer
 HSplitContainer
 Container
-=======
->>>>>>> Dylan'swork
 Label
-Sprite2D
 GridContainer
 Node2D
 CanvasLayer

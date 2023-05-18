@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://drwwl65cs2ygb" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/11.png" id="7_wjeil"]
 [ext_resource type="Texture2D" uid="uid://boox573jgsic0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/10.png" id="8_2742t"]
 [ext_resource type="Texture2D" uid="uid://bwe8iws5wnsn1" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/12.png" id="9_8egyg"]
-[ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="9_foai3"]
+[ext_resource type="PackedScene" uid="uid://bsxpdwg3afkd6" path="res://Assets/Scenes/UI/ShopItem.tscn" id="9_u4x2c"]
 [ext_resource type="FontFile" uid="uid://cdpe5nwsva4nk" path="res://Assets/Sta.Toasty_font (1).ttf" id="10_d1lvs"]
 [ext_resource type="Texture2D" uid="uid://w3mk2uwlqheg" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/9.png" id="10_ejht8"]
 [ext_resource type="Texture2D" uid="uid://1ki33xclo33r" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/10.png" id="11_ijkcq"]
@@ -87,42 +87,6 @@ text = "BUY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ItemFrame1" type="Sprite2D" parent="DeskBG"]
-position = Vector2(-85, 10)
-texture = ExtResource("9_foai3")
-
-[node name="ItemFrame2" type="Sprite2D" parent="DeskBG"]
-position = Vector2(0, 10)
-texture = ExtResource("9_foai3")
-
-[node name="ItemFrame3" type="Sprite2D" parent="DeskBG"]
-position = Vector2(85, 10)
-texture = ExtResource("9_foai3")
-
-[node name="ItemFrame4" type="Sprite2D" parent="DeskBG"]
-position = Vector2(-85, 70)
-texture = ExtResource("9_foai3")
-
-[node name="ItemFrame5" type="Sprite2D" parent="DeskBG"]
-position = Vector2(0, 70)
-texture = ExtResource("9_foai3")
-
-[node name="ItemFrame6" type="Sprite2D" parent="DeskBG"]
-position = Vector2(85, 70)
-texture = ExtResource("9_foai3")
-
-[node name="ItemFrame7" type="Sprite2D" parent="DeskBG"]
-position = Vector2(-85, 130)
-texture = ExtResource("9_foai3")
-
-[node name="ItemFrame8" type="Sprite2D" parent="DeskBG"]
-position = Vector2(0, 130)
-texture = ExtResource("9_foai3")
-
-[node name="ItemFrame9" type="Sprite2D" parent="DeskBG"]
-position = Vector2(85, 130)
-texture = ExtResource("9_foai3")
-
 [node name="9" type="Sprite2D" parent="DeskBG"]
 position = Vector2(0, -115)
 texture = ExtResource("10_ejht8")
@@ -157,3 +121,40 @@ offset_bottom = 18.0
 theme_override_fonts/font = ExtResource("10_d1lvs")
 theme_override_font_sizes/font_size = 24
 text = "Store"
+
+[node name="ItemButtons" type="Node2D" parent="."]
+position = Vector2(86, 13)
+
+[node name="ItemFrame" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+
+[node name="ItemFrame2" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(500, 310)
+seed4Sale = 2
+
+[node name="ItemFrame3" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(585, 310)
+seed4Sale = 3
+
+[node name="ItemFrame4" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(415, 370)
+seed4Sale = 4
+
+[node name="ItemFrame5" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(500, 370)
+seed4Sale = 5
+
+[node name="ItemFrame6" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(585, 370)
+seed4Sale = 6
+
+[node name="ItemFrame7" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(415, 430)
+seed4Sale = 7
+
+[node name="ItemFrame8" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(500, 430)
+seed4Sale = 8
+
+[node name="ItemFrame9" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+position = Vector2(585, 430)
+seed4Sale = 9

@@ -1,0 +1,29 @@
+[gd_scene load_steps=14 format=3 uid="uid://bsxpdwg3afkd6"]
+
+[ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="1_xf267"]
+[ext_resource type="Script" path="res://Assets/Scripts/ShopItemSeed.gd" id="2_cmgyb"]
+[ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="2_vk7c7"]
+[ext_resource type="Texture2D" uid="uid://y78b44afr4pd" path="res://Assets/Art/UI/SeedAtlasBeetroot.tres" id="3_tqfwv"]
+[ext_resource type="Texture2D" uid="uid://vk8vxcoibjnh" path="res://Assets/Art/UI/SeedAtlasCauli.tres" id="4_e832w"]
+[ext_resource type="Texture2D" uid="uid://cento14anqgdj" path="res://Assets/Art/UI/SeedAtlasGarlic.tres" id="5_gxfcs"]
+[ext_resource type="Texture2D" uid="uid://cxp3s63ou5fig" path="res://Assets/Art/UI/SeedAtlasLettuce.tres" id="6_33ol2"]
+[ext_resource type="Texture2D" uid="uid://bjqcnwmvn84q6" path="res://Assets/Art/UI/SeedAtlasMangocarrot.tres" id="7_w4w4s"]
+[ext_resource type="Texture2D" uid="uid://c17xlmabe0370" path="res://Assets/Art/UI/SeedAtlasMilkroot.tres" id="8_7acxx"]
+[ext_resource type="Texture2D" uid="uid://bhvnvi5na8s40" path="res://Assets/Art/UI/SeedAtlasPotato.tres" id="9_ip5m5"]
+[ext_resource type="Texture2D" uid="uid://bbgge344b6b6u" path="res://Assets/Art/UI/SeedAtlasRadish.tres" id="10_1rt5k"]
+[ext_resource type="Texture2D" uid="uid://bfdpsxfcip730" path="res://Assets/Art/UI/SeedAtlasTomato.tres" id="11_qo7w5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6uf4j"]
+atlas = ExtResource("2_vk7c7")
+region = Rect2(-1, 200, 16, 16)
+
+[node name="ItemFrame" type="Sprite2D"]
+position = Vector2(415, 310)
+texture = ExtResource("1_xf267")
+script = ExtResource("2_cmgyb")
+seedNames = Array[String](["beetroot", "cauli", "garlic", "lettuce", "mangocarrot", "milkroot", "potato", "radish", "tomato"])
+seedPic = Array[AtlasTexture]([ExtResource("3_tqfwv"), ExtResource("4_e832w"), ExtResource("5_gxfcs"), ExtResource("6_33ol2"), ExtResource("7_w4w4s"), ExtResource("8_7acxx"), ExtResource("9_ip5m5"), ExtResource("10_1rt5k"), ExtResource("11_qo7w5")])
+
+[node name="Fruit" type="Sprite2D" parent="."]
+scale = Vector2(1.5, 1.5)
+texture = SubResource("AtlasTexture_6uf4j")
