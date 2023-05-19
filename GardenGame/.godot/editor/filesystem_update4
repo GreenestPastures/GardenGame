@@ -10,3 +10,8 @@ res://Assets/Scenes/Menu.tscn
 res://Assets/Scenes/Pause.tscn
 res://Assets/Scenes/HUD.tscn
 res://Assets/Scenes/main.tscn
+res://Assets/Scripts/Statistics.gd
+res://Assets/Scenes/stats.tscn
+res://Assets/Scripts/MoneyCount.gd
+res://Assets/Scripts/HudScript.gd
+res://Assets/Scripts/CameraScript.gd

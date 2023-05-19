@@ -1,10 +1,10 @@
+ColorRect
 CanvasLayer
 Label
 RemoteTransform2D
 Node2D
 Control
 Node
-ColorRect
 Sprite2D
 Camera2D
 TextureRect

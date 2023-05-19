@@ -137,6 +137,25 @@ texture = SubResource("AtlasTexture_ihufa")
 expand_mode = 5
 stretch_mode = 4
 
+[node name="Label" type="Label" parent="SelectableSeeds/frame2"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -18.0
+offset_right = 27.0
+offset_bottom = -4.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
+thisPlant = "cauliflower"
+
 [node name="frame3" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
 texture = ExtResource("1_t4a5d")
@@ -160,6 +179,25 @@ size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_nylts")
 expand_mode = 5
 stretch_mode = 4
+
+[node name="Label" type="Label" parent="SelectableSeeds/frame3"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -18.0
+offset_right = 27.0
+offset_bottom = -4.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
+thisPlant = "garlic"
 
 [node name="frame4" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
@@ -185,6 +223,25 @@ texture = SubResource("AtlasTexture_wxbjo")
 expand_mode = 5
 stretch_mode = 4
 
+[node name="Label" type="Label" parent="SelectableSeeds/frame4"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -18.0
+offset_right = 27.0
+offset_bottom = -4.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
+thisPlant = "lettuce"
+
 [node name="frame5" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
 size_flags_horizontal = 4
@@ -209,6 +266,25 @@ size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_tg82p")
 expand_mode = 5
 stretch_mode = 4
+
+[node name="Label" type="Label" parent="SelectableSeeds/frame5"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -18.0
+offset_right = 27.0
+offset_bottom = -4.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
+thisPlant = "mangocarrot"
 
 [node name="frame6" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
@@ -237,6 +313,25 @@ stretch_mode = 4
 flip_h = true
 metadata/_edit_use_anchors_ = true
 
+[node name="Label" type="Label" parent="SelectableSeeds/frame6"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -18.0
+offset_right = 27.0
+offset_bottom = -4.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
+thisPlant = "milkroot"
+
 [node name="frame7" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
 texture = ExtResource("1_t4a5d")
@@ -261,6 +356,25 @@ texture = SubResource("AtlasTexture_mc1jf")
 expand_mode = 5
 stretch_mode = 4
 metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="SelectableSeeds/frame7"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -18.0
+offset_right = 27.0
+offset_bottom = -4.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
+thisPlant = "potato"
 
 [node name="frame8" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
@@ -287,6 +401,25 @@ expand_mode = 5
 stretch_mode = 4
 metadata/_edit_use_anchors_ = true
 
+[node name="Label" type="Label" parent="SelectableSeeds/frame8"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -18.0
+offset_right = 27.0
+offset_bottom = -4.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
+thisPlant = "radish"
+
 [node name="frame9" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
 texture = ExtResource("1_t4a5d")
@@ -310,6 +443,25 @@ size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_if6jp")
 expand_mode = 5
 stretch_mode = 4
+
+[node name="Label" type="Label" parent="SelectableSeeds/frame9"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = -18.0
+offset_right = 27.0
+offset_bottom = -4.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
+thisPlant = "tomato"
 
 [node name="Selector1" type="Sprite2D" parent="."]
 position = Vector2(185, 516)

@@ -40,3 +40,4 @@ plantType = ExtResource("4_34e27")
 [connection signal="hovering" from="plampts" to="Player" method="_on_hotbar_hovering"]
 [connection signal="changeSeed" from="Hotbar" to="plampts" method="_on_hotbar_change_seed"]
 [connection signal="hovering" from="Hotbar" to="Player" method="_on_hotbar_hovering"]
+[connection signal="hovering" from="HUD" to="Player" method="_on_hotbar_hovering"]
