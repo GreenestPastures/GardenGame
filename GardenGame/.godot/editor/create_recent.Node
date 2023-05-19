@@ -1,14 +1,11 @@
-<<<<<<< HEAD
 Label
 TextureRect
-=======
 CollisionShape2D
 CharacterBody2D
 Camera2D
 Node
 TextureRect
 Node2D
->>>>>>> WoodysWork
 Sprite2D
 HBoxContainer
 HSplitContainer
