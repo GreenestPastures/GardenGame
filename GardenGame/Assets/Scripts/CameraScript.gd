@@ -23,6 +23,3 @@ func _physics_process(delta):
 	moveIncrement += delta * 0.1
 	position = position.lerp(movePos, moveIncrement)
 
-
-
-

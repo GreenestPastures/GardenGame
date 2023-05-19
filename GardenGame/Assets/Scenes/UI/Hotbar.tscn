@@ -1,9 +1,9 @@
 [gd_scene load_steps=14 format=3 uid="uid://b0m2ieipw46k8"]
 
 [ext_resource type="Texture2D" uid="uid://b1dokvvtaqmvn" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/3 Item Holder/1.png" id="1_513ik"]
+[ext_resource type="Script" path="res://Assets/Scenes/UI/SelectedItem.gd" id="1_ai6dd"]
 [ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_n1obl"]
 [ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="1_t4a5d"]
-[ext_resource type="Script" path="res://Assets/Scripts/SeedSelector.gd" id="2_6j4vt"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1guva"]
 atlas = ExtResource("1_n1obl")
@@ -42,6 +42,7 @@ atlas = ExtResource("1_n1obl")
 region = Rect2(0, 33, 16, 16)
 
 [node name="Hotbar" type="CanvasLayer"]
+script = ExtResource("1_ai6dd")
 
 [node name="SelectableSeeds" type="HBoxContainer" parent="."]
 anchors_preset = -1
@@ -87,7 +88,6 @@ size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_1guva")
 expand_mode = 5
 stretch_mode = 4
-script = ExtResource("2_6j4vt")
 
 [node name="frame2" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
@@ -286,3 +286,22 @@ size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_if6jp")
 expand_mode = 5
 stretch_mode = 4
+
+[connection signal="mouse_entered" from="SelectableSeeds/frame/beetroot" to="." method="_on_beetroot_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame/beetroot" to="." method="_on_beetroot_mouse_exited"]
+[connection signal="mouse_entered" from="SelectableSeeds/frame2/cauliflower" to="." method="_on_cauliflower_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame2/cauliflower" to="." method="_on_cauliflower_mouse_exited"]
+[connection signal="mouse_entered" from="SelectableSeeds/frame3/garlic" to="." method="_on_garlic_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame3/garlic" to="." method="_on_garlic_mouse_exited"]
+[connection signal="mouse_entered" from="SelectableSeeds/frame4/lettuce" to="." method="_on_lettuce_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame4/lettuce" to="." method="_on_lettuce_mouse_exited"]
+[connection signal="mouse_entered" from="SelectableSeeds/frame5/mangocarrot" to="." method="_on_mangocarrot_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame5/mangocarrot" to="." method="_on_mangocarrot_mouse_exited"]
+[connection signal="mouse_entered" from="SelectableSeeds/frame6/milkroot" to="." method="_on_milkroot_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame6/milkroot" to="." method="_on_milkroot_mouse_exited"]
+[connection signal="mouse_entered" from="SelectableSeeds/frame7/potato" to="." method="_on_potato_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame7/potato" to="." method="_on_potato_mouse_exited"]
+[connection signal="mouse_entered" from="SelectableSeeds/frame8/radish" to="." method="_on_radish_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame8/radish" to="." method="_on_radish_mouse_exited"]
+[connection signal="mouse_entered" from="SelectableSeeds/frame9/tomato" to="." method="_on_tomato_mouse_entered"]
+[connection signal="mouse_exited" from="SelectableSeeds/frame9/tomato" to="." method="_on_tomato_mouse_exited"]

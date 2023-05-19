@@ -7,3 +7,4 @@ res://Assets/Scenes/Player.tscn
 res://Assets/Scripts/PlantList.gd
 res://Assets/Scenes/PleaseMove.gd
 res://Assets/Scripts/CameraScript.gd
+res://Assets/Scenes/UI/SelectedItem.gd
