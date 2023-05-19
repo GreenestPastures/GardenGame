@@ -1,14 +1,18 @@
+<<<<<<< HEAD
 CollisionShape2D
 CharacterBody2D
 Camera2D
 Node
 TextureRect
 Node2D
+=======
+Label
+TextureRect
+>>>>>>> Dylan'swork
 Sprite2D
 HBoxContainer
 HSplitContainer
 Container
-Label
 GridContainer
 CanvasLayer
 StaticBody2D

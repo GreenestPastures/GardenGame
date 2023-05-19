@@ -1,6 +1,16 @@
 res://default_env.tres
+<<<<<<< HEAD
 res://Assets/Scenes/main.tscn
 res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres
 res://Assets/Scenes/Shop.tscn
 res://Assets/Scenes/UI/Hotbar.tscn
 res://Assets/Scenes/Player.tscn
+=======
+res://Assets/Scenes/Plant.tscn
+res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres
+res://Assets/Scenes/Shop.tscn
+res://Assets/Scenes/UI/Hotbar.tscn
+res://Assets/Scenes/main.tscn
+res://Assets/Scenes/Player.tscn
+res://Assets/Scenes/Menu.tscn
+>>>>>>> Dylan'swork
