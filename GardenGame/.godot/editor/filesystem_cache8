@@ -1,5 +1,6 @@
 2a60927148abd1d33b818b535e306557
 <<<<<<< HEAD
+<<<<<<< HEAD
 ::res://::1684393522
 default_env.tres::Environment::3990851628836566285::1684393514::0::1::::<><>::
 icon.png::CompressedTexture2D::5188775790796098673::1684285328::1684287599::1::::<><>::
@@ -1613,6 +1614,10 @@ UI.png::CompressedTexture2D::6376841454272049625::1684382874::1684382874::1::::<
 =======
 ::res://::1684398193
 default_env.tres::Environment::3990851628836566285::1684393030::0::1::::<><>::
+=======
+::res://::1684468432
+default_env.tres::Environment::3990851628836566285::1684469053::0::1::::<><>::
+>>>>>>> Dylan'swork
 icon.png::CompressedTexture2D::5188775790796098673::1684289612::1684289612::1::::<><>::
 ::res://Assets/::1684386773
 Sta.Toasty_font (1).ttf::FontFile::5014670724034592328::1684381047::1684381183::1::::<><>::
@@ -1623,8 +1628,8 @@ apple tree.png::CompressedTexture2D::4597752432581856669::1684289612::1684289612
 orange tree.png::CompressedTexture2D::2918802774978511076::1684289612::1684289612::1::::<><>::
 plants1.png::CompressedTexture2D::5566532145900686139::1684289612::1684289612::1::::<><>::
 plants that continue to yield.png::CompressedTexture2D::5581328158233451868::1684289612::1684289612::1::::<><>::
-::res://Assets/Art/Plants/SpriteFrames/::1684392825
-plantGrowthAnimations.tres::SpriteFrames::2419450148729627801::1684392825::0::1::::<><>::uid://clkp8awtmeg8b
+::res://Assets/Art/Plants/SpriteFrames/::1684466927
+plantGrowthAnimations.tres::SpriteFrames::2419450148729627801::1684466927::0::1::::<><>::uid://clkp8awtmeg8b
 ::res://Assets/Art/UI/::1684391674
 SeedAtlasBeetroot.tres::AtlasTexture::1752599349981754381::1684391674::0::1::::<><>::uid://clkp8awtmeg8b
 SeedAtlasCauli.tres::AtlasTexture::1496651868146072877::1684391674::0::1::::<><>::uid://clkp8awtmeg8b
@@ -3200,19 +3205,23 @@ License.txt::TextFile::-1::1684386784::0::1::::<><>::
 ::res://Assets/Free Paper UI System/3 Source/Paper UI Pack/::1684386784
 ::res://Assets/Free Paper UI System/3 Source/Paper UI Pack/Folding & Cutout/::1684386783
 ::res://Assets/Free Paper UI System/3 Source/Paper UI Pack/Plain/::1684386784
-::res://Assets/Scenes/::1684393030
-main.tscn::PackedScene::7163415721581414789::1684393030::0::1::::<><>::uid://b6rgktkwc38gn<>uid://3644yddd4546<>res://Assets/Scripts/PlantList.gd<>uid://dk1o366wdr21h<>uid://b0m2ieipw46k8
-Plant.tscn::PackedScene::7915726026310328735::1684393029::0::1::::<><>::uid://bap88w8gapu7r<>res://Assets/Scripts/Growth.gd
-Player.tscn::PackedScene::2031097178390536745::1684393030::0::1::::<><>::res://Assets/Scripts/PlayerControls.gd
-Shop.tscn::PackedScene::5812250351559907578::1684393030::0::1::::<><>::uid://cw7byrhuthbd8<>uid://bkkb5l5u0n3kb<>uid://ckvfamv2kp56<>uid://cuw17sqt70u5<>uid://dipnk8poa3hx0<>uid://cw180cm7fk08q<>uid://db2ys7yihwyof<>uid://drwwl65cs2ygb<>uid://boox573jgsic0<>uid://bwe8iws5wnsn1<>uid://bsxpdwg3afkd6<>uid://cdpe5nwsva4nk<>uid://w3mk2uwlqheg<>uid://1ki33xclo33r<>uid://bd1gvp4306rp0
-::res://Assets/Scenes/UI/::1684393030
-Hotbar.tscn::PackedScene::4167568176012504345::1684393030::0::1::::<><>::uid://b1dokvvtaqmvn<>uid://clkp8awtmeg8b<>uid://dk32nfmwxiyot<>res://Assets/Scripts/SeedSelector.gd
-ShopItem.tscn::PackedScene::3698217835849200213::1684391674::0::1::::<><>::uid://dk32nfmwxiyot<>res://Assets/Scripts/ShopItemSeed.gd<>uid://clkp8awtmeg8b<>uid://y78b44afr4pd<>uid://vk8vxcoibjnh<>uid://cento14anqgdj<>uid://cxp3s63ou5fig<>uid://bjqcnwmvn84q6<>uid://c17xlmabe0370<>uid://bhvnvi5na8s40<>uid://bbgge344b6b6u<>uid://bfdpsxfcip730
-::res://Assets/Scripts/::1684391674
+::res://Assets/Scenes/::1684468432
+main.tscn::PackedScene::7163415721581414789::1684402868::0::1::::<><>::uid://b6rgktkwc38gn<>uid://bheo8xkmhmmpj<>res://Assets/Scripts/PlantList.gd<>uid://dk1o366wdr21h<>uid://b0m2ieipw46k8
+Menu.tscn::PackedScene::4020843554637023657::1684469053::0::1::::<><>::uid://dybpclmvk8rck<>uid://dsxyurte8e2ma<>uid://clujwixl7i2lv<>uid://cdpe5nwsva4nk<>uid://javoymwwiduq<>uid://drwwl65cs2ygb<>uid://dipnk8poa3hx0<>uid://db2ys7yihwyof<>uid://boox573jgsic0<>uid://cw180cm7fk08q<>uid://bwe8iws5wnsn1
+Plant.tscn::PackedScene::7915726026310328735::1684468431::0::1::::<><>::uid://bap88w8gapu7r<>res://Assets/Scripts/Growth.gd
+Player.tscn::PackedScene::2886910293313321863::1684401600::0::1::::<><>::res://Assets/Scripts/PlayerMove.gd<>res://Assets/Scripts/CameraScript.gd
+quit.tscn::PackedScene::6545036022777874504::1684468432::0::1::::<><>::uid://bc34u4i0ojou6<>uid://clujwixl7i2lv<>uid://cdpe5nwsva4nk<>uid://drwwl65cs2ygb<>uid://dipnk8poa3hx0<>uid://boox573jgsic0<>uid://db2ys7yihwyof<>uid://bwe8iws5wnsn1<>uid://cw180cm7fk08q
+Pause.tscn::PackedScene::4585584724332845115::1684469071::0::1::::<><>::uid://dybpclmvk8rck<>uid://dsxyurte8e2ma<>uid://clujwixl7i2lv<>uid://cdpe5nwsva4nk<>uid://javoymwwiduq<>uid://dipnk8poa3hx0<>uid://db2ys7yihwyof<>uid://cw180cm7fk08q<>uid://drwwl65cs2ygb<>uid://boox573jgsic0<>uid://bwe8iws5wnsn1
+Shop.tscn::PackedScene::5812250351559907578::1684468431::0::1::::<><>::uid://cw7byrhuthbd8<>uid://bkkb5l5u0n3kb<>uid://ckvfamv2kp56<>uid://cuw17sqt70u5<>uid://dipnk8poa3hx0<>uid://cw180cm7fk08q<>uid://db2ys7yihwyof<>uid://drwwl65cs2ygb<>uid://boox573jgsic0<>uid://bwe8iws5wnsn1<>uid://bsxpdwg3afkd6<>uid://cdpe5nwsva4nk<>uid://w3mk2uwlqheg<>uid://1ki33xclo33r<>uid://bd1gvp4306rp0
+::res://Assets/Scenes/UI/::1684468431
+Hotbar.tscn::PackedScene::4167568176012504345::1684468431::0::1::::<><>::uid://b1dokvvtaqmvn<>uid://clkp8awtmeg8b<>uid://dk32nfmwxiyot<>res://Assets/Scripts/SeedSelector.gd
+ShopItem.tscn::PackedScene::3698217835849200213::1684468431::0::1::::<><>::uid://dk32nfmwxiyot<>res://Assets/Scripts/ShopItemSeed.gd<>uid://clkp8awtmeg8b<>uid://y78b44afr4pd<>uid://vk8vxcoibjnh<>uid://cento14anqgdj<>uid://cxp3s63ou5fig<>uid://bjqcnwmvn84q6<>uid://c17xlmabe0370<>uid://bhvnvi5na8s40<>uid://bbgge344b6b6u<>uid://bfdpsxfcip730
+::res://Assets/Scripts/::1684401600
+CameraScript.gd::GDScript::-1::1684401600::0::1::::<>Camera2D<>::
 GitUpdate.txt::TextFile::-1::1684289612::0::1::::<><>::
 Growth.gd::GDScript::-1::1684386588::0::1::::<>AnimatedSprite2D<>::
-PlantList.gd::GDScript::-1::1684386791::0::1::::<>Node<>::
-PlayerControls.gd::GDScript::-1::1684386791::0::1::::<>Camera2D<>::
+PlantList.gd::GDScript::-1::1684401600::0::1::::<>Node<>::
+PlayerMove.gd::GDScript::-1::1684401600::0::1::::<>CharacterBody2D<>::
 SeedSelector.gd::GDScript::-1::1684386791::0::1::::<>TextureRect<>::
 ShopItemSeed.gd::GDScript::-1::1684391674::0::1::::<>Sprite2D<>::
 ::res://Assets/UI Assets pack_v.1_st/::1684381184
@@ -3220,4 +3229,7 @@ Book.png::CompressedTexture2D::6992362965040837469::1684381157::1684381183::1:::
 Interface.png::CompressedTexture2D::6864028638818297544::1684381157::1684381183::1::::<><>::
 ribbon.png::CompressedTexture2D::5013962171337933222::1684381157::1684381183::1::::<><>::
 UI.png::CompressedTexture2D::6376841454272049625::1684381157::1684381184::1::::<><>::
+<<<<<<< HEAD
+>>>>>>> Dylan'swork
+=======
 >>>>>>> Dylan'swork

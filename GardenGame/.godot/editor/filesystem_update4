@@ -1,4 +1,5 @@
 res://default_env.tres
+<<<<<<< HEAD
 res://Assets/Scenes/main.tscn
 res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres
 res://Assets/Scenes/Shop.tscn
@@ -8,3 +9,13 @@ res://Assets/Scripts/PlantList.gd
 res://Assets/Scenes/PleaseMove.gd
 res://Assets/Scripts/CameraScript.gd
 res://Assets/Scenes/UI/SelectedItem.gd
+=======
+res://Assets/Scenes/Menu.tscn
+res://Assets/Art/Plants/SpriteFrames/plantGrowthAnimations.tres
+res://Assets/Scenes/Shop.tscn
+res://Assets/Scenes/Plant.tscn
+res://Assets/Scenes/UI/ShopItem.tscn
+res://Assets/Scenes/UI/Hotbar.tscn
+res://Assets/Scenes/quit.tscn
+res://Assets/Scenes/Pause.tscn
+>>>>>>> Dylan'swork

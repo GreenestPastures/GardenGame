@@ -1,65 +1,60 @@
-[gd_scene load_steps=16 format=3 uid="uid://bxjyyaani46iv"]
+[gd_scene load_steps=15 format=3 uid="uid://b6lj57qhx48s2"]
 
-[ext_resource type="Texture2D" uid="uid://dybpclmvk8rck" path="res://Assets/Free Paper UI System/1 Sprites/Book Desk/3.png" id="1_3q284"]
-[ext_resource type="Texture2D" uid="uid://dsxyurte8e2ma" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Plain/5 Mini Map/1.png" id="2_rpts1"]
-[ext_resource type="Texture2D" uid="uid://clujwixl7i2lv" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/2 Headers/4.png" id="3_gomnw"]
-[ext_resource type="FontFile" uid="uid://cdpe5nwsva4nk" path="res://Assets/Sta.Toasty_font (1).ttf" id="4_gmxnv"]
-[ext_resource type="Texture2D" uid="uid://javoymwwiduq" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/1.png" id="5_tjj52"]
-[ext_resource type="Texture2D" uid="uid://drwwl65cs2ygb" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/11.png" id="6_c6y18"]
-[ext_resource type="Texture2D" uid="uid://dipnk8poa3hx0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/14.png" id="6_qtg18"]
-[ext_resource type="Texture2D" uid="uid://db2ys7yihwyof" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/13.png" id="7_h5rg1"]
-[ext_resource type="Texture2D" uid="uid://boox573jgsic0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/10.png" id="7_rcotq"]
-[ext_resource type="Texture2D" uid="uid://cw180cm7fk08q" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/15.png" id="8_fpecu"]
-[ext_resource type="Texture2D" uid="uid://bwe8iws5wnsn1" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/12.png" id="8_ogkg8"]
-[ext_resource type="Texture2D" uid="uid://dafp2hpp0mgt7" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/1.png" id="12_fiu0h"]
-[ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="13_iviut"]
-[ext_resource type="Texture2D" uid="uid://bo4qwr18cpecg" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/3.png" id="14_de0fk"]
-[ext_resource type="Texture2D" uid="uid://cblwmq8btpb2f" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/2.png" id="15_23vu3"]
+[ext_resource type="Texture2D" uid="uid://dsxyurte8e2ma" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Plain/5 Mini Map/1.png" id="2_e8sj6"]
+[ext_resource type="Texture2D" uid="uid://clujwixl7i2lv" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/2 Headers/4.png" id="3_mfm4x"]
+[ext_resource type="FontFile" uid="uid://cdpe5nwsva4nk" path="res://Assets/Sta.Toasty_font (1).ttf" id="4_hcqhe"]
+[ext_resource type="Texture2D" uid="uid://javoymwwiduq" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/1.png" id="5_c7udn"]
+[ext_resource type="Texture2D" uid="uid://dipnk8poa3hx0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/14.png" id="6_nh164"]
+[ext_resource type="Texture2D" uid="uid://db2ys7yihwyof" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/13.png" id="7_jycq7"]
+[ext_resource type="Texture2D" uid="uid://cw180cm7fk08q" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/15.png" id="8_y7h7s"]
+[ext_resource type="Texture2D" uid="uid://drwwl65cs2ygb" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/11.png" id="9_vdof3"]
+[ext_resource type="Texture2D" uid="uid://boox573jgsic0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/10.png" id="10_rs8n0"]
+[ext_resource type="Texture2D" uid="uid://dafp2hpp0mgt7" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/1.png" id="11_smuvt"]
+[ext_resource type="Texture2D" uid="uid://bwe8iws5wnsn1" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/12.png" id="11_tyr4r"]
+[ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="12_go2pp"]
+[ext_resource type="Texture2D" uid="uid://cblwmq8btpb2f" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/2.png" id="13_ojpyk"]
+[ext_resource type="Texture2D" uid="uid://bo4qwr18cpecg" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/3.png" id="14_34tk3"]
 
 [node name="Node2D" type="Node2D"]
-
-[node name="3" type="Sprite2D" parent="."]
-position = Vector2(580, 325)
-scale = Vector2(1.13929, 1.13929)
-texture = ExtResource("1_3q284")
 
 [node name="1" type="Sprite2D" parent="."]
 position = Vector2(580, 325)
 scale = Vector2(3.58929, 3.58929)
-texture = ExtResource("2_rpts1")
+texture = ExtResource("2_e8sj6")
 
 [node name="4" type="Sprite2D" parent="."]
 position = Vector2(580, 120)
-texture = ExtResource("3_gomnw")
+texture = ExtResource("3_mfm4x")
 
 [node name="Label" type="Label" parent="."]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
-offset_left = 436.0
-offset_top = 104.0
-offset_right = 728.0
-offset_bottom = 126.0
-theme_override_fonts/font = ExtResource("4_gmxnv")
+offset_left = 519.0
+offset_top = 107.0
+offset_right = 645.0
+offset_bottom = 129.0
+theme_override_fonts/font = ExtResource("4_hcqhe")
 theme_override_font_sizes/font_size = 35
-text = "Gardening Game"
+text = "PAUSED
+"
 
 [node name="2" type="Sprite2D" parent="."]
 position = Vector2(580, 345)
 scale = Vector2(1.63839, 1.63839)
-texture = ExtResource("5_tjj52")
+texture = ExtResource("5_c7udn")
 
 [node name="PlayButtonPress" type="Sprite2D" parent="."]
 position = Vector2(580, 260)
 scale = Vector2(3, 3)
-texture = ExtResource("6_qtg18")
+texture = ExtResource("6_nh164")
 
 [node name="10" type="Sprite2D" parent="PlayButtonPress"]
 position = Vector2(-16, 0)
-texture = ExtResource("7_h5rg1")
+texture = ExtResource("7_jycq7")
 
 [node name="12" type="Sprite2D" parent="PlayButtonPress"]
 position = Vector2(16, 0)
-texture = ExtResource("8_fpecu")
+texture = ExtResource("8_y7h7s")
 
 [node name="Play" type="Label" parent="PlayButtonPress"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
@@ -75,22 +70,22 @@ offset_right = 6.66666
 offset_bottom = 1.66666
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("4_gmxnv")
+theme_override_fonts/font = ExtResource("4_hcqhe")
 theme_override_font_sizes/font_size = 12
-text = "Play"
+text = "Resume"
 
 [node name="PlayButton" type="Sprite2D" parent="."]
 position = Vector2(580, 260)
 scale = Vector2(3, 3)
-texture = ExtResource("6_c6y18")
+texture = ExtResource("9_vdof3")
 
 [node name="10" type="Sprite2D" parent="PlayButton"]
 position = Vector2(-16, 0)
-texture = ExtResource("7_rcotq")
+texture = ExtResource("10_rs8n0")
 
 [node name="12" type="Sprite2D" parent="PlayButton"]
 position = Vector2(16, 0)
-texture = ExtResource("8_ogkg8")
+texture = ExtResource("11_tyr4r")
 
 [node name="Play" type="Label" parent="PlayButton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
@@ -105,22 +100,23 @@ offset_top = -12.0
 offset_right = 7.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("4_gmxnv")
+theme_override_fonts/font = ExtResource("4_hcqhe")
 theme_override_font_sizes/font_size = 12
-text = "Play"
+text = "Resume
+"
 
 [node name="OptionsButtonPress" type="Sprite2D" parent="."]
 position = Vector2(580, 340)
 scale = Vector2(3, 3)
-texture = ExtResource("6_qtg18")
+texture = ExtResource("6_nh164")
 
 [node name="10" type="Sprite2D" parent="OptionsButtonPress"]
 position = Vector2(-16, 0)
-texture = ExtResource("7_h5rg1")
+texture = ExtResource("7_jycq7")
 
 [node name="12" type="Sprite2D" parent="OptionsButtonPress"]
 position = Vector2(16, 0)
-texture = ExtResource("8_fpecu")
+texture = ExtResource("8_y7h7s")
 
 [node name="Options" type="Label" parent="OptionsButtonPress"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
@@ -136,7 +132,7 @@ offset_right = 13.0
 offset_bottom = -0.333336
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("4_gmxnv")
+theme_override_fonts/font = ExtResource("4_hcqhe")
 theme_override_font_sizes/font_size = 10
 text = "Options
 "
@@ -144,15 +140,15 @@ text = "Options
 [node name="OptionsButton" type="Sprite2D" parent="."]
 position = Vector2(580, 340)
 scale = Vector2(3, 3)
-texture = ExtResource("6_c6y18")
+texture = ExtResource("9_vdof3")
 
 [node name="10" type="Sprite2D" parent="OptionsButton"]
 position = Vector2(-16, 0)
-texture = ExtResource("7_rcotq")
+texture = ExtResource("10_rs8n0")
 
 [node name="12" type="Sprite2D" parent="OptionsButton"]
 position = Vector2(16, 0)
-texture = ExtResource("8_ogkg8")
+texture = ExtResource("11_tyr4r")
 
 [node name="Options" type="Label" parent="OptionsButton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
@@ -168,7 +164,7 @@ offset_right = 13.0
 offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("4_gmxnv")
+theme_override_fonts/font = ExtResource("4_hcqhe")
 theme_override_font_sizes/font_size = 10
 text = "Options
 "
@@ -176,15 +172,15 @@ text = "Options
 [node name="QuitButtonPress" type="Sprite2D" parent="."]
 position = Vector2(580, 420)
 scale = Vector2(3, 3)
-texture = ExtResource("6_qtg18")
+texture = ExtResource("6_nh164")
 
 [node name="10" type="Sprite2D" parent="QuitButtonPress"]
 position = Vector2(-16, 0)
-texture = ExtResource("7_h5rg1")
+texture = ExtResource("7_jycq7")
 
 [node name="12" type="Sprite2D" parent="QuitButtonPress"]
 position = Vector2(16, 0)
-texture = ExtResource("8_fpecu")
+texture = ExtResource("8_y7h7s")
 
 [node name="Play2" type="Label" parent="QuitButtonPress"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
@@ -199,7 +195,7 @@ offset_top = -10.0
 offset_right = 7.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("4_gmxnv")
+theme_override_fonts/font = ExtResource("4_hcqhe")
 theme_override_font_sizes/font_size = 12
 text = "Quit
 "
@@ -207,15 +203,15 @@ text = "Quit
 [node name="QuitButton" type="Sprite2D" parent="."]
 position = Vector2(580, 420)
 scale = Vector2(3, 3)
-texture = ExtResource("6_c6y18")
+texture = ExtResource("9_vdof3")
 
 [node name="10" type="Sprite2D" parent="QuitButton"]
 position = Vector2(-16, 0)
-texture = ExtResource("7_rcotq")
+texture = ExtResource("10_rs8n0")
 
 [node name="12" type="Sprite2D" parent="QuitButton"]
 position = Vector2(16, 0)
-texture = ExtResource("8_ogkg8")
+texture = ExtResource("11_tyr4r")
 
 [node name="Play2" type="Label" parent="QuitButton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
@@ -231,61 +227,61 @@ offset_right = 7.0
 offset_bottom = -2.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("4_gmxnv")
+theme_override_fonts/font = ExtResource("4_hcqhe")
 theme_override_font_sizes/font_size = 12
 text = "Quit
 "
 
-[node name="SelectPlay" type="Sprite2D" parent="."]
+[node name="SelectResume" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(511, 239)
+position = Vector2(509, 237)
 scale = Vector2(3, 3)
-texture = ExtResource("12_fiu0h")
+texture = ExtResource("11_smuvt")
 
-[node name="6" type="Sprite2D" parent="SelectPlay"]
-position = Vector2(0, 14)
-texture = ExtResource("13_iviut")
+[node name="5" type="Sprite2D" parent="SelectResume"]
+position = Vector2(0, 15.3333)
+texture = ExtResource("12_go2pp")
 
-[node name="7" type="Sprite2D" parent="SelectPlay"]
-position = Vector2(46, 14)
-texture = ExtResource("14_de0fk")
+[node name="6" type="Sprite2D" parent="SelectResume"]
+position = Vector2(47.3333, 0)
+texture = ExtResource("13_ojpyk")
 
-[node name="8" type="Sprite2D" parent="SelectPlay"]
-position = Vector2(46, 0)
-texture = ExtResource("15_23vu3")
+[node name="7" type="Sprite2D" parent="SelectResume"]
+position = Vector2(47.3333, 15.3333)
+texture = ExtResource("14_34tk3")
 
-[node name="SelectOption" type="Sprite2D" parent="."]
+[node name="SelectOptions" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(511, 319)
+position = Vector2(509, 317)
 scale = Vector2(3, 3)
-texture = ExtResource("12_fiu0h")
+texture = ExtResource("11_smuvt")
 
-[node name="6" type="Sprite2D" parent="SelectOption"]
-position = Vector2(0, 14)
-texture = ExtResource("13_iviut")
+[node name="5" type="Sprite2D" parent="SelectOptions"]
+position = Vector2(0, 15.3333)
+texture = ExtResource("12_go2pp")
 
-[node name="7" type="Sprite2D" parent="SelectOption"]
-position = Vector2(46, 14)
-texture = ExtResource("14_de0fk")
+[node name="6" type="Sprite2D" parent="SelectOptions"]
+position = Vector2(47.3333, 0)
+texture = ExtResource("13_ojpyk")
 
-[node name="8" type="Sprite2D" parent="SelectOption"]
-position = Vector2(46, 0)
-texture = ExtResource("15_23vu3")
+[node name="7" type="Sprite2D" parent="SelectOptions"]
+position = Vector2(47.3333, 15.3333)
+texture = ExtResource("14_34tk3")
 
 [node name="Selectquit" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(511, 399)
+position = Vector2(509, 397)
 scale = Vector2(3, 3)
-texture = ExtResource("12_fiu0h")
+texture = ExtResource("11_smuvt")
+
+[node name="5" type="Sprite2D" parent="Selectquit"]
+position = Vector2(0, 15.3333)
+texture = ExtResource("12_go2pp")
 
 [node name="6" type="Sprite2D" parent="Selectquit"]
-position = Vector2(0, 14)
-texture = ExtResource("13_iviut")
+position = Vector2(47.3333, 0)
+texture = ExtResource("13_ojpyk")
 
 [node name="7" type="Sprite2D" parent="Selectquit"]
-position = Vector2(46, 14)
-texture = ExtResource("14_de0fk")
-
-[node name="8" type="Sprite2D" parent="Selectquit"]
-position = Vector2(46, 0)
-texture = ExtResource("15_23vu3")
+position = Vector2(47.3333, 15.3333)
+texture = ExtResource("14_34tk3")
