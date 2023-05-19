@@ -1,15 +1,12 @@
-<<<<<<< HEAD
+Sprite2D
+Camera2D
 CollisionShape2D
 CharacterBody2D
-Camera2D
 Node
 TextureRect
 Node2D
-=======
 Label
 TextureRect
->>>>>>> Dylan'swork
-Sprite2D
 HBoxContainer
 HSplitContainer
 Container

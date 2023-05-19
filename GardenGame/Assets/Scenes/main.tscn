@@ -30,4 +30,4 @@ plantType = ExtResource("4_34e27")
 
 [node name="Hotbar" parent="." instance=ExtResource("5_aha8k")]
 
-[connection signal="plantingPos" from="Player" to="plampts" method="_on_player_planting_plant"]
+[connection signal="planting_plant" from="Player" to="plampts" method="_on_player_planting_plant"]
