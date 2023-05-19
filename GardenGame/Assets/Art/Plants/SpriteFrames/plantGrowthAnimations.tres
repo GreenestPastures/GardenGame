@@ -1,10 +1,6 @@
-[gd_resource type="SpriteFrames" load_steps=55 format=3 uid="uid://bap88w8gapu7r"]
+[gd_resource type="SpriteFrames" load_steps=54 format=3 uid="uid://bap88w8gapu7r"]
 
 [ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_gab2a"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_1ya8v"]
-atlas = ExtResource("1_gab2a")
-region = Rect2(65, 122, 15, 15)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a7g8v"]
 atlas = ExtResource("1_gab2a")
@@ -217,9 +213,6 @@ region = Rect2(128, 31, 15, 16)
 [resource]
 animations = [{
 "frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_1ya8v")
-}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_a7g8v")
 }, {

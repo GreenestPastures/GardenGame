@@ -1,9 +1,10 @@
-[gd_scene load_steps=14 format=3 uid="uid://b0m2ieipw46k8"]
+[gd_scene load_steps=15 format=3 uid="uid://b0m2ieipw46k8"]
 
 [ext_resource type="Texture2D" uid="uid://b1dokvvtaqmvn" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/3 Item Holder/1.png" id="1_513ik"]
 [ext_resource type="Script" path="res://Assets/Scenes/UI/SelectedItem.gd" id="1_ai6dd"]
 [ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_n1obl"]
 [ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="1_t4a5d"]
+[ext_resource type="Script" path="res://Assets/Scripts/seedCount.gd" id="5_smarg"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1guva"]
 atlas = ExtResource("1_n1obl")
@@ -88,6 +89,19 @@ size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_1guva")
 expand_mode = 5
 stretch_mode = 4
+
+[node name="Label" type="Label" parent="SelectableSeeds/frame"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -26.0
+offset_right = 27.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "1"
+horizontal_alignment = 1
+script = ExtResource("5_smarg")
 
 [node name="frame2" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
