@@ -7,11 +7,11 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="6" type="Sprite2D" parent="."]
+[node name="MONYBG" type="Sprite2D" parent="."]
 position = Vector2(100, 550)
 texture = ExtResource("1_c8yd4")
 
-[node name="MoneyCount" type="Label" parent="6"]
+[node name="MoneyCount" type="Label" parent="MONYBG"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -29,10 +29,10 @@ theme_override_fonts/font = ExtResource("2_xfx4s")
 theme_override_font_sizes/font_size = 15
 text = "100"
 
-[node name="21" type="Sprite2D" parent="."]
+[node name="MoneyIcon" type="Sprite2D" parent="."]
 position = Vector2(150, 550)
 texture = ExtResource("3_48cnl")
 
-[node name="22" type="Sprite2D" parent="."]
+[node name="ShopIcon" type="Sprite2D" parent="."]
 position = Vector2(1020, 550)
 texture = ExtResource("4_p2t7c")
