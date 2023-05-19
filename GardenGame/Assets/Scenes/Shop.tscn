@@ -23,37 +23,74 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="DeskBG" type="Sprite2D" parent="."]
-position = Vector2(590, 320)
+position = Vector2(580, 285)
 texture = ExtResource("4_cuc34")
 region_enabled = true
 region_rect = Rect2(1808, 1904, 768, 560)
 
-[node name="PaperBG" type="Sprite2D" parent="DeskBG"]
+[node name="PaperBG" type="Sprite2D" parent="."]
+position = Vector2(580, 260)
+scale = Vector2(1.19712, 1.19712)
 texture = ExtResource("4_6yqa5")
 
-[node name="CharacterWindow" type="Sprite2D" parent="DeskBG"]
+[node name="9" type="Sprite2D" parent="PaperBG"]
+position = Vector2(0, -115)
+texture = ExtResource("10_ejht8")
+
+[node name="10" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(16, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="11" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(32, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="12" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(48, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="13" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(64, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="14" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(80, 0)
+texture = ExtResource("12_xvbmm")
+
+[node name="Label" type="Label" parent="PaperBG/9"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+offset_left = 7.0
+offset_top = -7.0
+offset_right = 127.0
+offset_bottom = 18.0
+theme_override_fonts/font = ExtResource("10_d1lvs")
+theme_override_font_sizes/font_size = 24
+text = "Store"
+
+[node name="CharacterWindow" type="Sprite2D" parent="PaperBG"]
 position = Vector2(-85, -100)
 texture = ExtResource("5_7hg87")
 
-[node name="Character" type="Sprite2D" parent="DeskBG/CharacterWindow"]
+[node name="Character" type="Sprite2D" parent="PaperBG/CharacterWindow"]
 scale = Vector2(1.31395, 1.26744)
 texture = ExtResource("3_ayru0")
 region_enabled = true
 region_rect = Rect2(0, 0, 30, 50)
 
-[node name="BUYButtonPressed" type="Sprite2D" parent="DeskBG"]
+[node name="BUYButtonPressed" type="Sprite2D" parent="PaperBG"]
 position = Vector2(-85, -40)
 texture = ExtResource("5_wtc8n")
 
-[node name="15" type="Sprite2D" parent="DeskBG/BUYButtonPressed"]
+[node name="15" type="Sprite2D" parent="PaperBG/BUYButtonPressed"]
 position = Vector2(16, 0)
 texture = ExtResource("6_jnc13")
 
-[node name="13" type="Sprite2D" parent="DeskBG/BUYButtonPressed"]
+[node name="13" type="Sprite2D" parent="PaperBG/BUYButtonPressed"]
 position = Vector2(-16, 0)
 texture = ExtResource("7_2nhut")
 
-[node name="Label2" type="Label" parent="DeskBG/BUYButtonPressed"]
+[node name="Label2" type="Label" parent="PaperBG/BUYButtonPressed"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 offset_left = -15.0
@@ -66,19 +103,19 @@ text = "BUY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="BUYbutton" type="Sprite2D" parent="DeskBG"]
+[node name="BUYbutton" type="Sprite2D" parent="PaperBG"]
 position = Vector2(-85, -40)
 texture = ExtResource("7_wjeil")
 
-[node name="10" type="Sprite2D" parent="DeskBG/BUYbutton"]
+[node name="10" type="Sprite2D" parent="PaperBG/BUYbutton"]
 position = Vector2(-16, 0)
 texture = ExtResource("8_2742t")
 
-[node name="12" type="Sprite2D" parent="DeskBG/BUYbutton"]
+[node name="12" type="Sprite2D" parent="PaperBG/BUYbutton"]
 position = Vector2(16, 0)
 texture = ExtResource("9_8egyg")
 
-[node name="Label" type="Label" parent="DeskBG/BUYbutton"]
+[node name="Label" type="Label" parent="PaperBG/BUYbutton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 offset_left = -15.0
@@ -91,43 +128,25 @@ text = "BUY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="9" type="Sprite2D" parent="DeskBG"]
-position = Vector2(0, -115)
-texture = ExtResource("10_ejht8")
+[node name="BUYselector" type="Sprite2D" parent="PaperBG"]
+position = Vector2(-108, -47)
+texture = ExtResource("16_0tyuv")
 
-[node name="10" type="Sprite2D" parent="DeskBG/9"]
-position = Vector2(16, 0)
-texture = ExtResource("11_ijkcq")
+[node name="2" type="Sprite2D" parent="PaperBG/BUYselector"]
+position = Vector2(46, 0)
+texture = ExtResource("17_f2xvr")
 
-[node name="11" type="Sprite2D" parent="DeskBG/9"]
-position = Vector2(32, 0)
-texture = ExtResource("11_ijkcq")
+[node name="3" type="Sprite2D" parent="PaperBG/BUYselector"]
+position = Vector2(46, 14)
+texture = ExtResource("18_wbbar")
 
-[node name="12" type="Sprite2D" parent="DeskBG/9"]
-position = Vector2(48, 0)
-texture = ExtResource("11_ijkcq")
-
-[node name="13" type="Sprite2D" parent="DeskBG/9"]
-position = Vector2(64, 0)
-texture = ExtResource("11_ijkcq")
-
-[node name="14" type="Sprite2D" parent="DeskBG/9"]
-position = Vector2(80, 0)
-texture = ExtResource("12_xvbmm")
-
-[node name="Label" type="Label" parent="DeskBG/9"]
-modulate = Color(0.0509804, 0.564706, 0.407843, 1)
-self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
-offset_left = 7.0
-offset_top = -7.0
-offset_right = 127.0
-offset_bottom = 18.0
-theme_override_fonts/font = ExtResource("10_d1lvs")
-theme_override_font_sizes/font_size = 24
-text = "Store"
+[node name="4" type="Sprite2D" parent="PaperBG/BUYselector"]
+position = Vector2(0, 14)
+texture = ExtResource("19_l3g1s")
 
 [node name="ItemButtons" type="Node2D" parent="."]
-position = Vector2(86, 13)
+position = Vector2(-20, -96)
+scale = Vector2(1.19712, 1.19712)
 
 [node name="ItemFrame" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
 
@@ -163,162 +182,146 @@ seed4Sale = 8
 position = Vector2(585, 430)
 seed4Sale = 9
 
-[node name="selecterUI" type="Sprite2D" parent="."]
-position = Vector2(486, 308)
+[node name="selecterUI" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(400, 295)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI2" type="Sprite2D" parent="."]
-position = Vector2(571, 308)
+[node name="selecterUI2" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(485, 295)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI2"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI2"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI2/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI2/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI2/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI2/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI3" type="Sprite2D" parent="."]
-position = Vector2(656, 308)
+[node name="selecterUI3" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(570, 295)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI3"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI3"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI3/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI3/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI3/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI3/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI4" type="Sprite2D" parent="."]
-position = Vector2(486, 368)
+[node name="selecterUI4" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(400, 355)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI4"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI4"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI4/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI4/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI4/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI4/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI5" type="Sprite2D" parent="."]
-position = Vector2(571, 368)
+[node name="selecterUI5" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(485, 355)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI5"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI5"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI5/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI5/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI5/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI5/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI6" type="Sprite2D" parent="."]
-position = Vector2(656, 368)
+[node name="selecterUI6" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(570, 355)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI6"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI6"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI6/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI6/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI6/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI6/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI7" type="Sprite2D" parent="."]
-position = Vector2(486, 428)
+[node name="selecterUI7" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(400, 415)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI7"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI7"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI7/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI7/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI7/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI7/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI8" type="Sprite2D" parent="."]
-position = Vector2(571, 428)
+[node name="selecterUI8" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(485, 415)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI8"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI8"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI8/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI8/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI8/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI8/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI9" type="Sprite2D" parent="."]
-position = Vector2(656, 428)
+[node name="selecterUI9" type="Sprite2D" parent="ItemButtons"]
+position = Vector2(570, 415)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="selecterUI9"]
+[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI9"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="selecterUI9/2"]
+[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI9/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="selecterUI9/2/3"]
+[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI9/2/3"]
 position = Vector2(-30, 0)
-texture = ExtResource("19_l3g1s")
-
-[node name="BUYselector" type="Sprite2D" parent="."]
-position = Vector2(482, 273)
-texture = ExtResource("16_0tyuv")
-
-[node name="2" type="Sprite2D" parent="BUYselector"]
-position = Vector2(46, 0)
-texture = ExtResource("17_f2xvr")
-
-[node name="3" type="Sprite2D" parent="BUYselector"]
-position = Vector2(46, 14)
-texture = ExtResource("18_wbbar")
-
-[node name="4" type="Sprite2D" parent="BUYselector"]
-position = Vector2(0, 14)
 texture = ExtResource("19_l3g1s")
