@@ -1,10 +1,15 @@
-[gd_scene load_steps=15 format=3 uid="uid://b0m2ieipw46k8"]
+[gd_scene load_steps=20 format=3 uid="uid://b0m2ieipw46k8"]
 
 [ext_resource type="Texture2D" uid="uid://b1dokvvtaqmvn" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/3 Item Holder/1.png" id="1_513ik"]
 [ext_resource type="Script" path="res://Assets/Scenes/UI/SelectedItem.gd" id="1_ai6dd"]
 [ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_n1obl"]
 [ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="1_t4a5d"]
 [ext_resource type="Script" path="res://Assets/Scripts/seedCount.gd" id="5_smarg"]
+[ext_resource type="FontFile" uid="uid://cdpe5nwsva4nk" path="res://Assets/Sta.Toasty_font (1).ttf" id="5_y8bd6"]
+[ext_resource type="Texture2D" uid="uid://dafp2hpp0mgt7" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/1.png" id="7_otiou"]
+[ext_resource type="Texture2D" uid="uid://cblwmq8btpb2f" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/2.png" id="8_clmar"]
+[ext_resource type="Texture2D" uid="uid://bo4qwr18cpecg" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/3.png" id="9_rrd87"]
+[ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="10_ndyfa"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1guva"]
 atlas = ExtResource("1_n1obl")
@@ -62,8 +67,8 @@ size_flags_vertical = 8
 alignment = 1
 
 [node name="BG" type="Sprite2D" parent="SelectableSeeds"]
-position = Vector2(398.444, 42.5)
-scale = Vector2(1.57639, 1.57639)
+position = Vector2(400, 40)
+scale = Vector2(1.84028, 1.84028)
 texture = ExtResource("1_513ik")
 
 [node name="frame" type="TextureRect" parent="SelectableSeeds"]
@@ -95,10 +100,12 @@ layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_top = -26.0
+offset_top = -18.0
 offset_right = 27.0
+offset_bottom = -4.0
 grow_vertical = 0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_y8bd6")
 text = "1"
 horizontal_alignment = 1
 script = ExtResource("5_smarg")
@@ -300,6 +307,159 @@ size_flags_horizontal = 3
 texture = SubResource("AtlasTexture_if6jp")
 expand_mode = 5
 stretch_mode = 4
+
+[node name="Selector1" type="Sprite2D" parent="."]
+position = Vector2(185, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector1"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector1"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector1"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
+
+[node name="Selector2" type="Sprite2D" parent="."]
+position = Vector2(273, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector2"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector2"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector2"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
+
+[node name="Selector3" type="Sprite2D" parent="."]
+position = Vector2(362, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector3"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector3"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector3"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
+
+[node name="Selector4" type="Sprite2D" parent="."]
+position = Vector2(451, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector4"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector4"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector4"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
+
+[node name="Selector5" type="Sprite2D" parent="."]
+position = Vector2(541, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector5"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector5"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector5"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
+
+[node name="Selector6" type="Sprite2D" parent="."]
+position = Vector2(629, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector6"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector6"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector6"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
+
+[node name="Selector7" type="Sprite2D" parent="."]
+position = Vector2(719, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector7"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector7"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector7"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
+
+[node name="Selector8" type="Sprite2D" parent="."]
+position = Vector2(808, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector8"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector8"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector8"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
+
+[node name="Selector9" type="Sprite2D" parent="."]
+position = Vector2(897, 516)
+scale = Vector2(3, 3)
+texture = ExtResource("7_otiou")
+
+[node name="2" type="Sprite2D" parent="Selector9"]
+position = Vector2(24.6667, 0)
+texture = ExtResource("8_clmar")
+
+[node name="3" type="Sprite2D" parent="Selector9"]
+position = Vector2(24.6667, 25)
+texture = ExtResource("9_rrd87")
+
+[node name="4" type="Sprite2D" parent="Selector9"]
+position = Vector2(-0.333332, 25)
+texture = ExtResource("10_ndyfa")
 
 [connection signal="mouse_entered" from="SelectableSeeds/frame/beetroot" to="." method="_on_beetroot_mouse_entered"]
 [connection signal="mouse_exited" from="SelectableSeeds/frame/beetroot" to="." method="_on_beetroot_mouse_exited"]

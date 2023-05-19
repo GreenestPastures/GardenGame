@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://c0ip103l2530g"]
+[gd_scene load_steps=14 format=3 uid="uid://c0ip103l2530g"]
 
 [ext_resource type="Texture2D" uid="uid://bc34u4i0ojou6" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Plain/7 Dialogue Box/1.png" id="1_wle3l"]
 [ext_resource type="Texture2D" uid="uid://clujwixl7i2lv" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/2 Headers/4.png" id="2_xmpm5"]
@@ -9,6 +9,10 @@
 [ext_resource type="Texture2D" uid="uid://db2ys7yihwyof" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/13.png" id="5_yjauf"]
 [ext_resource type="Texture2D" uid="uid://bwe8iws5wnsn1" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/12.png" id="6_i0mnr"]
 [ext_resource type="Texture2D" uid="uid://cw180cm7fk08q" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/15.png" id="6_wedff"]
+[ext_resource type="Texture2D" uid="uid://dafp2hpp0mgt7" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/1.png" id="10_ciaj3"]
+[ext_resource type="Texture2D" uid="uid://cblwmq8btpb2f" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/2.png" id="11_5v644"]
+[ext_resource type="Texture2D" uid="uid://bo4qwr18cpecg" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/3.png" id="12_3cdfg"]
+[ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="13_4ts1o"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -164,3 +168,35 @@ theme_override_fonts/font = ExtResource("3_6eo6d")
 theme_override_font_sizes/font_size = 12
 text = "YES
 "
+
+[node name="NOselector" type="Sprite2D" parent="."]
+position = Vector2(302, 318)
+texture = ExtResource("10_ciaj3")
+
+[node name="3" type="Sprite2D" parent="NOselector"]
+position = Vector2(46, 0)
+texture = ExtResource("11_5v644")
+
+[node name="5" type="Sprite2D" parent="NOselector"]
+position = Vector2(46, 14)
+texture = ExtResource("12_3cdfg")
+
+[node name="6" type="Sprite2D" parent="NOselector"]
+position = Vector2(0, 14)
+texture = ExtResource("13_4ts1o")
+
+[node name="YESselector" type="Sprite2D" parent="."]
+position = Vector2(807, 318)
+texture = ExtResource("10_ciaj3")
+
+[node name="3" type="Sprite2D" parent="YESselector"]
+position = Vector2(46, 0)
+texture = ExtResource("11_5v644")
+
+[node name="5" type="Sprite2D" parent="YESselector"]
+position = Vector2(46, 14)
+texture = ExtResource("12_3cdfg")
+
+[node name="6" type="Sprite2D" parent="YESselector"]
+position = Vector2(0, 14)
+texture = ExtResource("13_4ts1o")

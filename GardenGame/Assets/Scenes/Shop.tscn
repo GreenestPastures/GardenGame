@@ -178,3 +178,147 @@ texture = ExtResource("18_wbbar")
 [node name="4" type="Sprite2D" parent="selecterUI/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
+
+[node name="selecterUI2" type="Sprite2D" parent="."]
+position = Vector2(571, 308)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="selecterUI2"]
+position = Vector2(30, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="selecterUI2/2"]
+position = Vector2(0, 30)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="selecterUI2/2/3"]
+position = Vector2(-30, 0)
+texture = ExtResource("19_l3g1s")
+
+[node name="selecterUI3" type="Sprite2D" parent="."]
+position = Vector2(656, 308)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="selecterUI3"]
+position = Vector2(30, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="selecterUI3/2"]
+position = Vector2(0, 30)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="selecterUI3/2/3"]
+position = Vector2(-30, 0)
+texture = ExtResource("19_l3g1s")
+
+[node name="selecterUI4" type="Sprite2D" parent="."]
+position = Vector2(486, 368)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="selecterUI4"]
+position = Vector2(30, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="selecterUI4/2"]
+position = Vector2(0, 30)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="selecterUI4/2/3"]
+position = Vector2(-30, 0)
+texture = ExtResource("19_l3g1s")
+
+[node name="selecterUI5" type="Sprite2D" parent="."]
+position = Vector2(571, 368)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="selecterUI5"]
+position = Vector2(30, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="selecterUI5/2"]
+position = Vector2(0, 30)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="selecterUI5/2/3"]
+position = Vector2(-30, 0)
+texture = ExtResource("19_l3g1s")
+
+[node name="selecterUI6" type="Sprite2D" parent="."]
+position = Vector2(656, 368)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="selecterUI6"]
+position = Vector2(30, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="selecterUI6/2"]
+position = Vector2(0, 30)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="selecterUI6/2/3"]
+position = Vector2(-30, 0)
+texture = ExtResource("19_l3g1s")
+
+[node name="selecterUI7" type="Sprite2D" parent="."]
+position = Vector2(486, 428)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="selecterUI7"]
+position = Vector2(30, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="selecterUI7/2"]
+position = Vector2(0, 30)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="selecterUI7/2/3"]
+position = Vector2(-30, 0)
+texture = ExtResource("19_l3g1s")
+
+[node name="selecterUI8" type="Sprite2D" parent="."]
+position = Vector2(571, 428)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="selecterUI8"]
+position = Vector2(30, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="selecterUI8/2"]
+position = Vector2(0, 30)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="selecterUI8/2/3"]
+position = Vector2(-30, 0)
+texture = ExtResource("19_l3g1s")
+
+[node name="selecterUI9" type="Sprite2D" parent="."]
+position = Vector2(656, 428)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="selecterUI9"]
+position = Vector2(30, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="selecterUI9/2"]
+position = Vector2(0, 30)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="selecterUI9/2/3"]
+position = Vector2(-30, 0)
+texture = ExtResource("19_l3g1s")
+
+[node name="BUYselector" type="Sprite2D" parent="."]
+position = Vector2(482, 273)
+texture = ExtResource("16_0tyuv")
+
+[node name="2" type="Sprite2D" parent="BUYselector"]
+position = Vector2(46, 0)
+texture = ExtResource("17_f2xvr")
+
+[node name="3" type="Sprite2D" parent="BUYselector"]
+position = Vector2(46, 14)
+texture = ExtResource("18_wbbar")
+
+[node name="4" type="Sprite2D" parent="BUYselector"]
+position = Vector2(0, 14)
+texture = ExtResource("19_l3g1s")
