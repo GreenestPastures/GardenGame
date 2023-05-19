@@ -1,20 +1,19 @@
 extends CanvasLayer
 
 signal hovering(state)
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
+signal shopButtonPress()
+var hover = false
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
-
+func _input(event):
+	if event.is_action_pressed("click") && hover:
+		shopButtonPress.emit()
 
 func _on_color_rect_mouse_entered():
+	hover = true
 	hovering.emit(true)
 
 
 func _on_color_rect_mouse_exited():
+	hover = false
 	hovering.emit(false)

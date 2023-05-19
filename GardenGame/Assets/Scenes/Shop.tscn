@@ -1,5 +1,6 @@
-[gd_scene load_steps=20 format=3 uid="uid://co2q6cyf216vu"]
+[gd_scene load_steps=21 format=3 uid="uid://co2q6cyf216vu"]
 
+[ext_resource type="Script" path="res://Assets/Scripts/ShopScript.gd" id="1_twg38"]
 [ext_resource type="Texture2D" uid="uid://cw7byrhuthbd8" path="res://Assets/Blue_witch/B_witch_idle.png" id="3_ayru0"]
 [ext_resource type="Texture2D" uid="uid://bkkb5l5u0n3kb" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/8 Shop/1.png" id="4_6yqa5"]
 [ext_resource type="Texture2D" uid="uid://ckvfamv2kp56" path="res://Assets/Free Paper UI System/2 SpriteSheet/Png/Paper UI/Plain/1.png" id="4_cuc34"]
@@ -21,6 +22,7 @@
 [ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="19_l3g1s"]
 
 [node name="Shop" type="CanvasLayer"]
+script = ExtResource("1_twg38")
 
 [node name="DeskBG" type="Sprite2D" parent="."]
 position = Vector2(580, 285)
