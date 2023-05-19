@@ -30,13 +30,13 @@ scale = Vector2(1.49821, 1.49821)
 texture = ExtResource("1_5hu6w")
 
 [node name="DeskBG" type="Sprite2D" parent="."]
-position = Vector2(580, 285)
+position = Vector2(580, 300)
 texture = ExtResource("4_cuc34")
 region_enabled = true
 region_rect = Rect2(1808, 1904, 768, 560)
 
 [node name="PaperBG" type="Sprite2D" parent="."]
-position = Vector2(580, 260)
+position = Vector2(580, 275)
 scale = Vector2(1.19712, 1.19712)
 texture = ExtResource("4_6yqa5")
 
@@ -151,185 +151,184 @@ texture = ExtResource("18_wbbar")
 position = Vector2(0, 14)
 texture = ExtResource("19_l3g1s")
 
-[node name="ItemButtons" type="Node2D" parent="."]
-position = Vector2(-20, -96)
-scale = Vector2(1.19712, 1.19712)
+[node name="ItemButtons" type="Node2D" parent="PaperBG"]
+position = Vector2(-501.205, -297.382)
 
-[node name="ItemFrame" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 
-[node name="ItemFrame2" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame2" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 position = Vector2(500, 310)
 seed4Sale = 2
 
-[node name="ItemFrame3" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame3" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 position = Vector2(585, 310)
 seed4Sale = 3
 
-[node name="ItemFrame4" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame4" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 position = Vector2(415, 370)
 seed4Sale = 4
 
-[node name="ItemFrame5" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame5" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 position = Vector2(500, 370)
 seed4Sale = 5
 
-[node name="ItemFrame6" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame6" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 position = Vector2(585, 370)
 seed4Sale = 6
 
-[node name="ItemFrame7" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame7" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 position = Vector2(415, 430)
 seed4Sale = 7
 
-[node name="ItemFrame8" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame8" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 position = Vector2(500, 430)
 seed4Sale = 8
 
-[node name="ItemFrame9" parent="ItemButtons" instance=ExtResource("9_u4x2c")]
+[node name="ItemFrame9" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
 position = Vector2(585, 430)
 seed4Sale = 9
 
-[node name="selecterUI" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(400, 295)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI2" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI2" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(485, 295)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI2"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI2"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI2/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI2/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI2/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI2/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI3" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI3" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(570, 295)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI3"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI3"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI3/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI3/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI3/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI3/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI4" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI4" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(400, 355)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI4"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI4"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI4/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI4/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI4/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI4/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI5" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI5" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(485, 355)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI5"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI5"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI5/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI5/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI5/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI5/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI6" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI6" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(570, 355)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI6"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI6"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI6/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI6/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI6/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI6/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI7" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI7" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(400, 415)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI7"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI7"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI7/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI7/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI7/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI7/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI8" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI8" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(485, 415)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI8"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI8"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI8/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI8/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI8/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI8/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
-[node name="selecterUI9" type="Sprite2D" parent="ItemButtons"]
+[node name="selecterUI9" type="Sprite2D" parent="PaperBG/ItemButtons"]
 position = Vector2(570, 415)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="ItemButtons/selecterUI9"]
+[node name="2" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI9"]
 position = Vector2(30, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="ItemButtons/selecterUI9/2"]
+[node name="3" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI9/2"]
 position = Vector2(0, 30)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="ItemButtons/selecterUI9/2/3"]
+[node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI9/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
