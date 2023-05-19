@@ -1,10 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://dacan7misvg6h"]
+[gd_scene load_steps=9 format=3 uid="uid://dacan7misvg6h"]
 
 [ext_resource type="Texture2D" uid="uid://b6rgktkwc38gn" path="res://Assets/Art/Plants/apple tree.png" id="1_llgpo"]
 [ext_resource type="PackedScene" uid="uid://bheo8xkmhmmpj" path="res://Assets/Scenes/Player.tscn" id="2_nsb8m"]
 [ext_resource type="Script" path="res://Assets/Scripts/PlantList.gd" id="3_nyy2w"]
 [ext_resource type="PackedScene" uid="uid://dk1o366wdr21h" path="res://Assets/Scenes/Plant.tscn" id="4_34e27"]
 [ext_resource type="PackedScene" uid="uid://b0m2ieipw46k8" path="res://Assets/Scenes/UI/Hotbar.tscn" id="5_aha8k"]
+[ext_resource type="PackedScene" uid="uid://b84lm8vyu7u80" path="res://Assets/Scenes/HUD.tscn" id="6_83a6s"]
+[ext_resource type="PackedScene" uid="uid://co2q6cyf216vu" path="res://Assets/Scenes/Shop.tscn" id="7_vfkyd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_731xc"]
 size = Vector2(2000, 2000)
@@ -28,7 +30,11 @@ shape = SubResource("RectangleShape2D_731xc")
 script = ExtResource("3_nyy2w")
 plantType = ExtResource("4_34e27")
 
+[node name="Shop" parent="." instance=ExtResource("7_vfkyd")]
+
 [node name="Hotbar" parent="." instance=ExtResource("5_aha8k")]
+
+[node name="HUD" parent="." instance=ExtResource("6_83a6s")]
 
 [connection signal="planting_plant" from="Player" to="plampts" method="_on_player_planting_plant"]
 [connection signal="hovering" from="plampts" to="Player" method="_on_hotbar_hovering"]

@@ -1,3 +1,4 @@
+CanvasLayer
 Label
 RemoteTransform2D
 Node2D
@@ -16,6 +17,5 @@ HBoxContainer
 HSplitContainer
 Container
 GridContainer
-CanvasLayer
 StaticBody2D
 AnimatedSprite2D

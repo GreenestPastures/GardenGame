@@ -20,7 +20,7 @@
 [ext_resource type="Texture2D" uid="uid://bo4qwr18cpecg" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/3.png" id="18_wbbar"]
 [ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="19_l3g1s"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Shop" type="CanvasLayer"]
 
 [node name="DeskBG" type="Sprite2D" parent="."]
 position = Vector2(590, 320)
