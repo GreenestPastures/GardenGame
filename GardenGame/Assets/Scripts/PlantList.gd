@@ -6,12 +6,14 @@ signal hovering(state)
 
 
 func _on_player_planting_plant(pos):
-	var thePlant = plantType.instantiate()
-	thePlant.position = pos
-	thePlant.animation = curPlant
-	add_child(thePlant)
-	get_child(get_child_count()-1).hovering.connect(hoverChange)
-	get_child(get_child_count()-1).harvested.connect(harvested)
+	if get_tree().root.get_node("/root/Stats").get(curPlant):
+		var thePlant = plantType.instantiate()
+		thePlant.position = pos
+		thePlant.animation = curPlant
+		add_child(thePlant)
+		get_child(get_child_count()-1).hovering.connect(hoverChange)
+		get_child(get_child_count()-1).harvested.connect(harvested)
+		get_tree().root.get_node("/root/Stats").set(curPlant, get_tree().root.get_node("/root/Stats").get(curPlant)-1)
 
 
 func _on_hotbar_change_seed(seedType):

@@ -47,7 +47,7 @@ func _input(event):
 
 func harvest():
 	if harvestable:
-		#Money += value
+		get_tree().root.get_node("/root/Stats").money += value
 		harvested.emit()
 		queue_free()
 
