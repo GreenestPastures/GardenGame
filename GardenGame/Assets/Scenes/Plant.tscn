@@ -7,5 +7,21 @@
 scale = Vector2(5, 5)
 sprite_frames = ExtResource("1_5urc1")
 animation = &"radish"
+frame_progress = 0.540407
 script = ExtResource("2_dc051")
 growthTime = 12
+
+[node name="ColorRect" type="ColorRect" parent="."]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -7.5
+offset_top = -7.5
+offset_right = -7.5
+offset_bottom = -7.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[connection signal="mouse_entered" from="ColorRect" to="." method="_on_color_rect_mouse_entered"]
+[connection signal="mouse_exited" from="ColorRect" to="." method="_on_color_rect_mouse_exited"]

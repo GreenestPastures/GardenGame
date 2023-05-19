@@ -31,3 +31,6 @@ plantType = ExtResource("4_34e27")
 [node name="Hotbar" parent="." instance=ExtResource("5_aha8k")]
 
 [connection signal="planting_plant" from="Player" to="plampts" method="_on_player_planting_plant"]
+[connection signal="hovering" from="plampts" to="Player" method="_on_hotbar_hovering"]
+[connection signal="changeSeed" from="Hotbar" to="plampts" method="_on_hotbar_change_seed"]
+[connection signal="hovering" from="Hotbar" to="Player" method="_on_hotbar_hovering"]
