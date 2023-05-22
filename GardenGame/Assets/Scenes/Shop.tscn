@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://co2q6cyf216vu"]
+[gd_scene load_steps=23 format=3 uid="uid://co2q6cyf216vu"]
 
 [ext_resource type="Script" path="res://Assets/Scripts/ShopScript.gd" id="1_twg38"]
 [ext_resource type="Texture2D" uid="uid://cw7byrhuthbd8" path="res://Assets/Blue_witch/B_witch_idle.png" id="3_ayru0"]
@@ -20,6 +20,10 @@
 [ext_resource type="Texture2D" uid="uid://cblwmq8btpb2f" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/2.png" id="17_f2xvr"]
 [ext_resource type="Texture2D" uid="uid://bo4qwr18cpecg" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/3.png" id="18_wbbar"]
 [ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="19_l3g1s"]
+[ext_resource type="Script" path="res://Assets/Scripts/ShopTextPicker.gd" id="21_70we6"]
+
+[sub_resource type="Theme" id="Theme_utiyb"]
+default_font = ExtResource("10_d1lvs")
 
 [node name="Shop" type="CanvasLayer"]
 script = ExtResource("1_twg38")
@@ -150,37 +154,65 @@ texture = ExtResource("19_l3g1s")
 position = Vector2(-501.205, -297.382)
 
 [node name="ItemFrame" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
+offset_left = 399.294
+offset_top = 294.041
+offset_right = 431.294
+offset_bottom = 326.041
 
 [node name="ItemFrame2" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
-position = Vector2(500, 310)
+offset_left = 484.294
+offset_top = 294.041
+offset_right = 516.294
+offset_bottom = 326.041
 seed4Sale = 2
 
 [node name="ItemFrame3" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
-position = Vector2(585, 310)
+offset_left = 569.294
+offset_top = 294.041
+offset_right = 601.294
+offset_bottom = 326.041
 seed4Sale = 3
 
 [node name="ItemFrame4" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
-position = Vector2(415, 370)
+offset_left = 399.294
+offset_top = 354.041
+offset_right = 431.294
+offset_bottom = 386.041
 seed4Sale = 4
 
 [node name="ItemFrame5" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
-position = Vector2(500, 370)
+offset_left = 484.294
+offset_top = 354.041
+offset_right = 516.294
+offset_bottom = 386.041
 seed4Sale = 5
 
 [node name="ItemFrame6" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
-position = Vector2(585, 370)
+offset_left = 569.294
+offset_top = 354.041
+offset_right = 601.294
+offset_bottom = 386.041
 seed4Sale = 6
 
 [node name="ItemFrame7" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
-position = Vector2(415, 430)
+offset_left = 399.294
+offset_top = 414.041
+offset_right = 431.294
+offset_bottom = 446.041
 seed4Sale = 7
 
 [node name="ItemFrame8" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
-position = Vector2(500, 430)
+offset_left = 484.294
+offset_top = 414.041
+offset_right = 516.294
+offset_bottom = 446.041
 seed4Sale = 8
 
 [node name="ItemFrame9" parent="PaperBG/ItemButtons" instance=ExtResource("9_u4x2c")]
-position = Vector2(585, 430)
+offset_left = 569.294
+offset_top = 414.041
+offset_right = 601.294
+offset_bottom = 446.041
 seed4Sale = 9
 
 [node name="selecterUI" type="Sprite2D" parent="PaperBG/ItemButtons"]
@@ -326,3 +358,44 @@ texture = ExtResource("18_wbbar")
 [node name="4" type="Sprite2D" parent="PaperBG/ItemButtons/selecterUI9/2/3"]
 position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 565.0
+offset_top = 180.0
+offset_right = 706.0
+offset_bottom = 212.0
+size_flags_vertical = 0
+
+[node name="Header" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_utiyb")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 21
+text = "Header Text"
+horizontal_alignment = 1
+script = ExtResource("21_70we6")
+seedList = Array[String](["beetroot", "cauli", "garlic", "lettuce", "mangocarrot", "milkroot", "potato", "radish", "tomato"])
+seedNames = Array[String](["Blazeplum", "Cauliflower", "Starfruit", "Lettuce", "Sunknob", "Milkroot", "Stoneheart Tuber", "Emberheart", "Rubyburst"])
+SeedFlavor = Array[String](["The fiery juice of the Blazeplum can be harnessed to create fire-based spells or to enchant weapons.", "The ghost of yesterdays brocolli", "Eating Starfruit is believed to bring good luck and is often used in rituals for divination and fortune-telling.", "A classic vegetable", "Extracting the essence from the Sunknob leaves allows the creation of potions that restore energy and vitality.", "Burning dried Milkroot leaves releases a fragrant smoke that has the ability to induce vivid and prophetic dreams.", "The Stoneheart Tuber is exceptionally resilient, it is said that a Tuber bearing a heart shaped growth pattern on its surface can be made into a cure for any disease.", "The Emberheart plant radiates a warm, comforting glow, providing light in dark places.", "The Rubyburst plant has lustrous, ruby-like fruits that shimmer and pulse with latent magic."])
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+
+[node name="BodyText" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = SubResource("Theme_utiyb")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 14
+text = "Body Text"
+horizontal_alignment = 1
+
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame2" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame3" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame4" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame5" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame6" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame7" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame8" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame9" to="VBoxContainer/Header" method="chosen_item"]

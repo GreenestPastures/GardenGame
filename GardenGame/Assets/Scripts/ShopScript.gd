@@ -20,3 +20,4 @@ func _on_hud_shop_button_press():
 	else:
 		shopWindowOpen = !shopWindowOpen
 		offset.y = 0
+

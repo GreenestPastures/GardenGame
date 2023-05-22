@@ -17,13 +17,23 @@
 atlas = ExtResource("2_vk7c7")
 region = Rect2(-1, 200, 16, 16)
 
-[node name="ItemFrame" type="Sprite2D"]
-position = Vector2(415, 310)
+[node name="ItemFrame" type="TextureRect"]
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 16.0
+offset_bottom = 16.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
 texture = ExtResource("1_xf267")
 script = ExtResource("2_cmgyb")
 seedNames = Array[String](["beetroot", "cauli", "garlic", "lettuce", "mangocarrot", "milkroot", "potato", "radish", "tomato"])
 seedPic = Array[AtlasTexture]([ExtResource("3_tqfwv"), ExtResource("4_e832w"), ExtResource("5_gxfcs"), ExtResource("6_33ol2"), ExtResource("7_w4w4s"), ExtResource("8_7acxx"), ExtResource("9_ip5m5"), ExtResource("10_1rt5k"), ExtResource("11_qo7w5")])
 
-[node name="Fruit" type="Sprite2D" parent="."]
+[node name="Fruit" type="TextureRect" parent="."]
+layout_mode = 1
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 21.0
+offset_bottom = 20.0
 scale = Vector2(1.5, 1.5)
 texture = SubResource("AtlasTexture_6uf4j")
