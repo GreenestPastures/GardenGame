@@ -26,6 +26,8 @@
 default_font = ExtResource("10_d1lvs")
 
 [node name="Shop" type="CanvasLayer"]
+offset = Vector2(0, -20)
+transform = Transform2D(1, 0, 0, 1, 0, -20)
 script = ExtResource("1_twg38")
 
 [node name="DeskBG" type="Sprite2D" parent="."]
@@ -40,7 +42,7 @@ scale = Vector2(1.19712, 1.19712)
 texture = ExtResource("4_6yqa5")
 
 [node name="9" type="Sprite2D" parent="PaperBG"]
-position = Vector2(0, -115)
+position = Vector2(-95.2286, -141.172)
 texture = ExtResource("10_ejht8")
 
 [node name="10" type="Sprite2D" parent="PaperBG/9"]
@@ -48,19 +50,55 @@ position = Vector2(16, 0)
 texture = ExtResource("11_ijkcq")
 
 [node name="11" type="Sprite2D" parent="PaperBG/9"]
-position = Vector2(32, 0)
+position = Vector2(148.337, 0)
 texture = ExtResource("11_ijkcq")
 
 [node name="12" type="Sprite2D" parent="PaperBG/9"]
-position = Vector2(48, 0)
+position = Vector2(164.337, 0)
 texture = ExtResource("11_ijkcq")
 
 [node name="13" type="Sprite2D" parent="PaperBG/9"]
-position = Vector2(64, 0)
+position = Vector2(180.337, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="15" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(100.723, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="16" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(116.723, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="17" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(132.723, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="18" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(55.6143, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="19" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(71.6143, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="20" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(87.6143, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="21" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(28.0481, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="22" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(44.0481, 0)
+texture = ExtResource("11_ijkcq")
+
+[node name="23" type="Sprite2D" parent="PaperBG/9"]
+position = Vector2(60.0481, 0)
 texture = ExtResource("11_ijkcq")
 
 [node name="14" type="Sprite2D" parent="PaperBG/9"]
-position = Vector2(80, 0)
+position = Vector2(196.337, 0)
 texture = ExtResource("12_xvbmm")
 
 [node name="Label" type="Label" parent="PaperBG/9"]
@@ -72,7 +110,7 @@ offset_right = 127.0
 offset_bottom = 18.0
 theme_override_fonts/font = ExtResource("10_d1lvs")
 theme_override_font_sizes/font_size = 24
-text = "Store"
+text = "Willow's Store"
 
 [node name="CharacterWindow" type="Sprite2D" parent="PaperBG"]
 position = Vector2(-85, -100)
@@ -84,19 +122,30 @@ texture = ExtResource("3_ayru0")
 region_enabled = true
 region_rect = Rect2(0, 0, 30, 50)
 
-[node name="BUYButtonPressed" type="Sprite2D" parent="PaperBG"]
-position = Vector2(-85, -40)
+[node name="BuyButton" type="Control" parent="PaperBG"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -85.2045
+offset_top = -42.6022
+offset_right = -85.2045
+offset_bottom = -42.6022
+scale = Vector2(1.32029, 1.32029)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="BUYButtonPressed" type="Sprite2D" parent="PaperBG/BuyButton"]
+position = Vector2(0.204498, 2.60225)
 texture = ExtResource("5_wtc8n")
 
-[node name="15" type="Sprite2D" parent="PaperBG/BUYButtonPressed"]
+[node name="15" type="Sprite2D" parent="PaperBG/BuyButton/BUYButtonPressed"]
 position = Vector2(16, 0)
 texture = ExtResource("6_jnc13")
 
-[node name="13" type="Sprite2D" parent="PaperBG/BUYButtonPressed"]
+[node name="13" type="Sprite2D" parent="PaperBG/BuyButton/BUYButtonPressed"]
 position = Vector2(-16, 0)
 texture = ExtResource("7_2nhut")
 
-[node name="Label2" type="Label" parent="PaperBG/BUYButtonPressed"]
+[node name="Label2" type="Label" parent="PaperBG/BuyButton/BUYButtonPressed"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 offset_left = -15.0
@@ -109,19 +158,19 @@ text = "BUY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="BUYbutton" type="Sprite2D" parent="PaperBG"]
-position = Vector2(-85, -40)
+[node name="BUYbutton" type="Sprite2D" parent="PaperBG/BuyButton"]
+position = Vector2(0.204498, 2.60225)
 texture = ExtResource("7_wjeil")
 
-[node name="10" type="Sprite2D" parent="PaperBG/BUYbutton"]
+[node name="10" type="Sprite2D" parent="PaperBG/BuyButton/BUYbutton"]
 position = Vector2(-16, 0)
 texture = ExtResource("8_2742t")
 
-[node name="12" type="Sprite2D" parent="PaperBG/BUYbutton"]
+[node name="12" type="Sprite2D" parent="PaperBG/BuyButton/BUYbutton"]
 position = Vector2(16, 0)
 texture = ExtResource("9_8egyg")
 
-[node name="Label" type="Label" parent="PaperBG/BUYbutton"]
+[node name="Label" type="Label" parent="PaperBG/BuyButton/BUYbutton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 offset_left = -15.0
@@ -134,21 +183,29 @@ text = "BUY"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="BUYselector" type="Sprite2D" parent="PaperBG"]
-position = Vector2(-108, -47)
+[node name="BUYselector" type="Sprite2D" parent="PaperBG/BuyButton"]
+position = Vector2(-22.7955, -4.39775)
 texture = ExtResource("16_0tyuv")
 
-[node name="2" type="Sprite2D" parent="PaperBG/BUYselector"]
+[node name="2" type="Sprite2D" parent="PaperBG/BuyButton/BUYselector"]
 position = Vector2(46, 0)
 texture = ExtResource("17_f2xvr")
 
-[node name="3" type="Sprite2D" parent="PaperBG/BUYselector"]
+[node name="3" type="Sprite2D" parent="PaperBG/BuyButton/BUYselector"]
 position = Vector2(46, 14)
 texture = ExtResource("18_wbbar")
 
-[node name="4" type="Sprite2D" parent="PaperBG/BUYselector"]
+[node name="4" type="Sprite2D" parent="PaperBG/BuyButton/BUYselector"]
 position = Vector2(0, 14)
 texture = ExtResource("19_l3g1s")
+
+[node name="ColorRect" type="ColorRect" parent="PaperBG/BuyButton"]
+self_modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = -24.0
+offset_top = -6.0
+offset_right = 25.0
+offset_bottom = 11.0
 
 [node name="ItemButtons" type="Node2D" parent="PaperBG"]
 position = Vector2(-501.205, -297.382)
@@ -360,10 +417,11 @@ position = Vector2(-30, 0)
 texture = ExtResource("19_l3g1s")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
-offset_left = 565.0
-offset_top = 180.0
-offset_right = 706.0
-offset_bottom = 212.0
+offset_left = 546.0
+offset_top = 133.0
+offset_right = 728.0
+offset_bottom = 187.0
+size_flags_horizontal = 0
 size_flags_vertical = 0
 
 [node name="Header" type="Label" parent="VBoxContainer"]
@@ -386,10 +444,14 @@ layout_mode = 2
 layout_mode = 2
 theme = SubResource("Theme_utiyb")
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 14
+theme_override_constants/line_spacing = 3
+theme_override_font_sizes/font_size = 11
 text = "Body Text"
 horizontal_alignment = 1
+autowrap_mode = 2
 
+[connection signal="mouse_entered" from="PaperBG/BuyButton/ColorRect" to="." method="BuyButtEnter"]
+[connection signal="mouse_exited" from="PaperBG/BuyButton/ColorRect" to="." method="BuyButtExit"]
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame" to="VBoxContainer/Header" method="chosen_item"]
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame2" to="VBoxContainer/Header" method="chosen_item"]
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame3" to="VBoxContainer/Header" method="chosen_item"]

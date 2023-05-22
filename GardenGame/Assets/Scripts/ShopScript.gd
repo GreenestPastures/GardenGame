@@ -1,7 +1,8 @@
 extends CanvasLayer
 
 var shopWindowOpen = false
-
+var curSeed = "tomato"
+var buyButtHovering = false
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -20,4 +21,14 @@ func _on_hud_shop_button_press():
 	else:
 		shopWindowOpen = !shopWindowOpen
 		offset.y = 0
+
+
+
+func BuyButtEnter():
+	buyButtHovering = true
+
+
+
+func BuyButtExit():
+	buyButtHovering = false
 

@@ -1,5 +1,6 @@
 extends Label
 
+signal theChoice(seedType)
 @export var seedList: Array[String]
 @export var seedNames: Array[String]
 @export var SeedFlavor: Array[String]
@@ -19,4 +20,5 @@ func chosen_item(seedName):
 		if seedName == seedList[i]:
 			text = seedNames[i]
 			get_parent().get_node("BodyText").text = SeedFlavor[i]
+			theChoice.emit(seedName)
 	pass # Replace with function body.
