@@ -1,6 +1,7 @@
-[gd_scene load_steps=16 format=3 uid="uid://bxjyyaani46iv"]
+[gd_scene load_steps=17 format=3 uid="uid://bxjyyaani46iv"]
 
 [ext_resource type="Texture2D" uid="uid://dybpclmvk8rck" path="res://Assets/Free Paper UI System/1 Sprites/Book Desk/3.png" id="1_3q284"]
+[ext_resource type="Texture2D" uid="uid://bk585aptn0l7h" path="res://Assets/Free Paper UI System/1 Sprites/Book Desk/7.png" id="1_f4cmp"]
 [ext_resource type="Texture2D" uid="uid://dsxyurte8e2ma" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Plain/5 Mini Map/1.png" id="2_rpts1"]
 [ext_resource type="Texture2D" uid="uid://clujwixl7i2lv" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/2 Headers/4.png" id="3_gomnw"]
 [ext_resource type="FontFile" uid="uid://cdpe5nwsva4nk" path="res://Assets/Sta.Toasty_font (1).ttf" id="4_gmxnv"]
@@ -17,6 +18,11 @@
 [ext_resource type="Texture2D" uid="uid://cblwmq8btpb2f" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/2.png" id="15_23vu3"]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="7" type="Sprite2D" parent="."]
+position = Vector2(575, 280)
+scale = Vector2(1.49821, 1.49821)
+texture = ExtResource("1_f4cmp")
 
 [node name="3" type="Sprite2D" parent="."]
 position = Vector2(580, 325)
