@@ -1,17 +1,15 @@
-[gd_scene load_steps=22 format=3 uid="uid://b0m2ieipw46k8"]
+[gd_scene load_steps=20 format=3 uid="uid://b0m2ieipw46k8"]
 
 [ext_resource type="Texture2D" uid="uid://b1dokvvtaqmvn" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Folding & Cutout/3 Item Holder/1.png" id="1_513ik"]
 [ext_resource type="Script" path="res://Assets/Scenes/UI/SelectedItem.gd" id="1_ai6dd"]
 [ext_resource type="Texture2D" uid="uid://clkp8awtmeg8b" path="res://Assets/Art/Plants/plants1.png" id="1_n1obl"]
 [ext_resource type="Texture2D" uid="uid://dk32nfmwxiyot" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/5.png" id="1_t4a5d"]
-[ext_resource type="PackedScene" uid="uid://co2q6cyf216vu" path="res://Assets/Scenes/Shop.tscn" id="2_jqvcd"]
 [ext_resource type="Script" path="res://Assets/Scripts/seedCount.gd" id="5_smarg"]
 [ext_resource type="FontFile" uid="uid://cdpe5nwsva4nk" path="res://Assets/Sta.Toasty_font (1).ttf" id="5_y8bd6"]
 [ext_resource type="Texture2D" uid="uid://dafp2hpp0mgt7" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/1.png" id="7_otiou"]
 [ext_resource type="Texture2D" uid="uid://cblwmq8btpb2f" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/2.png" id="8_clmar"]
 [ext_resource type="Texture2D" uid="uid://bo4qwr18cpecg" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/3.png" id="9_rrd87"]
 [ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="10_ndyfa"]
-[ext_resource type="PackedScene" uid="uid://b84lm8vyu7u80" path="res://Assets/Scenes/HUD.tscn" id="12_4t87y"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1guva"]
 atlas = ExtResource("1_n1obl")
@@ -51,8 +49,6 @@ region = Rect2(0, 33, 16, 16)
 
 [node name="Hotbar" type="CanvasLayer"]
 script = ExtResource("1_ai6dd")
-
-[node name="Node2D2" parent="." instance=ExtResource("2_jqvcd")]
 
 [node name="SelectableSeeds" type="HBoxContainer" parent="."]
 anchors_preset = -1
@@ -619,8 +615,6 @@ texture = ExtResource("9_rrd87")
 [node name="4" type="Sprite2D" parent="Selector9"]
 position = Vector2(-0.333332, 25)
 texture = ExtResource("10_ndyfa")
-
-[node name="Node2D" parent="." instance=ExtResource("12_4t87y")]
 
 [connection signal="mouse_entered" from="SelectableSeeds/frame/beetroot" to="." method="_on_beetroot_mouse_entered"]
 [connection signal="mouse_exited" from="SelectableSeeds/frame/beetroot" to="." method="_on_beetroot_mouse_exited"]

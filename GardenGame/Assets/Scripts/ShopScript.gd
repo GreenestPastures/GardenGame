@@ -16,3 +16,7 @@ func _process(delta):
 func _on_hud_shop_button_press():
 	if shopWindowOpen:
 		shopWindowOpen = !shopWindowOpen
+		offset.y = 1200
+	else:
+		shopWindowOpen = !shopWindowOpen
+		offset.y = 0
