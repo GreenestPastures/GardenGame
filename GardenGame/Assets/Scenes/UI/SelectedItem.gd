@@ -6,6 +6,8 @@ var curSeed = ""
 var hover = false
 var hoverChange = false
 
+
+
 func _input(event):
 	if event.is_action_pressed("click") && hover:
 		changeSeed.emit(curSeed)
@@ -21,7 +23,7 @@ func _on_beetroot_mouse_exited():
 
 
 func _on_cauliflower_mouse_entered():
-	curSeed = "cauliflower"
+	curSeed = "cauli"
 	hover = true
 	
 
@@ -111,3 +113,5 @@ func _physics_process(delta):
 	if hover != hoverChange:
 		hovering.emit(hover)
 		hoverChange = hover
+
+

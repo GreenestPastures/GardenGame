@@ -26,8 +26,8 @@
 default_font = ExtResource("10_d1lvs")
 
 [node name="Shop" type="CanvasLayer"]
-offset = Vector2(0, -20)
-transform = Transform2D(1, 0, 0, 1, 0, -20)
+offset = Vector2(0, 1200)
+transform = Transform2D(1, 0, 0, 1, 0, 1200)
 script = ExtResource("1_twg38")
 
 [node name="DeskBG" type="Sprite2D" parent="."]
@@ -433,8 +433,8 @@ text = "Header Text"
 horizontal_alignment = 1
 script = ExtResource("21_70we6")
 seedList = Array[String](["beetroot", "cauli", "garlic", "lettuce", "mangocarrot", "milkroot", "potato", "radish", "tomato"])
-seedNames = Array[String](["Blazeplum", "Cauliflower", "Starfruit", "Lettuce", "Sunknob", "Milkroot", "Stoneheart Tuber", "Emberheart", "Rubyburst"])
-SeedFlavor = Array[String](["The fiery juice of the Blazeplum can be harnessed to create fire-based spells or to enchant weapons.", "The ghost of yesterdays brocolli", "Eating Starfruit is believed to bring good luck and is often used in rituals for divination and fortune-telling.", "A classic vegetable", "Extracting the essence from the Sunknob leaves allows the creation of potions that restore energy and vitality.", "Burning dried Milkroot leaves releases a fragrant smoke that has the ability to induce vivid and prophetic dreams.", "The Stoneheart Tuber is exceptionally resilient, it is said that a Tuber bearing a heart shaped growth pattern on its surface can be made into a cure for any disease.", "The Emberheart plant radiates a warm, comforting glow, providing light in dark places.", "The Rubyburst plant has lustrous, ruby-like fruits that shimmer and pulse with latent magic."])
+seedNames = Array[String](["Blazeplum", "Cloudleaf", "Starfruit", "Dewsprout", "Sunknob", "Milkroot", "Stoneheart Tuber", "Emberheart", "Rubyburst"])
+SeedFlavor = Array[String](["The fiery juice of the Blazeplum can be harnessed to create fire-based spells or to enchant weapons.", "Infusing Cloudleaf leaves in hot water creates a soothing tea that induces a sense of calm and tranquility. Drinking this brew can alleviate stress, anxiety, and promote peaceful sleep.", "Eating Starfruit is believed to bring good luck and is often used in rituals for divination and fortune-telling.", "Dewsprout leaves have been used for generations in rain-calling rituals all over the world.", "Extracting the essence from the Sunknob leaves allows the creation of potions that restore energy and vitality.", "Burning dried Milkroot leaves releases a fragrant smoke that has the ability to induce vivid and prophetic dreams.", "The Stoneheart Tuber is exceptionally resilient, it is said that a Tuber bearing a heart shaped growth pattern on its surface can be made into a cure for any disease.", "The Emberheart plant radiates a warm, comforting glow, providing light in dark places.", "The Rubyburst plant has lustrous, ruby-like fruits that shimmer and pulse with latent magic."])
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
 modulate = Color(1, 1, 1, 0)
@@ -461,3 +461,4 @@ autowrap_mode = 2
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame7" to="VBoxContainer/Header" method="chosen_item"]
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame8" to="VBoxContainer/Header" method="chosen_item"]
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame9" to="VBoxContainer/Header" method="chosen_item"]
+[connection signal="theChoice" from="VBoxContainer/Header" to="." method="the_choice"]

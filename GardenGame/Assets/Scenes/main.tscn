@@ -22,6 +22,7 @@ script = ExtResource("3_nyy2w")
 plantType = ExtResource("4_34e27")
 
 [node name="Shop" parent="." instance=ExtResource("7_vfkyd")]
+thePrice = 7
 
 [node name="Hotbar" parent="." instance=ExtResource("5_aha8k")]
 

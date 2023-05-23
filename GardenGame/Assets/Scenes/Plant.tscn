@@ -6,7 +6,7 @@
 [node name="Plant" type="AnimatedSprite2D"]
 scale = Vector2(5, 5)
 sprite_frames = ExtResource("1_5urc1")
-animation = &"beetroot"
+animation = &"cauli"
 script = ExtResource("2_dc051")
 growthTime = 12
 

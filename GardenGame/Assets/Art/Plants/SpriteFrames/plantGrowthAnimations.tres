@@ -255,7 +255,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_kfcvt")
 }],
 "loop": true,
-"name": &"cauliflower",
+"name": &"cauli",
 "speed": 5.0
 }, {
 "frames": [{

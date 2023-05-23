@@ -154,7 +154,7 @@ theme_override_fonts/font = ExtResource("5_y8bd6")
 text = "1"
 horizontal_alignment = 1
 script = ExtResource("5_smarg")
-thisPlant = "cauliflower"
+thisPlant = "cauli"
 
 [node name="frame3" type="TextureRect" parent="SelectableSeeds"]
 layout_mode = 2
