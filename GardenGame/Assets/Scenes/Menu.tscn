@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://bxjyyaani46iv"]
+[gd_scene load_steps=19 format=3 uid="uid://bxjyyaani46iv"]
 
 [ext_resource type="Texture2D" uid="uid://dybpclmvk8rck" path="res://Assets/Free Paper UI System/1 Sprites/Book Desk/3.png" id="1_3q284"]
 [ext_resource type="Texture2D" uid="uid://bk585aptn0l7h" path="res://Assets/Free Paper UI System/1 Sprites/Book Desk/7.png" id="1_f4cmp"]
@@ -8,9 +8,11 @@
 [ext_resource type="Texture2D" uid="uid://javoymwwiduq" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/1.png" id="5_tjj52"]
 [ext_resource type="Texture2D" uid="uid://drwwl65cs2ygb" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/11.png" id="6_c6y18"]
 [ext_resource type="Texture2D" uid="uid://dipnk8poa3hx0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/14.png" id="6_qtg18"]
+[ext_resource type="Script" path="res://Assets/Scripts/SimpleButtonScript.gd" id="7_5k7t4"]
 [ext_resource type="Texture2D" uid="uid://db2ys7yihwyof" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/13.png" id="7_h5rg1"]
 [ext_resource type="Texture2D" uid="uid://boox573jgsic0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/10.png" id="7_rcotq"]
 [ext_resource type="Texture2D" uid="uid://cw180cm7fk08q" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/15.png" id="8_fpecu"]
+[ext_resource type="PackedScene" uid="uid://dacan7misvg6h" path="res://Assets/Scenes/main.tscn" id="8_mvqvu"]
 [ext_resource type="Texture2D" uid="uid://bwe8iws5wnsn1" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/12.png" id="8_ogkg8"]
 [ext_resource type="Texture2D" uid="uid://dafp2hpp0mgt7" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/1.png" id="12_fiu0h"]
 [ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="13_iviut"]
@@ -54,20 +56,30 @@ position = Vector2(580, 345)
 scale = Vector2(1.63839, 1.63839)
 texture = ExtResource("5_tjj52")
 
-[node name="PlayButtonPress" type="Sprite2D" parent="."]
-position = Vector2(580, 260)
+[node name="Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 499.0
+offset_top = 230.0
+offset_right = 660.0
+offset_bottom = 291.0
+script = ExtResource("7_5k7t4")
+loadThis = ExtResource("8_mvqvu")
+playButton = true
+
+[node name="PlayButtonPress" type="Sprite2D" parent="Button"]
+position = Vector2(81, 30)
 scale = Vector2(3, 3)
 texture = ExtResource("6_qtg18")
 
-[node name="10" type="Sprite2D" parent="PlayButtonPress"]
+[node name="10" type="Sprite2D" parent="Button/PlayButtonPress"]
 position = Vector2(-16, 0)
 texture = ExtResource("7_h5rg1")
 
-[node name="12" type="Sprite2D" parent="PlayButtonPress"]
+[node name="12" type="Sprite2D" parent="Button/PlayButtonPress"]
 position = Vector2(16, 0)
 texture = ExtResource("8_fpecu")
 
-[node name="Play" type="Label" parent="PlayButtonPress"]
+[node name="Play" type="Label" parent="Button/PlayButtonPress"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -85,20 +97,20 @@ theme_override_fonts/font = ExtResource("4_gmxnv")
 theme_override_font_sizes/font_size = 12
 text = "Play"
 
-[node name="PlayButton" type="Sprite2D" parent="."]
-position = Vector2(580, 260)
+[node name="PlayButton" type="Sprite2D" parent="Button"]
+position = Vector2(81, 30)
 scale = Vector2(3, 3)
 texture = ExtResource("6_c6y18")
 
-[node name="10" type="Sprite2D" parent="PlayButton"]
+[node name="10" type="Sprite2D" parent="Button/PlayButton"]
 position = Vector2(-16, 0)
 texture = ExtResource("7_rcotq")
 
-[node name="12" type="Sprite2D" parent="PlayButton"]
+[node name="12" type="Sprite2D" parent="Button/PlayButton"]
 position = Vector2(16, 0)
 texture = ExtResource("8_ogkg8")
 
-[node name="Play" type="Label" parent="PlayButton"]
+[node name="Play" type="Label" parent="Button/PlayButton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -115,20 +127,28 @@ theme_override_fonts/font = ExtResource("4_gmxnv")
 theme_override_font_sizes/font_size = 12
 text = "Play"
 
-[node name="OptionsButtonPress" type="Sprite2D" parent="."]
-position = Vector2(580, 340)
+[node name="Button2" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 499.0
+offset_top = 311.0
+offset_right = 661.0
+offset_bottom = 370.0
+script = ExtResource("7_5k7t4")
+
+[node name="OptionsButtonPress" type="Sprite2D" parent="Button2"]
+position = Vector2(81, 29)
 scale = Vector2(3, 3)
 texture = ExtResource("6_qtg18")
 
-[node name="10" type="Sprite2D" parent="OptionsButtonPress"]
+[node name="10" type="Sprite2D" parent="Button2/OptionsButtonPress"]
 position = Vector2(-16, 0)
 texture = ExtResource("7_h5rg1")
 
-[node name="12" type="Sprite2D" parent="OptionsButtonPress"]
+[node name="12" type="Sprite2D" parent="Button2/OptionsButtonPress"]
 position = Vector2(16, 0)
 texture = ExtResource("8_fpecu")
 
-[node name="Options" type="Label" parent="OptionsButtonPress"]
+[node name="Options" type="Label" parent="Button2/OptionsButtonPress"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -147,20 +167,20 @@ theme_override_font_sizes/font_size = 10
 text = "Options
 "
 
-[node name="OptionsButton" type="Sprite2D" parent="."]
-position = Vector2(580, 340)
+[node name="OptionsButton" type="Sprite2D" parent="Button2"]
+position = Vector2(81, 29)
 scale = Vector2(3, 3)
 texture = ExtResource("6_c6y18")
 
-[node name="10" type="Sprite2D" parent="OptionsButton"]
+[node name="10" type="Sprite2D" parent="Button2/OptionsButton"]
 position = Vector2(-16, 0)
 texture = ExtResource("7_rcotq")
 
-[node name="12" type="Sprite2D" parent="OptionsButton"]
+[node name="12" type="Sprite2D" parent="Button2/OptionsButton"]
 position = Vector2(16, 0)
 texture = ExtResource("8_ogkg8")
 
-[node name="Options" type="Label" parent="OptionsButton"]
+[node name="Options" type="Label" parent="Button2/OptionsButton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -179,20 +199,28 @@ theme_override_font_sizes/font_size = 10
 text = "Options
 "
 
-[node name="QuitButtonPress" type="Sprite2D" parent="."]
-position = Vector2(580, 420)
+[node name="Button3" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 503.0
+offset_top = 393.0
+offset_right = 656.0
+offset_bottom = 451.0
+script = ExtResource("7_5k7t4")
+
+[node name="QuitButtonPress" type="Sprite2D" parent="Button3"]
+position = Vector2(77, 27)
 scale = Vector2(3, 3)
 texture = ExtResource("6_qtg18")
 
-[node name="10" type="Sprite2D" parent="QuitButtonPress"]
+[node name="10" type="Sprite2D" parent="Button3/QuitButtonPress"]
 position = Vector2(-16, 0)
 texture = ExtResource("7_h5rg1")
 
-[node name="12" type="Sprite2D" parent="QuitButtonPress"]
+[node name="12" type="Sprite2D" parent="Button3/QuitButtonPress"]
 position = Vector2(16, 0)
 texture = ExtResource("8_fpecu")
 
-[node name="Play2" type="Label" parent="QuitButtonPress"]
+[node name="Play2" type="Label" parent="Button3/QuitButtonPress"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -210,20 +238,20 @@ theme_override_font_sizes/font_size = 12
 text = "Quit
 "
 
-[node name="QuitButton" type="Sprite2D" parent="."]
-position = Vector2(580, 420)
+[node name="QuitButton" type="Sprite2D" parent="Button3"]
+position = Vector2(77, 27)
 scale = Vector2(3, 3)
 texture = ExtResource("6_c6y18")
 
-[node name="10" type="Sprite2D" parent="QuitButton"]
+[node name="10" type="Sprite2D" parent="Button3/QuitButton"]
 position = Vector2(-16, 0)
 texture = ExtResource("7_rcotq")
 
-[node name="12" type="Sprite2D" parent="QuitButton"]
+[node name="12" type="Sprite2D" parent="Button3/QuitButton"]
 position = Vector2(16, 0)
 texture = ExtResource("8_ogkg8")
 
-[node name="Play2" type="Label" parent="QuitButton"]
+[node name="Play2" type="Label" parent="Button3/QuitButton"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -295,3 +323,10 @@ texture = ExtResource("14_de0fk")
 [node name="8" type="Sprite2D" parent="Selectquit"]
 position = Vector2(46, 0)
 texture = ExtResource("15_23vu3")
+
+[connection signal="button_down" from="Button" to="Button" method="_on_button_down"]
+[connection signal="button_up" from="Button" to="Button" method="_on_button_up"]
+[connection signal="button_down" from="Button2" to="Button2" method="_on_button_down"]
+[connection signal="button_up" from="Button2" to="Button2" method="_on_button_up"]
+[connection signal="button_down" from="Button3" to="Button3" method="_on_button_down"]
+[connection signal="button_up" from="Button3" to="Button3" method="_on_button_up"]

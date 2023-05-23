@@ -8,6 +8,9 @@ var hovering = false
 signal planting_plant(pos)
 
 
+func _ready():
+		get_node("/root/Stats").connectThisOnLoad()
+
 func _input(event):
 	if event.is_action_pressed("click") && !hovering:
 		print(event.position)
@@ -28,3 +31,5 @@ func _physics_process(delta):
 
 func _on_hotbar_hovering(state):
 	hovering = state
+
+

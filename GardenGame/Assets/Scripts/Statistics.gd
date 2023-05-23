@@ -12,11 +12,11 @@ extends Node
 var tempNum = 0
 
 signal makeBuy(plantToPurchase)
+signal connectionThing()
 
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	get_node("/root/Node2D/Shop").purchase.connect(purchaseCheck)
+#func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -30,3 +30,7 @@ func purchaseCheck(seed, price):
 		tempNum = get(seed)
 		set(seed, tempNum+1)
 		
+
+func connectThisOnLoad():
+	get_node("/root/Node2D/Shop").purchase.connect(purchaseCheck)
+
