@@ -461,4 +461,3 @@ autowrap_mode = 2
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame7" to="VBoxContainer/Header" method="chosen_item"]
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame8" to="VBoxContainer/Header" method="chosen_item"]
 [connection signal="chosenItem" from="PaperBG/ItemButtons/ItemFrame9" to="VBoxContainer/Header" method="chosen_item"]
-[connection signal="theChoice" from="VBoxContainer/Header" to="." method="the_choice"]
