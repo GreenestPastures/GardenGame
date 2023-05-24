@@ -1,12 +1,9 @@
-<<<<<<< Updated upstream
+Node2D
 Label
-=======
 Button
->>>>>>> Stashed changes
 ColorRect
 CanvasLayer
 RemoteTransform2D
-Node2D
 Control
 Node
 Sprite2D
