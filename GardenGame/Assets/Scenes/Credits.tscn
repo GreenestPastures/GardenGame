@@ -1,8 +1,9 @@
-[gd_scene load_steps=13 format=3 uid="uid://dnd1xn4q7hbur"]
+[gd_scene load_steps=21 format=3 uid="uid://dnd1xn4q7hbur"]
 
 [ext_resource type="Texture2D" uid="uid://dybpclmvk8rck" path="res://Assets/Free Paper UI System/1 Sprites/Book Desk/3.png" id="1_jijgp"]
 [ext_resource type="Texture2D" uid="uid://cxi63tmxkns71" path="res://Assets/Free Paper UI System/1 Sprites/Paper UI Pack/Paper UI/Plain/8 Shop/1.png" id="2_brauj"]
 [ext_resource type="Texture2D" uid="uid://javoymwwiduq" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/1.png" id="3_nthbs"]
+[ext_resource type="Script" path="res://Assets/Scripts/CreditsScript.gd" id="3_peyr6"]
 [ext_resource type="Texture2D" uid="uid://kvg5pt7lqjp" path="res://Assets/Logo.png" id="4_ddrid"]
 [ext_resource type="FontFile" uid="uid://cdpe5nwsva4nk" path="res://Assets/Sta.Toasty_font (1).ttf" id="5_3e2w5"]
 [ext_resource type="Texture2D" uid="uid://clyuyjoy4hqwh" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/13.png" id="7_i1kfm"]
@@ -12,8 +13,15 @@
 [ext_resource type="Texture2D" uid="uid://re2wl0aox163" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/12.png" id="10_ajgxy"]
 [ext_resource type="Texture2D" uid="uid://d1ldeh5yhn44k" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/19.png" id="11_36cai"]
 [ext_resource type="Texture2D" uid="uid://dk1n14i0b42jc" path="res://Assets/Free Paper UI System/1 Sprites/Content/5 Holders/20.png" id="12_nu2pw"]
+[ext_resource type="Texture2D" uid="uid://dipnk8poa3hx0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/14.png" id="14_0dam7"]
+[ext_resource type="Script" path="res://Assets/Scenes/ButtonPressSimple.gd" id="14_c2n27"]
+[ext_resource type="Texture2D" uid="uid://db2ys7yihwyof" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/13.png" id="15_bhdon"]
+[ext_resource type="Texture2D" uid="uid://cw180cm7fk08q" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/15.png" id="16_60abs"]
+[ext_resource type="Texture2D" uid="uid://drwwl65cs2ygb" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/11.png" id="17_5wr84"]
+[ext_resource type="Texture2D" uid="uid://boox573jgsic0" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/10.png" id="18_gcinr"]
+[ext_resource type="Texture2D" uid="uid://bwe8iws5wnsn1" path="res://Assets/Free Paper UI System/1 Sprites/Content/4 Buttons/12.png" id="19_o6elt"]
 
-[node name="Node2D2" type="Node2D"]
+[node name="Credits" type="Node2D"]
 
 [node name="3" type="Sprite2D" parent="."]
 position = Vector2(575, 280)
@@ -25,122 +33,66 @@ position = Vector2(580, 320)
 scale = Vector2(1.5, 1.5)
 texture = ExtResource("2_brauj")
 
-[node name="ProducedBy" type="Sprite2D" parent="."]
-visible = false
-position = Vector2(580, 320)
-texture = ExtResource("3_nthbs")
+[node name="CreditList" type="Node2D" parent="."]
+script = ExtResource("3_peyr6")
 
-[node name="13" type="Sprite2D" parent="ProducedBy"]
-position = Vector2(0, -200)
-texture = ExtResource("7_i1kfm")
-
-[node name="14" type="Sprite2D" parent="ProducedBy/13"]
-position = Vector2(32, 0)
-texture = ExtResource("7_i1kfm")
-
-[node name="15" type="Sprite2D" parent="ProducedBy/13"]
-position = Vector2(-32, 0)
-texture = ExtResource("7_i1kfm")
-
-[node name="16" type="Sprite2D" parent="ProducedBy/13"]
-position = Vector2(-64, 0)
-texture = ExtResource("7_i1kfm")
-
-[node name="17" type="Sprite2D" parent="ProducedBy/13"]
-position = Vector2(64, 0)
-texture = ExtResource("7_i1kfm")
-
-[node name="9" type="Sprite2D" parent="ProducedBy/13"]
-position = Vector2(-88, 0)
-texture = ExtResource("8_4pfqd")
-
-[node name="11" type="Sprite2D" parent="ProducedBy/13"]
-position = Vector2(88, 0)
-texture = ExtResource("9_jmvl3")
-
-[node name="Production" type="Label" parent="ProducedBy/13"]
-modulate = Color(0.0509804, 0.564706, 0.407843, 1)
-self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -95.0
-offset_top = -27.0
-offset_right = 69.0
-offset_bottom = -4.0
-grow_horizontal = 2
-grow_vertical = 2
-size_flags_horizontal = 4
-theme_override_fonts/font = ExtResource("5_3e2w5")
-theme_override_font_sizes/font_size = 25
-text = "Produced by"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="Logo" type="Sprite2D" parent="ProducedBy"]
-scale = Vector2(0.16, 0.16)
-texture = ExtResource("4_ddrid")
-
-[node name="TechnicalDirection" type="Sprite2D" parent="."]
-visible = false
+[node name="TechnicalDirection" type="Sprite2D" parent="CreditList"]
 position = Vector2(580, 120)
 texture = ExtResource("7_i1kfm")
 
-[node name="14" type="Sprite2D" parent="TechnicalDirection"]
+[node name="14" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(32, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="15" type="Sprite2D" parent="TechnicalDirection"]
+[node name="15" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(-32, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="16" type="Sprite2D" parent="TechnicalDirection"]
+[node name="16" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(-64, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="17" type="Sprite2D" parent="TechnicalDirection"]
+[node name="17" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(64, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="18" type="Sprite2D" parent="TechnicalDirection"]
+[node name="18" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(96, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="19" type="Sprite2D" parent="TechnicalDirection"]
+[node name="19" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(-96, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="20" type="Sprite2D" parent="TechnicalDirection"]
+[node name="20" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(-128, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="21" type="Sprite2D" parent="TechnicalDirection"]
+[node name="21" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(128, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="22" type="Sprite2D" parent="TechnicalDirection"]
+[node name="22" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(160, 0)
 texture = ExtResource("9_rieei")
 
-[node name="12" type="Sprite2D" parent="TechnicalDirection"]
+[node name="12" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(-160, 0)
 texture = ExtResource("10_ajgxy")
 
-[node name="23" type="Sprite2D" parent="TechnicalDirection"]
+[node name="23" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(0, 200)
 texture = ExtResource("11_36cai")
 
-[node name="24" type="Sprite2D" parent="TechnicalDirection"]
+[node name="24" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(-60, 200)
 texture = ExtResource("12_nu2pw")
 
-[node name="25" type="Sprite2D" parent="TechnicalDirection"]
+[node name="25" type="Sprite2D" parent="CreditList/TechnicalDirection"]
 position = Vector2(60, 200)
 texture = ExtResource("12_nu2pw")
 
-[node name="Tech" type="Label" parent="TechnicalDirection"]
+[node name="Tech" type="Label" parent="CreditList/TechnicalDirection"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -162,7 +114,7 @@ text = "Technical direction by
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Woody" type="Label" parent="TechnicalDirection"]
+[node name="Woody" type="Label" parent="CreditList/TechnicalDirection"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -184,40 +136,40 @@ text = "Woody Wyche
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Writing" type="Sprite2D" parent="."]
+[node name="Writing" type="Sprite2D" parent="CreditList"]
 visible = false
 position = Vector2(580, 120)
 texture = ExtResource("7_i1kfm")
 
-[node name="14" type="Sprite2D" parent="Writing"]
+[node name="14" type="Sprite2D" parent="CreditList/Writing"]
 position = Vector2(32, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="15" type="Sprite2D" parent="Writing"]
+[node name="15" type="Sprite2D" parent="CreditList/Writing"]
 position = Vector2(-32, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="12" type="Sprite2D" parent="Writing"]
+[node name="12" type="Sprite2D" parent="CreditList/Writing"]
 position = Vector2(-64, 0)
 texture = ExtResource("10_ajgxy")
 
-[node name="16" type="Sprite2D" parent="Writing"]
+[node name="16" type="Sprite2D" parent="CreditList/Writing"]
 position = Vector2(64, 0)
 texture = ExtResource("9_rieei")
 
-[node name="26" type="Sprite2D" parent="Writing"]
+[node name="26" type="Sprite2D" parent="CreditList/Writing"]
 position = Vector2(0, 200)
 texture = ExtResource("11_36cai")
 
-[node name="27" type="Sprite2D" parent="Writing"]
+[node name="27" type="Sprite2D" parent="CreditList/Writing"]
 position = Vector2(-60, 200)
 texture = ExtResource("12_nu2pw")
 
-[node name="28" type="Sprite2D" parent="Writing"]
+[node name="28" type="Sprite2D" parent="CreditList/Writing"]
 position = Vector2(60, 200)
 texture = ExtResource("12_nu2pw")
 
-[node name="Luka" type="Label" parent="Writing"]
+[node name="Luka" type="Label" parent="CreditList/Writing"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -241,7 +193,7 @@ Robertson
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="writing" type="Label" parent="Writing"]
+[node name="writing" type="Label" parent="CreditList/Writing"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -262,44 +214,44 @@ text = "Writing by"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ArtDirection" type="Sprite2D" parent="."]
+[node name="ArtDirection" type="Sprite2D" parent="CreditList"]
 visible = false
 position = Vector2(580, 120)
 texture = ExtResource("7_i1kfm")
 
-[node name="14" type="Sprite2D" parent="ArtDirection"]
+[node name="14" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(32, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="15" type="Sprite2D" parent="ArtDirection"]
+[node name="15" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(-32, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="17" type="Sprite2D" parent="ArtDirection"]
+[node name="17" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(-64, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="18" type="Sprite2D" parent="ArtDirection"]
+[node name="18" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(64, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="19" type="Sprite2D" parent="ArtDirection"]
+[node name="19" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(96, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="20" type="Sprite2D" parent="ArtDirection"]
+[node name="20" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(-96, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="9" type="Sprite2D" parent="ArtDirection"]
+[node name="9" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(-120, 0)
 texture = ExtResource("8_4pfqd")
 
-[node name="11" type="Sprite2D" parent="ArtDirection"]
+[node name="11" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(120, 0)
 texture = ExtResource("9_jmvl3")
 
-[node name="art" type="Label" parent="ArtDirection"]
+[node name="art" type="Label" parent="CreditList/ArtDirection"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -322,19 +274,19 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
-[node name="29" type="Sprite2D" parent="ArtDirection"]
+[node name="29" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(0, 200)
 texture = ExtResource("11_36cai")
 
-[node name="30" type="Sprite2D" parent="ArtDirection"]
+[node name="30" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(-60, 200)
 texture = ExtResource("12_nu2pw")
 
-[node name="31" type="Sprite2D" parent="ArtDirection"]
+[node name="31" type="Sprite2D" parent="CreditList/ArtDirection"]
 position = Vector2(60, 200)
 texture = ExtResource("12_nu2pw")
 
-[node name="Dylan Vissac" type="Label" parent="ArtDirection"]
+[node name="Dylan Vissac" type="Label" parent="CreditList/ArtDirection"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -357,36 +309,36 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
-[node name="Assets2" type="Sprite2D" parent="."]
+[node name="Assets2" type="Sprite2D" parent="CreditList"]
 visible = false
 position = Vector2(580, 120)
 texture = ExtResource("7_i1kfm")
 
-[node name="14" type="Sprite2D" parent="Assets2"]
+[node name="14" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(32, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="15" type="Sprite2D" parent="Assets2"]
+[node name="15" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(-32, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="16" type="Sprite2D" parent="Assets2"]
+[node name="16" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(-64, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="17" type="Sprite2D" parent="Assets2"]
+[node name="17" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(64, 0)
 texture = ExtResource("7_i1kfm")
 
-[node name="9" type="Sprite2D" parent="Assets2"]
+[node name="9" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(-88, 0)
 texture = ExtResource("8_4pfqd")
 
-[node name="11" type="Sprite2D" parent="Assets2"]
+[node name="11" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(88, 0)
 texture = ExtResource("9_jmvl3")
 
-[node name="Assets" type="Label" parent="Assets2"]
+[node name="Assets" type="Label" parent="CreditList/Assets2"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -408,19 +360,19 @@ text = "Assets used
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="32" type="Sprite2D" parent="Assets2"]
+[node name="32" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(0, 150)
 texture = ExtResource("11_36cai")
 
-[node name="33" type="Sprite2D" parent="Assets2"]
+[node name="33" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(-60, 150)
 texture = ExtResource("12_nu2pw")
 
-[node name="34" type="Sprite2D" parent="Assets2"]
+[node name="34" type="Sprite2D" parent="CreditList/Assets2"]
 position = Vector2(60, 150)
 texture = ExtResource("12_nu2pw")
 
-[node name="Artist" type="Label" parent="Assets2"]
+[node name="Artist" type="Label" parent="CreditList/Assets2"]
 modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
 anchors_preset = 8
@@ -454,3 +406,136 @@ GUI by       Humble Pixel
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
+
+[node name="ProducedBy" type="Sprite2D" parent="CreditList"]
+visible = false
+position = Vector2(580, 320)
+texture = ExtResource("3_nthbs")
+
+[node name="13" type="Sprite2D" parent="CreditList/ProducedBy"]
+position = Vector2(0, -200)
+texture = ExtResource("7_i1kfm")
+
+[node name="14" type="Sprite2D" parent="CreditList/ProducedBy/13"]
+position = Vector2(32, 0)
+texture = ExtResource("7_i1kfm")
+
+[node name="15" type="Sprite2D" parent="CreditList/ProducedBy/13"]
+position = Vector2(-32, 0)
+texture = ExtResource("7_i1kfm")
+
+[node name="16" type="Sprite2D" parent="CreditList/ProducedBy/13"]
+position = Vector2(-64, 0)
+texture = ExtResource("7_i1kfm")
+
+[node name="17" type="Sprite2D" parent="CreditList/ProducedBy/13"]
+position = Vector2(64, 0)
+texture = ExtResource("7_i1kfm")
+
+[node name="9" type="Sprite2D" parent="CreditList/ProducedBy/13"]
+position = Vector2(-88, 0)
+texture = ExtResource("8_4pfqd")
+
+[node name="11" type="Sprite2D" parent="CreditList/ProducedBy/13"]
+position = Vector2(88, 0)
+texture = ExtResource("9_jmvl3")
+
+[node name="Production" type="Label" parent="CreditList/ProducedBy/13"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -95.0
+offset_top = -27.0
+offset_right = 69.0
+offset_bottom = -4.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("5_3e2w5")
+theme_override_font_sizes/font_size = 25
+text = "Produced by"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Logo" type="Sprite2D" parent="CreditList/ProducedBy"]
+scale = Vector2(0.16, 0.16)
+texture = ExtResource("4_ddrid")
+
+[node name="Button" type="Button" parent="."]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 618.0
+offset_top = 521.0
+offset_right = 779.0
+offset_bottom = 582.0
+script = ExtResource("14_c2n27")
+
+[node name="PlayButtonPress" type="Sprite2D" parent="Button"]
+position = Vector2(81, 30)
+scale = Vector2(3, 3)
+texture = ExtResource("14_0dam7")
+
+[node name="10" type="Sprite2D" parent="Button/PlayButtonPress"]
+position = Vector2(-16, 0)
+texture = ExtResource("15_bhdon")
+
+[node name="12" type="Sprite2D" parent="Button/PlayButtonPress"]
+position = Vector2(16, 0)
+texture = ExtResource("16_60abs")
+
+[node name="Play" type="Label" parent="Button/PlayButtonPress"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -22.3333
+offset_top = -10.3333
+offset_right = 6.66666
+offset_bottom = 1.66666
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_3e2w5")
+theme_override_font_sizes/font_size = 12
+text = "Next"
+
+[node name="PlayButton" type="Sprite2D" parent="Button"]
+position = Vector2(81, 30)
+scale = Vector2(3, 3)
+texture = ExtResource("17_5wr84")
+
+[node name="10" type="Sprite2D" parent="Button/PlayButton"]
+position = Vector2(-16, 0)
+texture = ExtResource("18_gcinr")
+
+[node name="12" type="Sprite2D" parent="Button/PlayButton"]
+position = Vector2(16, 0)
+texture = ExtResource("19_o6elt")
+
+[node name="Play" type="Label" parent="Button/PlayButton"]
+modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+self_modulate = Color(0.0509804, 0.564706, 0.407843, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -22.0
+offset_top = -12.0
+offset_right = 7.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_3e2w5")
+theme_override_font_sizes/font_size = 12
+text = "Next
+"
+
+[connection signal="button_down" from="Button" to="CreditList" method="_on_button_button_down"]
+[connection signal="button_down" from="Button" to="Button" method="_on_button_down"]
+[connection signal="button_up" from="Button" to="CreditList" method="_on_button_button_up"]
+[connection signal="button_up" from="Button" to="Button" method="_on_button_up"]

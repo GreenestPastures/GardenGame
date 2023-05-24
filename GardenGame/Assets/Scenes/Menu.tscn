@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://bxjyyaani46iv"]
+[gd_scene load_steps=20 format=3 uid="uid://bxjyyaani46iv"]
 
 [ext_resource type="Texture2D" uid="uid://dybpclmvk8rck" path="res://Assets/Free Paper UI System/1 Sprites/Book Desk/3.png" id="1_3q284"]
 [ext_resource type="Texture2D" uid="uid://bk585aptn0l7h" path="res://Assets/Free Paper UI System/1 Sprites/Book Desk/7.png" id="1_f4cmp"]
@@ -18,6 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://dqr6ihbs58a75" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/4.png" id="13_iviut"]
 [ext_resource type="Texture2D" uid="uid://bo4qwr18cpecg" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/3.png" id="14_de0fk"]
 [ext_resource type="Texture2D" uid="uid://cblwmq8btpb2f" path="res://Assets/Free Paper UI System/1 Sprites/Content/6 High lighter/2.png" id="15_23vu3"]
+[ext_resource type="PackedScene" uid="uid://dnd1xn4q7hbur" path="res://Assets/Scenes/Credits.tscn" id="15_jvjfm"]
 
 [node name="Node2D" type="Node2D"]
 
@@ -134,6 +135,7 @@ offset_top = 311.0
 offset_right = 661.0
 offset_bottom = 370.0
 script = ExtResource("7_5k7t4")
+loadThis = ExtResource("15_jvjfm")
 
 [node name="OptionsButtonPress" type="Sprite2D" parent="Button2"]
 position = Vector2(81, 29)
@@ -164,8 +166,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = ExtResource("4_gmxnv")
 theme_override_font_sizes/font_size = 10
-text = "Options
-"
+text = "Credits"
 
 [node name="OptionsButton" type="Sprite2D" parent="Button2"]
 position = Vector2(81, 29)
@@ -196,8 +197,7 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_fonts/font = ExtResource("4_gmxnv")
 theme_override_font_sizes/font_size = 10
-text = "Options
-"
+text = "Credits"
 
 [node name="Button3" type="Button" parent="."]
 self_modulate = Color(1, 1, 1, 0)
