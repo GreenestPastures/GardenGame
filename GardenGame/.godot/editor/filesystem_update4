@@ -11,4 +11,14 @@ res://Assets/Scenes/Plant.tscn
 res://Assets/Scenes/Player.tscn
 res://Assets/Scenes/quit.tscn
 res://Assets/Scenes/stats.tscn
+<<<<<<< Updated upstream
 res://Assets/Scenes/Credits.tscn
+=======
+res://Assets/Scripts/ShopScript.gd
+res://Assets/Scripts/Statistics.gd
+res://Assets/Scenes/UI/SelectedItem.gd
+res://Assets/Scenes/UI/Hotbar.tscn
+res://Assets/Scenes/Menu.tscn
+res://Assets/Scripts/CameraScript.gd
+res://Assets/Scripts/SimpleButtonScript.gd
+>>>>>>> Stashed changes
