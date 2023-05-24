@@ -206,6 +206,7 @@ offset_top = 393.0
 offset_right = 656.0
 offset_bottom = 451.0
 script = ExtResource("7_5k7t4")
+quitButton = true
 
 [node name="QuitButtonPress" type="Sprite2D" parent="Button3"]
 position = Vector2(77, 27)
